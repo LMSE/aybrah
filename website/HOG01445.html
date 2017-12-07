@@ -1,0 +1,112 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01444.html">HOG01444&emsp;&emsp;GST superfamily. Omega family</a><br> 
+																	HOG01445&emsp;&emsp;<br> 
+																	<a href="HOG01446.html">HOG01446&emsp;&emsp;DASH complex DAD3 family</a><br><br> 
+																	<a href="../sequences/hog/HOG01445.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01445_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01445_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG01445_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG04178<br>EOG83N5VZ<br>EOG8C86DJ<br><br>sce:FLO8<br><br>Genes: 19
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16267276" target=_blank>Cao F, <i>et al.</i> (2006 Jan)</a>. The Flo8 transcription factor is essential for hyphal development and virulence in Candida albicans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17715361" target=_blank>Li Y, <i>et al.</i> (2007 Nov)</a>. Roles of Candida albicans Sfl1 in hyphal development.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18375615" target=_blank>Noffz CS, <i>et al.</i> (2008 May)</a>. Functional mapping of the Candida albicans Efg1 regulator.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19346360" target=_blank>Stichternoth C, <i>et al.</i> (2009 Jun)</a>. Hypoxic adaptation by Efg1 regulates biofilm formation by Candida albicans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19734367" target=_blank>Su C, <i>et al.</i> (2009 Nov)</a>. Mss11, a transcriptional activator, is required for hyphal development in Candida albicans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22621896" target=_blank>Du H, <i>et al.</i> (2012 Jul)</a>. The transcription factor Flo8 mediates CO2 sensing in the human fungal pathogen Candida albicans.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG04178_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04178_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04178_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG04178_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01445_phobius.html#FOG04178">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01445.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

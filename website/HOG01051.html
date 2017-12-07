@@ -1,0 +1,649 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01050.html">HOG01050&emsp;&emsp;amino acid-polyamine-organocation (APC) superfamily</a><br> 
+																	HOG01051&emsp;&emsp;<br> 
+																	<a href="HOG01052.html">HOG01052&emsp;&emsp;DEAD box helicase family. DEAH subfamily; DEAD box helicase family. DEAH subfamily. DDX15/PRP43 sub-subfamily; DEAD box helicase family. DEAH subfamily. DDX8/PRP22 sub-subfamily; DEAD box helicase family. DEAH subfamily. PRP16 sub-subfamily</a><br><br> 
+																	<a href="../sequences/hog/HOG01051.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01051_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01051_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG01051_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG01051_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG02474<br>EOG805QJN<br>EOG80RXWV<br>EOG869P99<br><br>sce:OPT1<br><br>Genes: 142
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>ghorx transporter<br><br>
+			<br><b>SGD Description</b><br>Proton-coupled oligopeptide transporter of the plasma membrane; also transports glutathione and phytochelatin; member of the OPT family<br><br>
+			<br><b>PomBase Description</b><br>OPT oligopeptide transmembrane transporter family Isp4|glutathione transmembrane transporter Pgt1<br><br>
+			<br><b>AspGD Description</b><br>Has domain(s) with predicted role in transmembrane transport|Ortholog(s) have oligopeptide transmembrane transporter activity and role in transmembrane transport|Has domain(s) with predicted role in transmembrane transport|Ortholog(s) have glutathione transmembrane transporter activity and role in glutathione import into cell, glutathione transmembrane transport|Ortholog(s) have oligopeptide transporter activity<br><br>
+			<br><b>Suggested Analysis</b><br>Very large family requires more algorithms to separate into ortholog groups<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10652283" target=_blank>Hauser M, <i>et al.</i> (2000 Feb 4)</a>. Enkephalins are transported by a novel eukaryotic peptide uptake system.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10788431" target=_blank>Bourbouloux A, <i>et al.</i> (2000 May 5)</a>. Hgt1p, a high affinity glutathione transporter from the yeast Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16847258" target=_blank>Kim H, <i>et al.</i> (2006 Jul 25)</a>. A global topology map of the Saccharomyces cerevisiae membrane proteome.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02474_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02474_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02474_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02474_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01051_phobius.html#FOG02474">Phobius transmembrane predictions</a>
+										<br>142 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG02475<br>EOG80RXWV<br><br>sce:OPT2<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Oligopeptide transporter; localized to peroxisomes and affects glutathione redox homeostasis; also localizes to the plasma membrane (PM) and to the late Golgi, and has a role in maintenance of lipid asymmetry between the inner and outer leaflets of the PM; member of the OPT family, with potential orthologs in S. pombe and C. albicans; also plays a role in formation of mature vacuoles and in polarized cell growth<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9643541" target=_blank>Lubkowitz MA, <i>et al.</i> (1998 May)</a>. Schizosaccharomyces pombe isp4 encodes a transporter representing a novel family of oligopeptide transporters.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10788431" target=_blank>Bourbouloux A, <i>et al.</i> (2000 May 5)</a>. Hgt1p, a high affinity glutathione transporter from the yeast Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16847258" target=_blank>Kim H, <i>et al.</i> (2006 Jul 25)</a>. A global topology map of the Saccharomyces cerevisiae membrane proteome.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02475_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02475_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02475_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02475_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01051_phobius.html#FOG02475">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d7edd3" class="col">
+			FOG02476<br>EOG80RXWV<br><br>sce:absent<br><br>Genes: 7
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>PomBase Description</b><br>OPT oligopeptide transmembrane transporter family protein Opt3<br><br>
+			<br><b>AspGD Description</b><br>Has domain(s) with predicted role in transmembrane transport<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22226946" target=_blank>Kitamura K, <i>et al.</i> (2012 Mar)</a>. The Ubiquitin ligase Ubr11 is essential for oligopeptide utilization in the fission yeast Schizosaccharomyces pombe.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02476_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02476_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02476_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02476_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01051_phobius.html#FOG02476">Phobius transmembrane predictions</a>
+										<br>7 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e5d4e9" class="col">
+			FOG02477<br>EOG805QJN<br><br>sce:MRH1;YRO2;HSP30<br><br>Genes: 29
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Protein that localizes primarily to the plasma membrane; also found at the nuclear envelope; long-lived protein that is asymmetrically retained in the plasma membrane of mother cells; the authentic, non-tagged protein is detected in mitochondria in a phosphorylated state; null mutation confers sensitivity to acetic acid|Protein with a putative role in response to acid stress; null mutant is sensitive to acetic acid; transcription is regulated by Haa1p and induced in the presence of acetic acid; protein observed in plasma membrane foci in the presence of acetic acid; the authentic, non-tagged protein is detected in a phosphorylated state in highly purified mitochondria in high-throughput studies|Negative regulator of the H(+)-ATPase Pma1p; stress-responsive protein; hydrophobic plasma membrane localized; induced by heat shock, ethanol treatment, weak organic acid, glucose limitation, and entry into stationary phase<br><br>
+			<br><b>PomBase Description</b><br>plasma membrane transmembrane transport regulator (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have mitochondrion, plasma membrane localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8319300" target=_blank>Régnacq M, <i>et al.</i> (1993 May-Jun)</a>. Isolation and sequence of HSP30, a yeast heat-shock gene coding for a hydrophobic membrane protein.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10675524" target=_blank>Wu K, <i>et al.</i> (2000 Feb 15)</a>. Expression and subcellular localization of a membrane protein related to Hsp30p in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12469340" target=_blank>Navarre C, <i>et al.</i> (2002 Dec)</a>. Subproteomics: identification of plasma membrane proteins from the yeast Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12872131" target=_blank>Peng J, <i>et al.</i> (2003 Aug)</a>. A proteomics approach to understanding protein ubiquitination.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14576278" target=_blank>Sickmann A, <i>et al.</i> (2003 Nov 11)</a>. The proteome of Saccharomyces cerevisiae mitochondria.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15665377" target=_blank>Gruhler A, <i>et al.</i> (2005 Mar)</a>. Quantitative phosphoproteomics applied to the yeast pheromone signaling pathway.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16303567" target=_blank>Martín-Castellanos C, <i>et al.</i> (2005 Nov 22)</a>. A large-scale screen in S. pombe identifies seven novel genes required for critical meiotic events.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16847258" target=_blank>Kim H, <i>et al.</i> (2006 Jul 25)</a>. A global topology map of the Saccharomyces cerevisiae membrane proteome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17287358" target=_blank>Chi A, <i>et al.</i> (2007 Feb 13)</a>. Analysis of phosphorylation sites on proteins from Saccharomyces cerevisiae by electron transfer dissociation (ETD) mass spectrometry.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17761666" target=_blank>Reinders J, <i>et al.</i> (2007 Nov)</a>. Profiling phosphoproteins of yeast mitochondria reveals a role of phosphorylation in assembly of the ATP synthase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28410370" target=_blank>Dudin O, <i>et al.</i> (2017 Apr)</a>. A systematic screen for morphological abnormalities during fission yeast sexual reproduction identifies a mechanism of actin aster formation for cell fusion.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02477_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02477_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02477_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02477_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01051_phobius.html#FOG02477">Phobius transmembrane predictions</a>
+										<br>29 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fbe2c3" class="col">
+			FOG02478<br>EOG8ZCRRR<br><br>sce:SUS1<br><br>Genes: 12
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Component of both the SAGA histone acetylase and TREX-2 complexes; interacts with RNA polymerase II; involved in mRNA export coupled transcription activation and elongation; involved in post-transcriptional tethering of active genes to the nuclear periphery and to non-nascent mRNP<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14718168" target=_blank>Rodríguez-Navarro S, <i>et al.</i> (2004 Jan 9)</a>. Sus1, a functional component of the SAGA histone acetylase complex and the nuclear pore-associated mRNA export machinery.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15260971" target=_blank>Wu PY, <i>et al.</i> (2004 Jul 23)</a>. Molecular architecture of the S. cerevisiae SAGA complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15311284" target=_blank>Fischer T, <i>et al.</i> (2004 Sep)</a>. Yeast centrin Cdc31 is linked to the nuclear mRNA export machinery.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16760982" target=_blank>Cabal GG, <i>et al.</i> (2006 Jun 8)</a>. SAGA interacting factors confine sub-diffusion of transcribed genes to the nuclear envelope.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16510898" target=_blank>Kastenmayer JP, <i>et al.</i> (2006 Mar)</a>. Functional genomics of genes with small open reading frames (sORFs) in S. cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16855026" target=_blank>Köhler A, <i>et al.</i> (2006 Oct)</a>. The mRNA export factor Sus1 is involved in Spt/Ada/Gcn5 acetyltransferase-mediated H2B deubiquitinylation through its interaction with Ubp8 and Sgf11.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18003937" target=_blank>Chekanova JA, <i>et al.</i> (2008 Jan)</a>. Sus1, Sac3, and Thp1 mediate post-transcriptional tethering of active genes to the nuclear rim as well as to non-nascent mRNP.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18488019" target=_blank>Köhler A, <i>et al.</i> (2008 Jun)</a>. Yeast Ataxin-7 links histone deubiquitination with gene gating and mRNA export.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18667528" target=_blank>González-Aguilera C, <i>et al.</i> (2008 Oct)</a>. The THP1-SAC3-SUS1-CDC31 complex works in transcription elongation-mRNA export preventing RNA-mediated genome instability.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18923079" target=_blank>Pascual-García P, <i>et al.</i> (2008 Oct 15)</a>. Sus1 is recruited to coding regions and functions during transcription elongation in association with SAGA and TREX2.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19328066" target=_blank>Jani D, <i>et al.</i> (2009 Mar 27)</a>. Sus1, Cdc31, and the Sac3 CID region form a conserved interaction platform that promotes nuclear pore association and mRNA export.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20007317" target=_blank>Ellisdon AM, <i>et al.</i> (2010 Feb 5)</a>. Structural basis for the interaction between yeast Spt-Ada-Gcn5 acetyltransferase (SAGA) complex components Sgf11 and Sus1.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20230609" target=_blank>Cuenca-Bono B, <i>et al.</i> (2010 Mar 15)</a>. A novel link between Sus1 and the cytoplasmic mRNA decay machinery suggests a broad role in mRNA metabolism.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20434206" target=_blank>Köhler A, <i>et al.</i> (2010 May 14)</a>. Structural basis for assembly and activation of the heterotetrameric SAGA histone H2B deubiquitinase module.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20395473" target=_blank>Samara NL, <i>et al.</i> (2010 May 21)</a>. Structural insights into the assembly and function of the SAGA deubiquitinating module.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21749979" target=_blank>Cuenca-Bono B, <i>et al.</i> (2011 Oct)</a>. SUS1 introns are required for efficient mRNA nuclear export in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21749978" target=_blank>Hossain MA, <i>et al.</i> (2011 Oct)</a>. Key features of the two-intron Saccharomyces cerevisiae gene SUS1 contribute to its alternative splicing.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22771212" target=_blank>Samara NL, <i>et al.</i> (2012 Aug 8)</a>. A role for intersubunit interactions in maintaining SAGA deubiquitinating module structure and activity.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22106047" target=_blank>Starita LM, <i>et al.</i> (2012 Jan)</a>. Sites of ubiquitin attachment in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23599000" target=_blank>García-Oliver E, <i>et al.</i> (2013 Jun)</a>. A novel role for Sem1 and TREX-2 in transcription involves their impact on recruitment and H2B deubiquitylation activity of SAGA.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02478_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02478_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02478_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02478_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01051_phobius.html#FOG02478">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fdffcc" class="col">
+			FOG02479<br>EOG805QJN<br>EOG8ZCRRR<br><br>sce:absent<br><br>Genes: 6
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02479_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02479_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02479_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02479_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01051_phobius.html#FOG02479">Phobius transmembrane predictions</a>
+										<br>6 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e7d7cd" class="col">
+			FOG02480<br>EOG8ZCRRR<br><br>sce:absent<br><br>Genes: 4
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02480_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02480_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02480_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02480_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01051_phobius.html#FOG02480">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fadff0" class="col">
+			FOG02481<br>EOG80RXWV<br><br>sce:absent<br><br>Genes: 3
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>AspGD Description</b><br>Has domain(s) with predicted role in transmembrane transport<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02481_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02481_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02481_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02481_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01051_phobius.html#FOG02481">Phobius transmembrane predictions</a>
+										<br>3 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f2c0c1" class="col">
+			FOG02482<br>EOG869P99<br><br>sce:absent<br><br>Genes: 2
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02482_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02482_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02482_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02482_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01051_phobius.html#FOG02482">Phobius transmembrane predictions</a>
+										<br>2 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#cbd9eb" class="col">
+			FOG02483<br>EOG805QJN<br><br>sce:absent<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02483_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02483_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02483_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02483_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01051_phobius.html#FOG02483">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d0eacb" class="col">
+			FOG02484<br>EOG80RXWV<br><br>sce:absent<br><br>Genes: 2
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>AspGD Description</b><br>Has domain(s) with predicted role in transmembrane transport|Has domain(s) with predicted role in transmembrane transport<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02484_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02484_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02484_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02484_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01051_phobius.html#FOG02484">Phobius transmembrane predictions</a>
+										<br>2 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e0cce5" class="col">
+			FOG02485<br>EOG8ZCRRR<br><br>sce:absent<br><br>Genes: 4
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>PomBase Description</b><br>SAGA complex subunit Sus1<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19056896" target=_blank>Helmlinger D, <i>et al.</i> (2008 Nov 15)</a>. The S. pombe SAGA complex controls the switch from proliferation to sexual differentiation through the opposing roles of its subunits Gcn5 and Spt8.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20838651" target=_blank>Kouranti I, <i>et al.</i> (2010 Sep 7)</a>. A global census of fission yeast deubiquitinating enzyme localization and interaction networks reveals distinct compartmentalization profiles and overlapping functions in endocytosis and polarity.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21642955" target=_blank>Helmlinger D, <i>et al.</i> (2011 Jun 3)</a>. Tra1 has specific regulatory roles, rather than global functions, within the SAGA co-activator complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23658229" target=_blank>Sugiyama T, <i>et al.</i> (2013 Jul)</a>. Red5 and three nuclear pore components are essential for efficient suppression of specific mRNAs during vegetative growth of fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24948786" target=_blank>Elmore ZC, <i>et al.</i> (2014 Jun 19)</a>. Histone H2B ubiquitination promotes the function of the anaphase-promoting complex/cyclosome in Schizosaccharomyces pombe.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26443059" target=_blank>Deng X, <i>et al.</i> (2015 Oct 7)</a>. Sgf73, a subunit of SAGA complex, is required for the assembly of RITS complex in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27168121" target=_blank>Chen JS, <i>et al.</i> (2016 Sep)</a>. Discovery of genes involved in mitosis, cell division, cell wall integrity and chromosome segregation through construction of Schizosaccharomyces pombe deletion strains.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02485_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02485_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02485_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02485_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01051_phobius.html#FOG02485">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fadcb8" class="col">
+			FOG02486<br>EOG869P99<br><br>sce:BUD9;BUD8<br><br>Genes: 4
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Protein involved in bud-site selection; mutant has increased aneuploidy tolerance; diploid mutants display a unipolar budding pattern instead of the wild-type bipolar pattern, and bud at the distal pole; BUD9 has a paralog, BUD8, that arose from the whole genome duplication|Protein involved in bud-site selection; diploid mutants display a unipolar budding pattern instead of the wild-type bipolar pattern, and bud at the proximal pole; BUD8 has a paralog, BUD9, that arose from the whole genome duplication<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8657162" target=_blank>Zahner JE, <i>et al.</i> (1996 Apr)</a>. Genetic analysis of the bipolar pattern of bud site selection in the yeast Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11514631" target=_blank>Harkins HA, <i>et al.</i> (2001 Aug)</a>. Bud8p and Bud9p, proteins that may mark the sites for bipolar budding in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16847258" target=_blank>Kim H, <i>et al.</i> (2006 Jul 25)</a>. A global topology map of the Saccharomyces cerevisiae membrane proteome.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02486_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02486_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02486_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02486_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01051_phobius.html#FOG02486">Phobius transmembrane predictions</a>
+										<br>4 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01051.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

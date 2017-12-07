@@ -1,0 +1,205 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01028.html">HOG01028&emsp;&emsp;pseudouridine synthase RluA family</a><br> 
+																	HOG01029&emsp;&emsp;<br> 
+																	<a href="HOG01030.html">HOG01030&emsp;&emsp;V-ATPase e1/e2 subunit family</a><br><br> 
+																	<a href="../sequences/hog/HOG01029.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01029_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01029_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG01029_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG01029_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG02326<br>EOG8PRR5Q<br>PMA0<br>sce:absent<br><br>Genes: 7
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>Plasma membrane H+-ATPase<br><br>
+			<br><b>AspGD Description</b><br>Has domain(s) with predicted cation-transporting ATPase activity, metal ion binding, nucleotide binding activity, role in cation transport and integral component of membrane localization|Has domain(s) with predicted ATPase activity, cation-transporting ATPase activity, metal ion binding, nucleotide binding activity, role in ATP biosynthetic process, cation transport and integral component of membrane localization|Has domain(s) with predicted ATPase activity, cation-transporting ATPase activity, metal ion binding, nucleotide binding activity, role in ATP biosynthetic process, cation transport and integral component of membrane localization<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02326_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02326_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02326_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02326_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01029_phobius.html#FOG02326">Phobius transmembrane predictions</a>
+										<br>7 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG02327<br>EOG8PRR5Q<br>PMA1<br>sce:PMA1<br><br>Genes: 40
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>Plasma membrane H+-ATPase<br><br>
+			<br><b>Parent</b><br>paralog:FOG02326<br><br>
+			<br><b>SGD Description</b><br>Plasma membrane P2-type H+-ATPase; pumps protons out of cell; major regulator of cytoplasmic pH and plasma membrane potential; long-lived protein asymmetrically distributed at plasma membrane between mother cells and buds; accumulates at high levels in mother cells during aging, buds emerge with very low levels of Pma1p, newborn cells have low levels of Pma1p; Hsp30p plays a role in Pma1p regulation; interactions with Std1p appear to propagate [GAR+]<br><br>
+			<br><b>PomBase Description</b><br>P-type proton ATPase, P3-type Pma1|P-type proton ATPase, P3-type Pma2<br><br>
+			<br><b>AspGD Description</b><br>Plasma membrane ATPase<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=3005867" target=_blank>Serrano R, <i>et al.</i> (1986 Feb 20-26)</a>. Yeast plasma membrane ATPase is essential for growth and has homology with (Na+ + K+), K+- and Ca2+-ATPases.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2901955" target=_blank>Portillo F, <i>et al.</i> (1988 Jun)</a>. Dissection of functional domains of the yeast proton-pumping ATPase by directed mutagenesis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2136852" target=_blank>Davis CB, <i>et al.</i> (1990 Jan 25)</a>. The ATP binding site of the yeast plasma membrane proton-translocating ATPase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7730265" target=_blank>Miranda M, <i>et al.</i> (1995 May)</a>. Molecular cloning of the plasma membrane H(+)-ATPase from Kluyveromyces lactis: a single nucleotide substitution in the gene confers ethidium bromide resistance and deficiency in K+ uptake.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14557538" target=_blank>Hitchcock AL, <i>et al.</i> (2003 Oct 28)</a>. A subset of membrane-associated proteins is ubiquitinated in response to mutations in the endoplasmic reticulum degradation machinery.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16847258" target=_blank>Kim H, <i>et al.</i> (2006 Jul 25)</a>. A global topology map of the Saccharomyces cerevisiae membrane proteome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19797769" target=_blank>Brown JC, <i>et al.</i> (2009 Oct 1)</a>. A heritable switch in carbon source utilization driven by an unusual yeast prion.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22106047" target=_blank>Starita LM, <i>et al.</i> (2012 Jan)</a>. Sites of ubiquitin attachment in Saccharomyces cerevisiae.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02327_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02327_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02327_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02327_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01029_phobius.html#FOG02327">Phobius transmembrane predictions</a>
+										<br>40 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d7edd3" class="col">
+			FOG02328<br>EOG8PRR5Q<br>PMA2<br>sce:PMA2<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>Plasma membrane H+-ATPase<br><br>
+			<br><b>Parent</b><br>ohnolog:FOG02327<br><br>
+			<br><b>SGD Description</b><br>Plasma membrane H+-ATPase; isoform of Pma1p, involved in pumping protons out of the cell; regulator of cytoplasmic pH and plasma membrane potential<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2904437" target=_blank>Schlesser A, <i>et al.</i> (1988 Dec 25)</a>. A second transport ATPase gene in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16847258" target=_blank>Kim H, <i>et al.</i> (2006 Jul 25)</a>. A global topology map of the Saccharomyces cerevisiae membrane proteome.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02328_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02328_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02328_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02328_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01029_phobius.html#FOG02328">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01029.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

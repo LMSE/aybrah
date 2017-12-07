@@ -1,0 +1,237 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01382.html">HOG01382&emsp;&emsp;</a><br> 
+																	HOG01383&emsp;&emsp;<br> 
+																	<a href="HOG01384.html">HOG01384&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG01383.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01383_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01383_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG01383_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG03987<br>EOG8HHMHF<br><br>sce:absent<br><br>Genes: 14
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20231876" target=_blank>Lavoie H, <i>et al.</i> (2010 Mar 9)</a>. Evolutionary tinkering with conserved components of a transcriptional regulatory network.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22265407" target=_blank>Nobile CJ, <i>et al.</i> (2012 Jan 20)</a>. A recently evolved transcriptional network controls biofilm development in Candida albicans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23625919" target=_blank>Mallick J, <i>et al.</i> (2013 Jun 14)</a>. The evolutionary rewiring of the ribosomal protein transcription pathway modifies the interaction of transcription factor heteromer Ifh1-Fhl1 (interacts with forkhead 1-forkhead-like 1) with the DNA-binding specificity element.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03987_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03987_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03987_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03987_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01383_phobius.html#FOG03987">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG03988<br>EOG8HHMHF<br><br>sce:IFH1<br><br>Genes: 5
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Coactivator, regulates transcription of ribosomal protein (RP) genes; recruited to RP gene promoters during optimal growth conditions via Fhl1p; subunit of CURI, a complex that coordinates RP production and pre-rRNA processing; regulated by acetylation and phosphorylation at different growth states via TORC1 signaling; IFH1 has a paralog, CRF1, that arose from the whole genome duplication<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7785326" target=_blank>Cherel I, <i>et al.</i> (1995 Mar)</a>. The IFH1 gene product interacts with a fork head protein in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17287358" target=_blank>Chi A, <i>et al.</i> (2007 Feb 13)</a>. Analysis of phosphorylation sites on proteins from Saccharomyces cerevisiae by electron transfer dissociation (ETD) mass spectrometry.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03988_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03988_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03988_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03988_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01383_phobius.html#FOG03988">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d7edd3" class="col">
+			FOG03989<br>EOG8HHMHF<br><br>sce:absent<br><br>Genes: 2
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03989_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03989_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03989_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03989_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01383_phobius.html#FOG03989">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e5d4e9" class="col">
+			FOG03990<br>EOG8HHMHF<br><br>sce:CRF1<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Transcriptional corepressor; involved in repression of ribosomal protein (RP) gene transcription via the TOR signaling pathway which promotes accumulation of Crf1p in the nucleus; role in repression of RP genes varies by strain; CRF1 has a paralog, IFH1, that arose from the whole genome duplication<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8885406" target=_blank>De Virgilio C, <i>et al.</i> (1996 Oct)</a>. SPR28, a sixth member of the septin gene family in Saccharomyces cerevisiae that is expressed specifically in sporulating cells.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14574415" target=_blank>Ubersax JA, <i>et al.</i> (2003 Oct 23)</a>. Targets of the cyclin-dependent kinase Cdk1.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15620355" target=_blank>Martin DE, <i>et al.</i> (2004 Dec 29)</a>. TOR regulates ribosomal protein gene expression via PKA and the Forkhead transcription factor FHL1.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14966276" target=_blank>Oki M, <i>et al.</i> (2004 Mar)</a>. Barrier proteins remodel and modify chromatin to restrict silenced domains.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03990_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03990_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03990_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03990_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01383_phobius.html#FOG03990">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01383.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

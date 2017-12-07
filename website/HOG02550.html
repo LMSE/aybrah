@@ -1,0 +1,114 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG02549.html">HOG02549&emsp;&emsp;</a><br> 
+																	HOG02550&emsp;&emsp;<br> 
+																	<a href="HOG02551.html">HOG02551&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG02550.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG02550_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG02550_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG02550_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG06179<br>EOG8R4XJZ<br><br>sce:absent<br><br>Genes: 7
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>AspGD Description</b><br>Ortholog(s) have DNA binding activity and role in cellular phosphate ion homeostasis<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14301537" target=_blank>DORN G, <i>et al.</i> (1965 Feb)</a>. GENETIC ANALYSIS OF THE PHOSPHATASES IN ASPERGILLUS NIDULANS.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=5852975" target=_blank>Dorn G, <i>et al.</i> (1965 Nov 26)</a>. Phosphatase mutants in Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2673210" target=_blank>Käfer E, <i>et al.</i> (1989 Apr)</a>. A single, phosphate-repressible deoxyribonuclease, DNase A, secreted in Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2652389" target=_blank>Davis MA, <i>et al.</i> (1989 Jan)</a>. Regulatory genes in Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9299197" target=_blank>Clutterbuck AJ, <i>et al.</i> (1997 Jun)</a>. The validity of the Aspergillus nidulans linkage map.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9670015" target=_blank>Bussink HJ, <i>et al.</i> (1998 Jul 15)</a>. A cyclin-dependent kinase family member (PHOA) is required to link developmental fate to environmental conditions in Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15247298" target=_blank>Wu D, <i>et al.</i> (2004 Sep 3)</a>. The Pho80-like cyclin of Aspergillus nidulans regulates development independently of its role in phosphate acquisition.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG06179_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG06179_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG06179_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG06179_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG02550_phobius.html#FOG06179">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG02550.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

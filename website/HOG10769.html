@@ -1,0 +1,114 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG10765.html">HOG10765&emsp;&emsp;SHU2 family</a><br> 
+																	HOG10769&emsp;&emsp;<br> 
+																	<a href="HOG10773.html">HOG10773&emsp;&emsp;mitochondrion-specific ribosomal protein mL67 family</a><br><br> 
+																	<a href="../sequences/hog/HOG10769.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG10769_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG10769_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG10769_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG10769_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG14983<br>EOG8D258Z<br><br>sce:YTH1<br><br>Genes: 34
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Essential RNA-binding component of cleavage and polyadenylation factor; contains five zinc fingers; required for pre-mRNA 3'-end processing and polyadenylation; relocalizes to the cytosol in response to hypoxia<br><br>
+			<br><b>PomBase Description</b><br>mRNA cleavage and polyadenylation specificity factor complex Yth1<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have RNA binding activity, role in mRNA polyadenylation, pre-mRNA cleavage required for polyadenylation, response to drug and cytosol, mRNA cleavage and polyadenylation specificity factor complex localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9224719" target=_blank>Barabino SM, <i>et al.</i> (1997 Jul 1)</a>. The 30-kD subunit of mammalian cleavage and polyadenylation specificity factor and its yeast homolog are RNA-binding zinc finger proteins.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10899131" target=_blank>Barabino SM, <i>et al.</i> (2000 Jul 17)</a>. Distinct roles of two Yth1p domains in 3'-end cleavage and polyadenylation of yeast pre-mRNAs.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11238938" target=_blank>Helmling S, <i>et al.</i> (2001 Mar)</a>. Fip1 regulates the activity of Poly(A) polymerase through multiple interactions.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12819204" target=_blank>Nedea E, <i>et al.</i> (2003 Aug 29)</a>. Organization and function of APT, a subcomplex of the yeast cleavage and polyadenylation factor involved in the formation of mRNA and small nucleolar RNA 3'-ends.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12626716" target=_blank>Tacahashi Y, <i>et al.</i> (2003 Mar 15)</a>. Functional dissection of the zinc finger and flanking domains of the Yth1 cleavage/polyadenylation factor.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG14983_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG14983_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG14983_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG14983_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG10769_phobius.html#FOG14983">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG10769.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

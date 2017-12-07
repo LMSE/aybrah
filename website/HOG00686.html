@@ -1,0 +1,111 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG00685.html">HOG00685&emsp;&emsp;isochorismatase family</a><br> 
+																	HOG00686&emsp;&emsp;<br> 
+																	<a href="HOG00687.html">HOG00687&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG00686.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG00686_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG00686_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG00686_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG00686_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG01633<br>EOG8JSXNR<br><br>sce:NPT1<br><br>Genes: 33
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Nicotinate phosphoribosyltransferase; acts in the salvage pathway of NAD+ biosynthesis; required for silencing at rDNA and telomeres and has a role in silencing at mating-type loci; localized to the nucleus<br><br>
+			<br><b>PomBase Description</b><br>nicotinate phosphoribosyltransferase Npt1 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Nicotinate phosphoribosyltransferase<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8516295" target=_blank>Lalo D, <i>et al.</i> (1993 Jun 15)</a>. Interactions between three common subunits of yeast RNA polymerases I and III.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12062417" target=_blank>Panozzo C, <i>et al.</i> (2002 Apr 24)</a>. Aerobic and anaerobic NAD+ metabolism in Saccharomyces cerevisiae.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG01633_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG01633_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG01633_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG01633_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00686_phobius.html#FOG01633">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG00686.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

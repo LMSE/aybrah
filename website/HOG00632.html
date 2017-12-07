@@ -1,0 +1,154 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG00631.html">HOG00631&emsp;&emsp;ISN1 family</a><br> 
+																	HOG00632&emsp;&emsp;<br> 
+																	<a href="HOG00633.html">HOG00633&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG00632.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG00632_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG00632_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG00632_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG00632_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG01550<br>EOG8HDR96<br><br>sce:IMD1;IMD2;IMD3;IMD4<br><br>Genes: 37
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>|Inosine monophosphate dehydrogenase; catalyzes the rate-limiting step in GTP biosynthesis, expression is induced by mycophenolic acid resulting in resistance to the drug, expression is repressed by nutrient limitation; IMD2 has a paralog, YAR073W/YAR075W, that arose from a segmental duplication|Inosine monophosphate dehydrogenase; catalyzes the rate-limiting step in the de novo synthesis of GTP; member of a four-gene family in S. cerevisiae, constitutively expressed; IMD3 has a paralog, IMD4, that arose from the whole genome duplication|Inosine monophosphate dehydrogenase; catalyzes the rate-limiting step in the de novo synthesis of GTP; member of a four-gene family in S. cerevisiae, constitutively expressed; IMD4 has a paralog, IMD3, that arose from the whole genome duplication<br><br>
+			<br><b>PomBase Description</b><br>IMP dehydrogenase Gua1<br><br>
+			<br><b>AspGD Description</b><br>Inosine-5?-monophosphate dehydrogenase<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12746440" target=_blank>Hyle JW, <i>et al.</i> (2003 Aug 1)</a>. Functional distinctions between IMP dehydrogenase genes in providing mycophenolate resistance and guanine prototrophy to yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15292516" target=_blank>McPhillips CC, <i>et al.</i> (2004 Aug 17)</a>. Detection of the mycophenolate-inhibited form of IMP dehydrogenase in vivo.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15905473" target=_blank>Zhang Z, <i>et al.</i> (2005)</a>. Mapping of transcription start sites in Saccharomyces cerevisiae using 5' SAGE.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15665003" target=_blank>Köhler GA, <i>et al.</i> (2005 Mar 25)</a>. The functional basis of mycophenolic acid resistance in Candida albicans IMP dehydrogenase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16278936" target=_blank>Jenks MH, <i>et al.</i> (2005 Nov)</a>. Dissection of the molecular basis of mycophenolate resistance in Saccharomyces cerevisiae.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG01550_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG01550_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG01550_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG01550_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00632_phobius.html#FOG01550">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG01551<br>EOG8HDR96<br><br>sce:absent<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG01551_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG01551_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG01551_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG01551_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00632_phobius.html#FOG01551">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG00632.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

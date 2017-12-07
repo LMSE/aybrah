@@ -1,0 +1,111 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG10081.html">HOG10081&emsp;&emsp;GINS1/PSF1 family</a><br> 
+																	HOG10082&emsp;&emsp;<br> 
+																	<a href="HOG10083.html">HOG10083&emsp;&emsp;ETF beta-subunit/FixA family</a><br><br> 
+																	<a href="../sequences/hog/HOG10082.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG10082_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG10082_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG10082_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG10082_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG14296<br>EOG8DV455<br>EOG8FTTJ3<br><br>sce:AVO2<br><br>Genes: 25
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Component of a complex containing the Tor2p kinase and other proteins; complex may have a role in regulation of cell growth<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12408816" target=_blank>Loewith R, <i>et al.</i> (2002 Sep)</a>. Two TOR complexes, only one of which is rapamycin sensitive, have distinct roles in cell growth control.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12631735" target=_blank>Wedaman KP, <i>et al.</i> (2003 Mar)</a>. Tor kinases are in distinct membrane-associated protein complexes in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15689497" target=_blank>Fadri M, <i>et al.</i> (2005 Apr)</a>. The pleckstrin homology domain proteins Slm1 and Slm2 are required for actin cytoskeleton organization in yeast and bind phosphatidylinositol-4,5-bisphosphate and TORC2.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16002396" target=_blank>Wullschleger S, <i>et al.</i> (2005 Sep 2)</a>. Molecular organization of target of rapamycin complex 2.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG14296_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG14296_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG14296_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG14296_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG10082_phobius.html#FOG14296">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG10082.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

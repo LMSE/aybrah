@@ -1,0 +1,115 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG15353.html">HOG15353&emsp;&emsp;timeless family</a><br> 
+																	HOG15354&emsp;&emsp;<br> 
+																	<a href="HOG15355.html">HOG15355&emsp;&emsp;MON2 family</a><br><br> 
+																	<a href="../sequences/hog/HOG15354.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG15354_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG15354_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG15354_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG15354_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG19568<br>EOG805QG1<br><br>sce:VPS16<br><br>Genes: 32
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Subunit of the HOPS and the CORVET complexes; part of the Class C Vps complex essential for membrane docking and fusion at Golgi-to-endosome and endosome-to-vacuole protein transport stages<br><br>
+			<br><b>PomBase Description</b><br>HOPS/CORVET complex subunit Vps16 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Putative vacuolar protein sorting protein; expression decreased by growth on maltose<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8444873" target=_blank>Horazdovsky BF, <i>et al.</i> (1993 Mar 5)</a>. The VPS16 gene product associates with a sedimentable protein complex and is essential for vacuolar protein sorting in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15752076" target=_blank>Muthuvijayan V, <i>et al.</i> (2004)</a>. In silico reconstruction of nutrient-sensing signal transduction pathways in Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16601699" target=_blank>Stroupe C, <i>et al.</i> (2006 Apr 19)</a>. Purification of active HOPS complex reveals its affinities for phosphoinositides and the SNARE Vam7p.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19889978" target=_blank>Chanda A, <i>et al.</i> (2009 Nov 17)</a>. A key role for vesicles in fungal secondary metabolism.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20534811" target=_blank>Abenza JF, <i>et al.</i> (2010 Aug 1)</a>. Aspergillus RabB Rab5 integrates acquisition of degradative identity with the long distance movement of early endosomes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22456509" target=_blank>Abenza JF, <i>et al.</i> (2012 May)</a>. Endosomal maturation by Rab conversion in Aspergillus nidulans is coupled to dynein-mediated basipetal movement.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG19568_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG19568_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG19568_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG19568_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG15354_phobius.html#FOG19568">Phobius transmembrane predictions</a>
+										<br>5 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG15354.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

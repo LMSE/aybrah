@@ -1,0 +1,103 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>																	<a href="HOG13190.html">HOG13190&emsp;&emsp;</a><br> 																	HOG13191&emsp;&emsp;<br> 																	<a href="HOG13192.html">HOG13192&emsp;&emsp;</a><br><br> 																	<a href="../sequences/hog/HOG13191.fasta">FASTA</a><br> 																	<a href="../trees/by_hog/msa/HOG13191_msa.fasta">MAFFT sequence alignment<br> 																	<a href="../trees/by_hog/phyml/HOG13191_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 																	<a href="">Gblocks</a><br> 																	<a href="HOG13191_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG17404<br>EOG85QG02<br><br>sce:CSM4<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Protein required for accurate chromosome segregation during meiosis; involved in meiotic telomere clustering (bouquet formation) and telomere-led rapid prophase movements; functions with meiosis-specific telomere-binding protein Ndj1p; CSM4 has a paralog, MPS2, that arose from the whole genome duplication<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11470404" target=_blank>Rabitsch KP, <i>et al.</i> (2001 Jul 10)</a>. A screen for genes required for meiosis and spore formation based on whole-genome expression.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12514182" target=_blank>Beilharz T, <i>et al.</i> (2003 Mar 7)</a>. Bipartite signals mediate subcellular targeting of tail-anchored membrane proteins in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18585352" target=_blank>Conrad MN, <i>et al.</i> (2008 Jun 27)</a>. Rapid telomere movement in meiotic prophase is promoted by NDJ1, MPS3, and CSM4 and is modulated by recombination.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG17404_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG17404_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG17404_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG17404_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG13191_phobius.html#FOG17404">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<!--link to gblock-->
+	<img src="../img/trees/HOG13191.png"
+	</div>
+	<div id="footer">Footer</div>
+</div>
+
+</body></html>

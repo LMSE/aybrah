@@ -1,0 +1,278 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG00327.html">HOG00327&emsp;&emsp;</a><br> 
+																	HOG00328&emsp;&emsp;<br> 
+																	<a href="HOG00329.html">HOG00329&emsp;&emsp;UQCRH/QCR6 family</a><br><br> 
+																	<a href="../sequences/hog/HOG00328.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG00328_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG00328_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG00328_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG00328_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG00736<br>EOG8WPZJJ<br>MAS2<br>sce:MAS2<br><br>Genes: 33
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>Alpha subunit of the mitochondrial processing protease (MPP)<br><br>
+			<br><b>SGD Description</b><br>Alpha subunit of the mitochondrial processing protease (MPP); essential processing enzyme that cleaves the N-terminal targeting sequences from mitochondrially imported proteins<br><br>
+			<br><b>PomBase Description</b><br>mitochondrial processing peptidase(MPP) complex alpha subunit Mas2 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have ADP binding, peptidase activity and mitochondrial processing peptidase complex localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=3061808" target=_blank>Jensen RE, <i>et al.</i> (1988 Dec 1)</a>. Import of proteins into yeast mitochondria: the nuclear MAS2 gene encodes a component of the processing protease that is homologous to the MAS1-encoded subunit.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=3061797" target=_blank>Pollock RA, <i>et al.</i> (1988 Nov)</a>. The processing peptidase of yeast mitochondria: the two co-operating components MPP and PEP are structurally related.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2007593" target=_blank>Yang MJ, <i>et al.</i> (1991 Apr 5)</a>. The MAS-encoded processing protease of yeast mitochondria. Interaction of the purified enzyme with signal peptides and a purified precursor protein.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11470436" target=_blank>Taylor AB, <i>et al.</i> (2001 Jul 3)</a>. Crystal structures of mitochondrial processing peptidase reveal the mode for specific cleavage of import signal sequences.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00736_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00736_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00736_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00736_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00328_phobius.html#FOG00736">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG00737<br>EOG8WPZJJ<br>MAS1<br>sce:MAS1<br><br>Genes: 34
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>Beta subunit of the mitochondrial processing protease (MPP)<br><br>
+			<br><b>SGD Description</b><br>Beta subunit of the mitochondrial processing protease (MPP); essential processing enzyme that cleaves the N-terminal targeting sequences from mitochondrially imported proteins<br><br>
+			<br><b>PomBase Description</b><br>mitochondrial processing peptidase (MPP) complex beta subunit Mas1 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ubiquinol-cytochrome c reductase<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=3319783" target=_blank>Kaneko Y, <i>et al.</i> (1987)</a>. Structural characteristics of the PHO8 gene encoding repressible alkaline phosphatase in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=3044780" target=_blank>Witte C, <i>et al.</i> (1988 May)</a>. MAS1, a gene essential for yeast mitochondrial assembly, encodes a subunit of the mitochondrial processing protease.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2676517" target=_blank>Klionsky DJ, <i>et al.</i> (1989 Aug)</a>. Membrane protein sorting: biosynthesis, transport and processing of yeast vacuolar alkaline phosphatase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2007593" target=_blank>Yang MJ, <i>et al.</i> (1991 Apr 5)</a>. The MAS-encoded processing protease of yeast mitochondria. Interaction of the purified enzyme with signal peptides and a purified precursor protein.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1848184" target=_blank>Plankert U, <i>et al.</i> (1991 Feb 26)</a>. Yeast fructose-2,6-bisphosphate 6-phosphatase is encoded by PHO8, the gene for nonspecific repressible alkaline phosphatase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11470436" target=_blank>Taylor AB, <i>et al.</i> (2001 Jul 3)</a>. Crystal structures of mitochondrial processing peptidase reveal the mode for specific cleavage of import signal sequences.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16484724" target=_blank>Song L, <i>et al.</i> (2006 Feb)</a>. A soluble form of phosphatase in Saccharomyces cerevisiae capable of converting farnesyl diphosphate into E,E-farnesol.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17568774" target=_blank>Hortschansky P, <i>et al.</i> (2007 Jul 11)</a>. Interaction of HapX with the CCAAT-binding complex--a novel mechanism of gene regulation by iron.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18684775" target=_blank>Kennedy PJ, <i>et al.</i> (2008 Nov)</a>. A genome-wide screen of genes involved in cadmium tolerance in Schizosaccharomyces pombe.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21850271" target=_blank>Ma Y, <i>et al.</i> (2011)</a>. Genome-wide screening for genes associated with FK506 sensitivity in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22540037" target=_blank>Pancaldi V, <i>et al.</i> (2012 Apr)</a>. Predicting the fission yeast protein interaction network.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22634043" target=_blank>Wartenberg D, <i>et al.</i> (2012 Jul 16)</a>. Proteome analysis of the farnesol-induced stress response in Aspergillus nidulans--The role of a putative dehydrin.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22814378" target=_blank>Van Damme P, <i>et al.</i> (2012 Jul 31)</a>. N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24634168" target=_blank>Bernal M, <i>et al.</i> (2014 Jun)</a>. Proteome-wide search for PP2A substrates in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25483073" target=_blank>Mojardín L, <i>et al.</i> (2015)</a>. Chromosome segregation and organization are targets of 5'-Fluorouracil in eukaryotic cells.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00737_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00737_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00737_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00737_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00328_phobius.html#FOG00737">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d7edd3" class="col">
+			FOG00738<br>EOG8WPZJJ<br>QCR.01<br>sce:COR1<br><br>Genes: 22
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Parent</b><br>paralog:FOG00737<br><br>
+			<br><b>SGD Description</b><br>Core subunit of the ubiquinol-cytochrome c reductase complex; the ubiquinol-cytochrome c reductase complex (bc1 complex) is a component of the mitochondrial inner membrane electron transport chain<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=3023384" target=_blank>Tzagoloff A, <i>et al.</i> (1986 Dec 25)</a>. Assembly of the mitochondrial membrane system. Characterization of COR1, the structural gene for the 44-kilodalton core protein of yeast coenzyme QH2-cytochrome c reductase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10873857" target=_blank>Hunte C, <i>et al.</i> (2000 Jun 15)</a>. Structure at 2.3 A resolution of the cytochrome bc(1) complex from the yeast Saccharomyces cerevisiae co-crystallized with an antibody Fv fragment.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11502169" target=_blank>Grandier-Vazeille X, <i>et al.</i> (2001 Aug 21)</a>. Yeast mitochondrial dehydrogenases are associated in a supramolecular complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11880631" target=_blank>Lange C, <i>et al.</i> (2002 Mar 5)</a>. Crystal structure of the yeast cytochrome bc1 complex with its bound substrate cytochrome c.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00738_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00738_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00738_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00738_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00328_phobius.html#FOG00738">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e5d4e9" class="col">
+			FOG00739<br>EOG8WPZJJ<br>QCR.02<br>sce:QCR2<br><br>Genes: 32
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Subunit 2 of ubiquinol cytochrome-c reductase (Complex III); Complex III is a component of the mitochondrial inner membrane electron transport chain; phosphorylated; transcription is regulated by Hap1p, Hap2p/Hap3p, and heme<br><br>
+			<br><b>PomBase Description</b><br>ubiquinol-cytochrome-c reductase complex core protein Qcr2 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Core protein II of ubiquinol-cytochrome c reductase<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=3028797" target=_blank>Oudshoorn P, <i>et al.</i> (1987 Feb 16)</a>. Subunit II of yeast QH2:cytochrome-c oxidoreductase. Nucleotide sequence of the gene and features of the protein.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10873857" target=_blank>Hunte C, <i>et al.</i> (2000 Jun 15)</a>. Structure at 2.3 A resolution of the cytochrome bc(1) complex from the yeast Saccharomyces cerevisiae co-crystallized with an antibody Fv fragment.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11502169" target=_blank>Grandier-Vazeille X, <i>et al.</i> (2001 Aug 21)</a>. Yeast mitochondrial dehydrogenases are associated in a supramolecular complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11880631" target=_blank>Lange C, <i>et al.</i> (2002 Mar 5)</a>. Crystal structure of the yeast cytochrome bc1 complex with its bound substrate cytochrome c.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15378761" target=_blank>Pitarch A, <i>et al.</i> (2004 Oct)</a>. Proteomics-based identification of novel Candida albicans antigens for diagnosis of systemic candidiasis in patients with underlying hematological malignancies.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16491466" target=_blank>Idiris A, <i>et al.</i> (2006 Jan 30)</a>. Construction of a protease-deficient strain set for the fission yeast Schizosaccharomyces pombe, useful for effective production of protease-sensitive heterologous proteins.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17568774" target=_blank>Hortschansky P, <i>et al.</i> (2007 Jul 11)</a>. Interaction of HapX with the CCAAT-binding complex--a novel mechanism of gene regulation by iron.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17761666" target=_blank>Reinders J, <i>et al.</i> (2007 Nov)</a>. Profiling phosphoproteins of yeast mitochondria reveals a role of phosphorylation in assembly of the ATP synthase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19171936" target=_blank>Sato I, <i>et al.</i> (2009 Mar 20)</a>. The glutathione system of Aspergillus nidulans involves a fungus-specific glutathione S-transferase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22235339" target=_blank>Lando D, <i>et al.</i> (2012)</a>. The S. pombe histone H2A dioxygenase Ofd2 regulates gene expression during hypoxia.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22634043" target=_blank>Wartenberg D, <i>et al.</i> (2012 Jul 16)</a>. Proteome analysis of the farnesol-induced stress response in Aspergillus nidulans--The role of a putative dehydrin.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23950735" target=_blank>Sun LL, <i>et al.</i> (2013)</a>. Global analysis of fission yeast mating genes reveals new autophagy factors.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26412298" target=_blank>Beckley JR, <i>et al.</i> (2015 Dec)</a>. A Degenerate Cohort of Yeast Membrane Trafficking DUBs Mediates Cell Polarity and Survival.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28410370" target=_blank>Dudin O, <i>et al.</i> (2017 Apr)</a>. A systematic screen for morphological abnormalities during fission yeast sexual reproduction identifies a mechanism of actin aster formation for cell fusion.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00739_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00739_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00739_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00739_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00328_phobius.html#FOG00739">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG00328.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

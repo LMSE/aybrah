@@ -1,0 +1,220 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01673.html">HOG01673&emsp;&emsp;AIM39 family</a><br> 
+																	HOG01674&emsp;&emsp;<br> 
+																	<a href="HOG01675.html">HOG01675&emsp;&emsp;DSS4/MSS4 family</a><br><br> 
+																	<a href="../sequences/hog/HOG01674.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01674_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01674_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG01674_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG04707<br>EOG8NK99S<br><br>sce:ORC1<br><br>Genes: 34
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Largest subunit of the origin recognition complex; involved in directing DNA replication by binding to replication origins; also involved in transcriptional silencing; exhibits ATPase activity; ORC1 has a paralog, SIR3, that arose from the whole genome duplication<br><br>
+			<br><b>PomBase Description</b><br>origin recognition complex subunit Orc1<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have DNA replication origin binding activity, role in mitotic DNA replication, mitotic DNA replication checkpoint and nuclear chromatin, nuclear origin of replication recognition complex localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7502077" target=_blank>Gavin KA, <i>et al.</i> (1995 Dec 8)</a>. Conserved initiator proteins in eukaryotes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7579692" target=_blank>Loo S, <i>et al.</i> (1995 Jun)</a>. The origin recognition complex in silencing, cell cycle progression, and DNA replication.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7585959" target=_blank>Bell SP, <i>et al.</i> (1995 Nov 17)</a>. The multidomain structure of Orc1p reveals similarity to regulators of DNA replication and transcriptional silencing.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11168584" target=_blank>Kawasaki Y, <i>et al.</i> (2000 Dec)</a>. Interactions between Mcm10p and other replication factors are required for proper initiation and elongation of chromosomal DNA replication in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17825064" target=_blank>Asano T, <i>et al.</i> (2007 Dec)</a>. Interaction between ORC and Cdt1p of Saccharomyces cerevisiae.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG04707_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04707_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04707_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG04707_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01674_phobius.html#FOG04707">Phobius transmembrane predictions</a>
+										<br>22 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG04708<br>EOG8NK99S<br><br>sce:CDC6<br><br>Genes: 32
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Essential ATP-binding protein required for DNA replication; component of the pre-replicative complex (pre-RC) which requires ORC to associate with chromatin and is in turn required for Mcm2-7p DNA association; homologous to S. pombe Cdc18p; relocalizes from nucleus to cytoplasm upon DNA replication stress<br><br>
+			<br><b>PomBase Description</b><br>MCM loader<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have protein serine/threonine kinase activity and role in mitotic DNA replication checkpoint, peptidyl-serine autophosphorylation, peptidyl-threonine autophosphorylation, positive regulation of DNA replication initiation<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=3062576" target=_blank>Lisziewicz J, <i>et al.</i> (1988 Dec 23)</a>. Cloning and characterization of the Saccharomyces cerevisiae CDC6 gene.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2656692" target=_blank>Zhou C, <i>et al.</i> (1989 May 25)</a>. Molecular cloning of Saccharomyces cerevisiae CDC6 gene. Isolation, identification, and sequence analysis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2246267" target=_blank>Zhou C, <i>et al.</i> (1990 Nov 15)</a>. CDC6 mRNA fluctuates periodically in the yeast cell cycle.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1600944" target=_blank>Bueno A, <i>et al.</i> (1992 Jun)</a>. Dual functions of CDC6: a yeast protein required for DNA replication also inhibits nuclear division.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7641697" target=_blank>Piatti S, <i>et al.</i> (1995 Aug 1)</a>. Cdc6 is an unstable protein whose de novo synthesis in G1 is important for the onset of S phase and for preventing a 'reductional' anaphase in the budding yeast Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8978693" target=_blank>Santocanale C, <i>et al.</i> (1996 Dec 2)</a>. ORC- and Cdc6-dependent complexes at active and inactive chromosomal replication origins in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8538771" target=_blank>Cocker JH, <i>et al.</i> (1996 Jan 11)</a>. An essential role for the Cdc6 protein in forming the pre-replicative complexes of budding yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8892760" target=_blank>Jong A, <i>et al.</i> (1996 Oct)</a>. Intracellular location of the Saccharomyces cerevisiae CDC6 gene product.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9099949" target=_blank>Detweiler CS, <i>et al.</i> (1997 Mar)</a>. Cdc6p establishes and maintains a state of replication competence during G1 phase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9312054" target=_blank>Drury LS, <i>et al.</i> (1997 Oct 1)</a>. The Cdc4/34/53 pathway targets Cdc6p for proteolysis in budding yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9892652" target=_blank>Weinreich M, <i>et al.</i> (1999 Jan 19)</a>. The Cdc6p nucleotide-binding motif is required for loading mcm proteins onto chromatin.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10075735" target=_blank>Wang B, <i>et al.</i> (1999 Mar 19)</a>. The essential role of Saccharomyces cerevisiae CDC6 nucleotide-binding site in cell growth, DNA synthesis, and Orc1 association.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10512865" target=_blank>Elsasser S, <i>et al.</i> (1999 Oct)</a>. Phosphorylation controls timing of Cdc6p destruction: A biochemical analysis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10734126" target=_blank>Calzada A, <i>et al.</i> (2000 Mar 31)</a>. The stability of the Cdc6 protein is regulated by cyclin-dependent kinase/cyclin B complexes in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23129771" target=_blank>Kim DH, <i>et al.</i> (2012 Dec 28)</a>. The Hect domain E3 ligase Tom1 and the F-box protein Dia2 control Cdc6 degradation in G1 phase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23603117" target=_blank>Fernández-Cid A, <i>et al.</i> (2013 May 23)</a>. An ORC/Cdc6/MCM2-7 complex is formed in a multistep reaction to serve as a platform for MCM double-hexamer assembly.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG04708_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04708_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04708_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG04708_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01674_phobius.html#FOG04708">Phobius transmembrane predictions</a>
+										<br>3 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d7edd3" class="col">
+			FOG04709<br>EOG8NK99S<br><br>sce:SIR3<br><br>Genes: 2
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Silencing protein; interacts with Sir2p, Sir4p, and histone H3 and H4 tails to establish transcriptionally silent chromatin state; required for spreading of silenced chromatin; recruited to chromatin through interaction with Rap1p; C-terminus (residues 840-978) assumes variant winged helix-turn-helix (wH) fold that mediates homodimerization, which is critical for holo-SIR complex loading; SIR3 has a paralog, ORC1, that arose from the whole genome duplication<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=6098447" target=_blank>Shore D, <i>et al.</i> (1984 Dec 1)</a>. Characterization of two genes required for the position-effect control of yeast mating-type genes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8909534" target=_blank>Stone EM, <i>et al.</i> (1996 Nov)</a>. Activation of an MAP kinase cascade leads to Sir3p hyperphosphorylation and strengthens transcriptional silencing.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11722841" target=_blank>Gasser SM, <i>et al.</i> (2001 Nov 14)</a>. The molecular biology of the SIR proteins.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15454564" target=_blank>Wang X, <i>et al.</i> (2004 Sep)</a>. Importance of the Sir3 N terminus and its acetylation for yeast transcriptional silencing.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16328881" target=_blank>Douglas NL, <i>et al.</i> (2005 Dec)</a>. Dual roles for Mcm10 in DNA replication initiation and silencing at the mating-type loci.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16641491" target=_blank>Hou Z, <i>et al.</i> (2006 May)</a>. Structure of the Sir3 protein bromo adjacent homology (BAH) domain from S. cerevisiae at 1.95 A resolution.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG04709_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04709_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04709_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG04709_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01674_phobius.html#FOG04709">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01674.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

@@ -1,0 +1,114 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG07105.html">HOG07105&emsp;&emsp;</a><br> 
+																	HOG07108&emsp;&emsp;<br> 
+																	<a href="HOG07110.html">HOG07110&emsp;&emsp;VPS36 family</a><br><br> 
+																	<a href="../sequences/hog/HOG07108.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG07108_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG07108_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG07108_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG07108_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG11321<br>EOG8QFTWS<br><br>sce:GCN3<br><br>Genes: 33
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Alpha subunit of translation initiation factor eIF2B; guanine-nucleotide exchange factor for eIF2; activity subsequently regulated by phosphorylated eIF2; positive regulator of GCN4 expression; assembles into filaments with Gcd2p, Gcd6p, Gcd7p, and Sui2p as cells approach stationary phase and under cytosolic acidification and starvation conditions<br><br>
+			<br><b>PomBase Description</b><br>translation initiation factor eIF2B alpha subunit (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have enzyme regulator activity, guanyl-nucleotide exchange factor activity, translation initiation factor activity<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=3062370" target=_blank>Hannig EM, <i>et al.</i> (1988 Nov)</a>. Molecular analysis of GCN3, a translational activator of GCN4: evidence for posttranslational control of GCN3 regulatory function.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8506384" target=_blank>Cigan AM, <i>et al.</i> (1993 Jun 1)</a>. A protein complex of translational regulators of GCN4 mRNA is the guanine nucleotide-exchange factor for translation initiation factor 2 in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9472020" target=_blank>Pavitt GD, <i>et al.</i> (1998 Feb 15)</a>. eIF2 independently binds two distinct eIF2B subcomplexes that catalyze and regulate guanine-nucleotide exchange.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19596074" target=_blank>Hagiwara D, <i>et al.</i> (2009 Nov)</a>. Transcriptional profiling for Aspergillusnidulans HogA MAPK signaling pathway in response to fludioxonil and osmotic stress.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22814378" target=_blank>Van Damme P, <i>et al.</i> (2012 Jul 31)</a>. N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG11321_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG11321_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG11321_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG11321_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG07108_phobius.html#FOG11321">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG07108.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

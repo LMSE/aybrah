@@ -1,0 +1,164 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG03078.html">HOG03078&emsp;&emsp;SKN1/KRE6 family</a><br> 
+																	HOG03079&emsp;&emsp;<br> 
+																	<a href="HOG03080.html">HOG03080&emsp;&emsp;HOP2 family</a><br><br> 
+																	<a href="../sequences/hog/HOG03079.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG03079_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG03079_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG03079_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG03079_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG06920<br>EOG8GTHTT<br><br>sce:NMD5<br><br>Genes: 32
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Karyopherin; a carrier protein involved in nuclear import of proteins; importin beta homolog<br><br>
+			<br><b>PomBase Description</b><br>karyopherin (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have cytosol, nuclear envelope localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9852143" target=_blank>Albertini M, <i>et al.</i> (1998 Dec 14)</a>. A novel nuclear import pathway for the transcription factor TFIIS.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17880424" target=_blank>Malavazi I, <i>et al.</i> (2007 Oct)</a>. Transcriptome analysis of the Aspergillus nidulans AtmA (ATM, Ataxia-Telangiectasia mutated) null mutant.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18703157" target=_blank>Miskei M, <i>et al.</i> (2009 Mar)</a>. Annotation of stress-response proteins in the aspergilli.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19596074" target=_blank>Hagiwara D, <i>et al.</i> (2009 Nov)</a>. Transcriptional profiling for Aspergillusnidulans HogA MAPK signaling pathway in response to fludioxonil and osmotic stress.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22384365" target=_blank>Wendland J, <i>et al.</i> (2011 Dec)</a>. Genome evolution in the eremothecium clade of the Saccharomyces complex revealed by comparative genomics.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21880896" target=_blank>Markina-Iñarrairaegui A, <i>et al.</i> (2011 Oct)</a>. Nuclear transporters in a multinucleated organism: functional and localization analyses in Aspergillus nidulans.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG06920_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG06920_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG06920_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG06920_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG03079_phobius.html#FOG06920">Phobius transmembrane predictions</a>
+										<br>14 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG06921<br>EOG8GTHTT<br><br>sce:SXM1<br><br>Genes: 20
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Nuclear transport factor (karyopherin); involved in protein transport between the cytoplasm and nucleoplasm; similar to Nmd5p, Cse1p, Lph2p, and the human cellular apoptosis susceptibility protein, CAS1<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9238021" target=_blank>Seedorf M, <i>et al.</i> (1997 Aug 5)</a>. Importin/karyopherin protein family members required for mRNA export from the nucleus.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9412461" target=_blank>Rosenblum JS, <i>et al.</i> (1997 Dec 29)</a>. A nuclear import pathway for a protein involved in tRNA maturation.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9817748" target=_blank>Rosenblum JS, <i>et al.</i> (1998 Nov 16)</a>. Nuclear import and the evolution of a multifunctional RNA-binding protein.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9891088" target=_blank>Seedorf M, <i>et al.</i> (1999 Feb)</a>. Interactions between a nuclear transporter and a subset of nuclear pore complex proteins depend on Ran GTPase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12684370" target=_blank>Nikolaev I, <i>et al.</i> (2003 Apr)</a>. Nuclear import of zinc binuclear cluster proteins proceeds through multiple, overlapping transport pathways.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15004228" target=_blank>Freedman ND, <i>et al.</i> (2004 May)</a>. Importin 7 and importin alpha/importin beta are nuclear import receptors for the glucocorticoid receptor.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15769879" target=_blank>Brune C, <i>et al.</i> (2005 Apr)</a>. Yeast poly(A)-binding protein Pab1 shuttles between the nucleus and the cytoplasm and functions in mRNA export.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16507575" target=_blank>Bakhrat A, <i>et al.</i> (2006 May 5)</a>. Nuclear import of ho endonuclease utilizes two nuclear localization signals and four importins of the ribosomal import system.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG06921_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG06921_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG06921_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG06921_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG03079_phobius.html#FOG06921">Phobius transmembrane predictions</a>
+										<br>4 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG03079.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

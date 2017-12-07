@@ -1,0 +1,112 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01765.html">HOG01765&emsp;&emsp;TBCA family</a><br> 
+																	HOG01766&emsp;&emsp;<br> 
+																	<a href="HOG01767.html">HOG01767&emsp;&emsp;IWR1/SLC7A6OS family</a><br><br> 
+																	<a href="../sequences/hog/HOG01766.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01766_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01766_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG01766_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG04908<br>EOG8GMSHF<br><br>sce:HPC2<br><br>Genes: 20
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Subunit of the HIR complex; HIR is a nucleosome assembly complex involved in regulation of histone gene transcription; mutants display synthetic defects with subunits of FACT, a complex that allows passage of RNA Pol II through nucleosomes<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1406694" target=_blank>Xu H, <i>et al.</i> (1992 Nov)</a>. Identification of a new set of cell cycle-regulatory genes that regulate S-phase transcription of histone genes in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12524332" target=_blank>Formosa T, <i>et al.</i> (2002 Dec)</a>. Defects in SPT16 or POB3 (yFACT) in Saccharomyces cerevisiae cause dependence on the Hir/Hpc pathway: polymerase passage may degrade chromatin structure.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16264190" target=_blank>Prochasson P, <i>et al.</i> (2005 Nov 1)</a>. The HIR corepressor complex binds to nucleosomes generating a distinct protein/DNA complex resistant to remodeling by SWI/SNF.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16303565" target=_blank>Green EM, <i>et al.</i> (2005 Nov 22)</a>. Replication-independent histone deposition by the HIR complex and Asf1.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17244705" target=_blank>Juneau K, <i>et al.</i> (2007 Jan 30)</a>. High-density yeast-tiling array reveals previously undiscovered introns and extensive regulation of meiotic splicing.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG04908_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04908_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04908_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG04908_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01766_phobius.html#FOG04908">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01766.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

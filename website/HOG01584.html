@@ -1,0 +1,208 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01583.html">HOG01583&emsp;&emsp;</a><br> 
+																	HOG01584&emsp;&emsp;<br> 
+																	<a href="HOG01585.html">HOG01585&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG01584.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01584_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01584_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG01584_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG04507<br>EOG8SBCF5<br><br>sce:RAD2<br><br>Genes: 34
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Single-stranded DNA endonuclease; cleaves single-stranded DNA during nucleotide excision repair to excise damaged DNA; subunit of Nucleotide Excision Repair Factor 3 (NEF3); homolog of human XPG protein<br><br>
+			<br><b>PomBase Description</b><br>DNA repair nuclease Rad13<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have role in nucleotide-excision repair involved in interstrand cross-link repair and nucleus localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=3000874" target=_blank>Nicolet CM, <i>et al.</i> (1985)</a>. The RAD2 gene of Saccharomyces cerevisiae: nucleotide sequence and transcript mapping.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=3011752" target=_blank>Madura K, <i>et al.</i> (1986 Jun)</a>. Nucleotide sequence, transcript mapping, and regulation of the RAD2 gene of Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8247134" target=_blank>Habraken Y, <i>et al.</i> (1993 Nov 25)</a>. Yeast excision repair gene RAD2 encodes a single-stranded DNA endonuclease.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22384365" target=_blank>Wendland J, <i>et al.</i> (2011 Dec)</a>. Genome evolution in the eremothecium clade of the Saccharomyces complex revealed by comparative genomics.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG04507_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04507_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04507_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG04507_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01584_phobius.html#FOG04507">Phobius transmembrane predictions</a>
+										<br>7 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG04508<br>EOG8SBCF5<br><br>sce:RAD27<br><br>Genes: 33
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>5' to 3' exonuclease, 5' flap endonuclease; required for Okazaki fragment processing and maturation, for long-patch base-excision repair and large loop repair (LLR), ribonucleotide excision repair; member of the S. pombe RAD2/FEN1 family; relocalizes to the cytosol in response to hypoxia<br><br>
+			<br><b>PomBase Description</b><br>FEN-1 endonuclease Rad2<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have 5'-3' exodeoxyribonuclease activity involved in UV-damage excision repair, 5'-flap endonuclease activity, double-stranded DNA 5'-3' exodeoxyribonuclease activity, single-stranded DNA 5'-3' exodeoxyribonuclease activity<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7926735" target=_blank>Harrington JJ, <i>et al.</i> (1994 Jun 1)</a>. Functional domains within FEN-1 and RAD2 define a family of structure-specific endonucleases: implications for nucleotide excision repair.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7814325" target=_blank>Reagan MS, <i>et al.</i> (1995 Jan)</a>. Characterization of a mutant strain of Saccharomyces cerevisiae with a deletion of the RAD27 gene, a structural homolog of the RAD2 nucleotide excision repair gene.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9166764" target=_blank>Zhu FX, <i>et al.</i> (1997 May 20)</a>. Purification and characterization of the DNA polymerase alpha associated exonuclease: the RTH1 gene product.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10899134" target=_blank>Gomes XV, <i>et al.</i> (2000 Jul 17)</a>. Two modes of FEN1 binding to PCNA regulated by DNA.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11825897" target=_blank>Kao HI, <i>et al.</i> (2002 Apr 26)</a>. Cleavage specificity of Saccharomyces cerevisiae flap endonuclease 1 suggests a double-flap structure as the cellular substrate.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12424238" target=_blank>Ayyagari R, <i>et al.</i> (2003 Jan 17)</a>. Okazaki fragment maturation in yeast. I. Distribution of functions between FEN1 AND DNA2.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16837458" target=_blank>Rossi ML, <i>et al.</i> (2006 Sep 8)</a>. Reconstituted Okazaki fragment processing indicates two pathways of primer removal.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17138563" target=_blank>Singh P, <i>et al.</i> (2007 Feb 9)</a>. Concerted action of exonuclease and Gap-dependent endonuclease activities of FEN-1 contributes to the resolution of triplet repeat sequences (CTG)n- and (GAA)n-derived secondary structures formed during maturation of Okazaki fragments.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18443037" target=_blank>Guo Z, <i>et al.</i> (2008 Jul)</a>. Nucleolar localization and dynamic roles of flap endonuclease 1 in ribosomal DNA replication and damage repair.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19075004" target=_blank>Ma W, <i>et al.</i> (2009 Mar)</a>. The transition of closely opposed lesions to double-strand breaks during long-patch base excision repair is prevented by the coordinated action of DNA polymerase delta and Rad27/Fen1.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19699691" target=_blank>Kalifa L, <i>et al.</i> (2009 Oct 2)</a>. Evidence for a role of FEN1 in maintaining mitochondrial DNA integrity.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22814378" target=_blank>Van Damme P, <i>et al.</i> (2012 Jul 31)</a>. N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG04508_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04508_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04508_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG04508_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01584_phobius.html#FOG04508">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d7edd3" class="col">
+			FOG04509<br>EOG8SBCF5<br><br>sce:absent<br><br>Genes: 2
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>AspGD Description</b><br>Has domain(s) with predicted endonuclease activity, nuclease activity, single-stranded DNA binding activity, role in DNA repair, nucleotide-excision repair and nucleus localization<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG04509_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04509_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04509_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG04509_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01584_phobius.html#FOG04509">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01584.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

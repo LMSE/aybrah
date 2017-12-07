@@ -1,0 +1,198 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01136.html">HOG01136&emsp;&emsp;amino acid/polyamine transporter 2 family</a><br> 
+																	HOG01137&emsp;&emsp;<br> 
+																	<a href="HOG01138.html">HOG01138&emsp;&emsp;ATG22 family</a><br><br> 
+																	<a href="../sequences/hog/HOG01137.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01137_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01137_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG01137_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG01137_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG02770<br>EOG82JM7K<br><br>sce:AVT6<br><br>Genes: 30
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Vacuolar aspartate and glutamate exporter; member of a family of seven genes (AVT1-7) related to vesicular GABA-glycine transporters; involved in compartmentalizing acidic amino acids in response to nitrogen starvation; AVT6 has a paralog, AVT5, that arose from the whole genome duplication<br><br>
+			<br><b>PomBase Description</b><br>vacuolar amino acid transmembrane transporter Avt5<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have L-arginine transmembrane transporter activity, L-aspartate transmembrane transporter activity and L-glutamate transmembrane transporter activity, more<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7668045" target=_blank>Berroteran RW, <i>et al.</i> (1995 Jun 30)</a>. Sequence, map position and genome organization of the RPL17B gene, encoding ribosomal protein L17b in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11274162" target=_blank>Russnak R, <i>et al.</i> (2001 Jun 29)</a>. A family of yeast proteins mediating bidirectional vacuolar amino acid transport.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16847258" target=_blank>Kim H, <i>et al.</i> (2006 Jul 25)</a>. A global topology map of the Saccharomyces cerevisiae membrane proteome.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02770_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02770_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02770_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02770_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01137_phobius.html#FOG02770">Phobius transmembrane predictions</a>
+										<br>30 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG02771<br>EOG82JM7K<br><br>sce:AVT7<br><br>Genes: 25
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Putative transporter; member of a family of seven S. cerevisiae genes (AVT1-7) related to vesicular GABA-glycine transporters<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11274162" target=_blank>Russnak R, <i>et al.</i> (2001 Jun 29)</a>. A family of yeast proteins mediating bidirectional vacuolar amino acid transport.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16847258" target=_blank>Kim H, <i>et al.</i> (2006 Jul 25)</a>. A global topology map of the Saccharomyces cerevisiae membrane proteome.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02771_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02771_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02771_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02771_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01137_phobius.html#FOG02771">Phobius transmembrane predictions</a>
+										<br>25 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d7edd3" class="col">
+			FOG02772<br>EOG82JM7K<br><br>sce:AVT5<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Putative transporter; member of a family of seven S. cerevisiae genes (AVT1-7) related to vesicular GABA-glycine transporters; AVT5 has a paralog, AVT6, that arose from the whole genome duplication<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11274162" target=_blank>Russnak R, <i>et al.</i> (2001 Jun 29)</a>. A family of yeast proteins mediating bidirectional vacuolar amino acid transport.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12748633" target=_blank>Kellis M, <i>et al.</i> (2003 May 15)</a>. Sequencing and comparison of yeast species to identify genes and regulatory elements.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02772_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02772_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02772_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02772_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01137_phobius.html#FOG02772">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01137.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

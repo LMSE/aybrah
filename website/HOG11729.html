@@ -1,0 +1,114 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG11727.html">HOG11727&emsp;&emsp;</a><br> 
+																	HOG11729&emsp;&emsp;<br> 
+																	<a href="HOG11731.html">HOG11731&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG11729.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG11729_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG11729_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG11729_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG11729_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG15942<br>EOG83R22J<br>EOG89P8DC<br><br>sce:SIP3;YSP1<br><br>Genes: 32
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Transcription cofactor; acts through interaction with DNA-bound Snf1p; C-terminal region has a putative leucine zipper motif; potential Cdc28p substrate; SIP3 has a paralog, YSP1, that arose from the whole genome duplication|Mitochondrial protein; potential role in promoting mitochondrial fragmentation during programmed cell death in response to high levels of alpha-factor mating pheromone or the drug amiodarone; YSP1 has a paralog, SIP3, that arose from the whole genome duplication<br><br>
+			<br><b>PomBase Description</b><br>pleckstrin homology domain protein<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have role in cellular response to drug<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8127709" target=_blank>Lesage P, <i>et al.</i> (1994 Feb 25)</a>. Analysis of the SIP3 protein identified in a two-hybrid screen for interaction with the SNF1 protein kinase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16847258" target=_blank>Kim H, <i>et al.</i> (2006 Jul 25)</a>. A global topology map of the Saccharomyces cerevisiae membrane proteome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26001273" target=_blank>Gatta AT, <i>et al.</i> (2015 May 22)</a>. A new family of StART domain proteins at membrane contact sites has a role in ER-PM sterol transport.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28945192" target=_blank>Guydosh NR, <i>et al.</i> (2017 Sep 25)</a>. Regulated Ire1-dependent mRNA decay requires no-go mRNA degradation to maintain endoplasmic reticulum homeostasis in &lt;i&gt;S. pombe&lt;/i&gt;.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG15942_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG15942_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG15942_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG15942_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG11729_phobius.html#FOG15942">Phobius transmembrane predictions</a>
+										<br>31 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG11729.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

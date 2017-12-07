@@ -1,0 +1,111 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG06150.html">HOG06150&emsp;&emsp;</a><br> 
+																	HOG06152&emsp;&emsp;<br> 
+																	<a href="HOG06156.html">HOG06156&emsp;&emsp;OST1 family</a><br><br> 
+																	<a href="../sequences/hog/HOG06152.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG06152_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG06152_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG06152_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG06152_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG10365<br>EOG8STQN3<br><br>sce:UTP8<br><br>Genes: 26
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Nucleolar protein required for export of tRNAs from the nucleus; also copurifies with the small subunit (SSU) processome containing the U3 snoRNA that is involved in processing of pre-18S rRNA<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12068309" target=_blank>Dragon F, <i>et al.</i> (2002 Jun 27)</a>. A large nucleolar U3 ribonucleoprotein required for 18S ribosomal RNA biogenesis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12794079" target=_blank>Steiner-Mosonyi M, <i>et al.</i> (2003 Aug 22)</a>. Utp8p is an essential intranuclear component of the nuclear tRNA export machinery of Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15489292" target=_blank>Gallagher JE, <i>et al.</i> (2004 Oct 15)</a>. RNA polymerase I transcription and pre-rRNA processing are linked by specific SSU processome components.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20884785" target=_blank>Charette JM, <i>et al.</i> (2010 Nov)</a>. The DEAD-box RNA helicase-like Utp25 is an SSU processome component.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG10365_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG10365_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG10365_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG10365_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG06152_phobius.html#FOG10365">Phobius transmembrane predictions</a>
+										<br>5 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG06152.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

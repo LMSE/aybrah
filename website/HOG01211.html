@@ -1,0 +1,325 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01210.html">HOG01210&emsp;&emsp;</a><br> 
+																	HOG01211&emsp;&emsp;<br> 
+																	<a href="HOG01212.html">HOG01212&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG01211.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01211_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01211_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG01211_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG03298<br>EOG8SQVDD<br><br>sce:MAG2<br><br>Genes: 34
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Cytoplasmic protein of unknown function; induced in response to mycotoxin patulin; ubiquitinated protein similar to the human ring finger motif protein RNF10; predicted to be involved in repair of alkylated DNA due to interaction with MAG1<br><br>
+			<br><b>PomBase Description</b><br>ubiquitin-protein ligase E3 implicated in transcription (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have cytosol, nucleus localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10759889" target=_blank>Ding DQ, <i>et al.</i> (2000 Mar)</a>. Large-scale screening of intracellular protein localization in living fission yeast cells by the use of a GFP-fusion genomic DNA library.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18684775" target=_blank>Kennedy PJ, <i>et al.</i> (2008 Nov)</a>. A genome-wide screen of genes involved in cadmium tolerance in Schizosaccharomyces pombe.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25452419" target=_blank>Sideri T, <i>et al.</i> (2014 Dec 1)</a>. Parallel profiling of fission yeast deletion mutants for proliferation and for lifespan during long-term quiescence.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26412298" target=_blank>Beckley JR, <i>et al.</i> (2015 Dec)</a>. A Degenerate Cohort of Yeast Membrane Trafficking DUBs Mediates Cell Polarity and Survival.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03298_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03298_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03298_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03298_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01211_phobius.html#FOG03298">Phobius transmembrane predictions</a>
+										<br>2 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG03299<br>EOG8SQVDD<br><br>sce:absent<br><br>Genes: 5
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03299_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03299_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03299_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03299_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01211_phobius.html#FOG03299">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d7edd3" class="col">
+			FOG03300<br>EOG8SQVDD<br><br>sce:absent<br><br>Genes: 5
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03300_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03300_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03300_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03300_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01211_phobius.html#FOG03300">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e5d4e9" class="col">
+			FOG03301<br>EOG8SQVDD<br><br>sce:SLX8<br><br>Genes: 5
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Subunit of Slx5-Slx8 SUMO-targeted ubiquitin ligase (STUbL) complex; stimulated by prior attachment of SUMO to the substrate; contains a C-terminal RING domain; forms nuclear foci upon DNA replication stress; null mutants are aneuploid, have a metaphase delay, and spindle defects including: mispositioned spindles, fish hook spindles, and aberrant spindle kinetics; required for maintenance of genome integrity like human ortholog RNF4<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11139495" target=_blank>Mullen JR, <i>et al.</i> (2001 Jan)</a>. Requirement for three novel protein complexes in the absence of the Sgs1 DNA helicase in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16387868" target=_blank>Wang Z, <i>et al.</i> (2006 Mar)</a>. Genetic analysis connects SLX5 and SLX8 to the SUMO pathway in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16325482" target=_blank>Zhang C, <i>et al.</i> (2006 Mar 7)</a>. Suppression of genomic instability by SLX5 and SLX8 in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17669696" target=_blank>Ii T, <i>et al.</i> (2007 Nov)</a>. Stimulation of in vitro sumoylation by Slx5-Slx8: evidence for a functional interaction with the SUMO pathway.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18032921" target=_blank>Ii T, <i>et al.</i> (2007 Nov 15)</a>. The yeast Slx5-Slx8 DNA integrity complex displays ubiquitin ligase activity.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17728242" target=_blank>Uzunova K, <i>et al.</i> (2007 Nov 23)</a>. Ubiquitin-dependent proteolytic control of SUMO conjugates.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17848550" target=_blank>Xie Y, <i>et al.</i> (2007 Nov 23)</a>. The yeast Hex3.Slx8 heterodimer is a ubiquitin ligase stimulated by substrate sumoylation.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17591698" target=_blank>Burgess RC, <i>et al.</i> (2007 Sep)</a>. The Slx5-Slx8 complex affects sumoylation of DNA repair proteins and negatively regulates recombination.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18562670" target=_blank>Andersen MP, <i>et al.</i> (2008 Jul)</a>. A genetic screen for increased loss of heterozygosity in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18499666" target=_blank>Mullen JR, <i>et al.</i> (2008 Jul 18)</a>. Activation of the Slx5-Slx8 ubiquitin ligase by poly-small ubiquitin-like modifier conjugates.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18948542" target=_blank>Nagai S, <i>et al.</i> (2008 Oct 24)</a>. Functional targeting of DNA damage to a nuclear pore-associated SUMO-dependent ubiquitin ligase.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03301_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03301_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03301_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03301_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01211_phobius.html#FOG03301">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fbe2c3" class="col">
+			FOG03302<br>EOG8SQVDD<br><br>sce:absent<br><br>Genes: 4
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03302_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03302_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03302_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03302_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01211_phobius.html#FOG03302">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fdffcc" class="col">
+			FOG03303<br>EOG8SQVDD<br><br>sce:absent<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03303_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03303_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03303_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03303_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01211_phobius.html#FOG03303">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01211.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

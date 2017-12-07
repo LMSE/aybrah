@@ -1,0 +1,155 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG03196.html">HOG03196&emsp;&emsp;</a><br> 
+																	HOG03197&emsp;&emsp;<br> 
+																	<a href="HOG03198.html">HOG03198&emsp;&emsp;YRA1 family</a><br><br> 
+																	<a href="../sequences/hog/HOG03197.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG03197_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG03197_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG03197_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG03197_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG07082<br>EOG8F4QW5<br><br>sce:ERP3;ERP4<br><br>Genes: 42
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Protein with similarity to Emp24p and Erv25p; member of the p24 family involved in ER to Golgi transport|Member of the p24 family involved in ER to Golgi transport; similar to Emp24p and Erv25p; ERP4 has a paralog, ERP2, that arose from the whole genome duplication<br><br>
+			<br><b>PomBase Description</b><br>COPII-coated vesicle component Erp2/3/4 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>p24 family protein; expression enhanced by maltose<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10359606" target=_blank>Marzioch M, <i>et al.</i> (1999 Jun)</a>. Erp1p and Erp2p, partners for Emp24p and Erv25p in a yeast p24 complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22384365" target=_blank>Wendland J, <i>et al.</i> (2011 Dec)</a>. Genome evolution in the eremothecium clade of the Saccharomyces complex revealed by comparative genomics.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG07082_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG07082_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG07082_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG07082_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG03197_phobius.html#FOG07082">Phobius transmembrane predictions</a>
+										<br>42 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG07083<br>EOG8F4QW5<br><br>sce:ERP2<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Member of the p24 family involved in ER to Golgi transport; similar to Emp24p and Erv25p; role in misfolded protein quality control; forms a heterotrimeric complex with Erp1p, Emp24p, and Erv25p; localized to COPII-coated vesicles; ERP2 has a paralog, ERP4, that arose from the whole genome duplication<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7941740" target=_blank>Clark MW, <i>et al.</i> (1994 Apr)</a>. Sequencing of chromosome I of Saccharomyces cerevisiae: analysis of the 42 kbp SPO7-CENI-CDC15 region.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10359606" target=_blank>Marzioch M, <i>et al.</i> (1999 Jun)</a>. Erp1p and Erp2p, partners for Emp24p and Erv25p in a yeast p24 complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16847258" target=_blank>Kim H, <i>et al.</i> (2006 Jul 25)</a>. A global topology map of the Saccharomyces cerevisiae membrane proteome.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG07083_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG07083_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG07083_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG07083_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG03197_phobius.html#FOG07083">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG03197.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

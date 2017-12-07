@@ -1,0 +1,113 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01969.html">HOG01969&emsp;&emsp;SAP30 family</a><br> 
+																	HOG01970&emsp;&emsp;<br> 
+																	<a href="HOG01971.html">HOG01971&emsp;&emsp;AIM41 family</a><br><br> 
+																	<a href="../sequences/hog/HOG01970.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01970_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01970_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG01970_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG05338<br>EOG83R23V<br><br>sce:RAD9<br><br>Genes: 22
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>DNA damage-dependent checkpoint protein; required for cell-cycle arrest in G1/S, intra-S, and G2/M, plays a role in postreplication repair (PRR) pathway; transmits checkpoint signal by activating Rad53p and Chk1p; hyperphosphorylated by Mec1p and Tel1p; multiple cyclin dependent kinase consensus sites and the C-terminal BRCT domain contribute to DNA damage checkpoint activation; Rad9p Chk1 Activating Domain (CAD) is phosphorylated at multiple sites by Cdc28p/Clb2p<br><br>
+			<br><b>PomBase Description</b><br>DNA repair protein Rad9 homolog Crb2<br><br>
+			<br><b>AspGD Description</b><br>Ortholog of A. nidulans FGSC A4 : AN12204, A. fumigatus Af293 : Afu5g04020, A. oryzae RIB40 : AO090102000605, Neosartorya fischeri NRRL 181 : NFIA_038090 and Aspergillus wentii : Aspwe1_0043117<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2664461" target=_blank>Schiestl RH, <i>et al.</i> (1989 May)</a>. Cloning and sequence analysis of the Saccharomyces cerevisiae RAD9 gene and further evidence that its product is required for cell cycle arrest induced by DNA damage.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2247073" target=_blank>Weinert TA, <i>et al.</i> (1990 Dec)</a>. Characterization of RAD9 of Saccharomyces cerevisiae and evidence that its function acts posttranslationally in cell cycle arrest after DNA damage.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9755168" target=_blank>Vialard JE, <i>et al.</i> (1998 Oct 1)</a>. The budding yeast Rad9 checkpoint protein is subjected to Mec1/Tel1-dependent hyperphosphorylation and interacts with Rad53 after DNA damage.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17287358" target=_blank>Chi A, <i>et al.</i> (2007 Feb 13)</a>. Analysis of phosphorylation sites on proteins from Saccharomyces cerevisiae by electron transfer dissociation (ETD) mass spectrometry.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG05338_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05338_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05338_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG05338_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01970_phobius.html#FOG05338">Phobius transmembrane predictions</a>
+										<br>4 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01970.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

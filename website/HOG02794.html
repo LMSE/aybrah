@@ -1,0 +1,113 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG02793.html">HOG02793&emsp;&emsp;</a><br> 
+																	HOG02794&emsp;&emsp;<br> 
+																	<a href="HOG02795.html">HOG02795&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG02794.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG02794_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG02794_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG02794_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG02794_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG06528<br>EOG8MSBK8<br><br>sce:ASG7<br><br>Genes: 6
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Protein that regulates signaling from G protein beta subunit Ste4p; contributes to relocalization of Ste4p within the cell; specific to a-cells and induced by alpha-factor<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10568744" target=_blank>Zhong H, <i>et al.</i> (1999 Nov)</a>. Identification of target sites of the alpha2-Mcm1 repressor complex in the yeast genome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11073983" target=_blank>Kim J, <i>et al.</i> (2000 Dec)</a>. Localization and signaling of G(beta) subunit Ste4p are controlled by a-factor receptor and the a-specific protein Asg7p.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11073982" target=_blank>Roth AF, <i>et al.</i> (2000 Dec)</a>. Asg7p-Ste3p inhibition of pheromone signaling: regulation of the zygotic transition to vegetative growth.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12748633" target=_blank>Kellis M, <i>et al.</i> (2003 May 15)</a>. Sequencing and comparison of yeast species to identify genes and regulatory elements.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=13680367" target=_blank>Rivers DM, <i>et al.</i> (2003 Nov)</a>. Autocrine activation of the pheromone response pathway in matalpha2- cells is attenuated by SST2- and ASG7-dependent mechanisms.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16847258" target=_blank>Kim H, <i>et al.</i> (2006 Jul 25)</a>. A global topology map of the Saccharomyces cerevisiae membrane proteome.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG06528_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG06528_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG06528_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG06528_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG02794_phobius.html#FOG06528">Phobius transmembrane predictions</a>
+										<br>6 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG02794.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

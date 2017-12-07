@@ -1,0 +1,112 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG09677.html">HOG09677&emsp;&emsp;</a><br> 
+																	HOG09692&emsp;&emsp;<br> 
+																	<a href="HOG09694.html">HOG09694&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG09692.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG09692_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG09692_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG09692_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG09692_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG13906<br>EOG8GTJ0G<br><br>sce:DSE2<br><br>Genes: 3
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Daughter cell-specific secreted protein with similarity to glucanases; degrades cell wall from the daughter side causing daughter to separate from mother; expression is repressed by cAMP<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11309124" target=_blank>Doolin MT, <i>et al.</i> (2001 Apr)</a>. Overlapping and distinct roles of the duplicated yeast transcription factors Ace2p and Swi5p.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11747810" target=_blank>Colman-Lerner A, <i>et al.</i> (2001 Dec 14)</a>. Yeast Cbk1 and Mob2 activate daughter-specific genetic programs to induce asymmetric cell fates.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11935221" target=_blank>Terashima H, <i>et al.</i> (2002 Feb)</a>. Sequence-based approach for identification of cell wall proteins in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14709718" target=_blank>Ufano S, <i>et al.</i> (2004 Feb 1)</a>. Swm1p subunit of the APC/cyclosome is required for activation of the daughter-specific gene expression program mediated by Ace2p during growth at high temperature in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16820445" target=_blank>Purevdorj-Gage B, <i>et al.</i> (2006 Jul)</a>. Effects of low-shear modeled microgravity on cell function, gene expression, and phenotype in Saccharomyces cerevisiae.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG13906_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG13906_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG13906_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG13906_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG09692_phobius.html#FOG13906">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG09692.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

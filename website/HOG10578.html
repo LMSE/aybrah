@@ -1,0 +1,111 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG10575.html">HOG10575&emsp;&emsp;CDC123 family</a><br> 
+																	HOG10578&emsp;&emsp;<br> 
+																	<a href="HOG10579.html">HOG10579&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG10578.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG10578_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG10578_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG10578_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG10578_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG14792<br>EOG83XSNM<br>EOG8DJHF4<br><br>sce:absent<br><br>Genes: 31
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Bifunctional HMG aldolase/oxaloacetate decarboxylase; requires divalent metal ions for activity; competitively inhibited by oxalate; forms a ring-shaped homotrimer; similar to members of the prokaryotic RraA family of class II (divalent metal ion dependent) pyruvate aldolases from the meta cleavage pathways of protocatechuate and gallate<br><br>
+			<br><b>AspGD Description</b><br>Ortholog of A. nidulans FGSC A4 : AN10700, A. fumigatus Af293 : Afu4g10940, A. oryzae RIB40 : AO090003001122, Aspergillus wentii : Aspwe1_0166704 and Aspergillus carbonarius ITEM 5010 : Acar5010_128332|Ortholog(s) have 4-hydroxy-4-methyl-2-oxoglutarate aldolase activity, oxaloacetate decarboxylase activity and role in protocatechuate catabolic process|Ortholog of A. niger CBS 513.88 : An16g00140, A. oryzae RIB40 : AO090001000125, Aspergillus wentii : Aspwe1_0121384, Aspwe1_0177591 and Aspergillus versicolor : Aspve1_0044786, Aspve1_0155873<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16195557" target=_blank>Leulliot N, <i>et al.</i> (2005 Oct)</a>. Crystal structure of yeast YER010Cp, a knotable member of the RraA protein family.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22814378" target=_blank>Van Damme P, <i>et al.</i> (2012 Jul 31)</a>. N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24359411" target=_blank>Mazurkewich S, <i>et al.</i> (2014 Jan 28)</a>. Biochemical and structural analysis of RraA proteins to decipher their relationships with 4-hydroxy-4-methyl-2-oxoglutarate/4-carboxy-4-hydroxy-2-oxoadipate aldolases.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG14792_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG14792_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG14792_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG14792_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG10578_phobius.html#FOG14792">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG10578.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

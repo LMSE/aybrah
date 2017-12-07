@@ -1,0 +1,110 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG13139.html">HOG13139&emsp;&emsp;tti1 family</a><br> 
+																	HOG13143&emsp;&emsp;<br> 
+																	<a href="HOG13144.html">HOG13144&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG13143.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG13143_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG13143_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG13143_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG13143_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG17356<br>EOG85TB8V<br><br>sce:PMP2;PMP1<br><br>Genes: 4
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Proteolipid associated with plasma membrane H(+)-ATPase (Pma1p); regulates plasma membrane H(+)-ATPase activity; protein abundance increases in response to DNA replication stress; PMP2 has a paralog, PMP1, that arose from the whole genome duplication|Regulatory subunit for the plasma membrane H(+)-ATPase Pma1p; small single-membrane span proteolipid; forms unique helix and positively charged cytoplasmic domain that is able to specifically segregate phosphatidylserines; PMP1 has a paralog, PMP2, that arose from the whole genome duplication<br><br>
+			<br><b>AspGD Description</b><br>Has domain(s) with predicted enzyme regulator activity and role in regulation of catalytic activity<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1532582" target=_blank>Navarre C, <i>et al.</i> (1992 Mar 25)</a>. Purification and complete sequence of a small proteolipid associated with the plasma membrane H(+)-ATPase of Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8063750" target=_blank>Navarre C, <i>et al.</i> (1994 Aug 19)</a>. Two distinct genes encode small isoproteolipids affecting plasma membrane H(+)-ATPase activity of Saccharomyces cerevisiae.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG17356_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG17356_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG17356_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG17356_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG13143_phobius.html#FOG17356">Phobius transmembrane predictions</a>
+										<br>4 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG13143.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

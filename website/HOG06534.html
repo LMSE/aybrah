@@ -1,0 +1,113 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG06523.html">HOG06523&emsp;&emsp;</a><br> 
+																	HOG06534&emsp;&emsp;<br> 
+																	<a href="HOG06536.html">HOG06536&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG06534.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG06534_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG06534_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG06534_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG06534_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG10747<br>EOG8RV1BG<br><br>sce:absent<br><br>Genes: 5
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9043119" target=_blank>Ishii N, <i>et al.</i> (1997 Feb)</a>. A DNA-binding protein from Candida albicans that binds to the RPG box of Saccharomyces cerevisiae and the telomeric repeat sequence of C. albicans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9043120" target=_blank>Ishii N, <i>et al.</i> (1997 Feb)</a>. Biochemical and genetic characterization of Rbf1p, a putative transcription factor of Candida albicans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10464197" target=_blank>Sharkey LL, <i>et al.</i> (1999 Sep)</a>. HWP1 functions in the morphological development of Candida albicans downstream of EFG1, TUP1, and RBF1.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12787355" target=_blank>Cheng S, <i>et al.</i> (2003 Jun)</a>. Identification of Candida albicans genes induced during thrush offers insight into pathogenesis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16710830" target=_blank>Umeyama T, <i>et al.</i> (2006 May)</a>. Repression of CDC28 reduces the expression of the morphology-related transcription factors, Efg1p, Nrg1p, Rbf1p, Rim101p, Fkh2p and Tec1p and induces cell elongation in Candida albicans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18616606" target=_blank>Menon V, <i>et al.</i> (2008 Aug)</a>. Transcriptional profiling of the Candida albicans Ssk1p receiver domain point mutants and their virulence.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20388546" target=_blank>Alonso-Monge R, <i>et al.</i> (2010 Jul)</a>. The Sko1 protein represses the yeast-to-hypha transition and regulates the oxidative stress response in Candida albicans.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG10747_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG10747_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG10747_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG10747_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG06534_phobius.html#FOG10747">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG06534.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

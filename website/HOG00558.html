@@ -1,0 +1,153 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG00557.html">HOG00557&emsp;&emsp;kynurenine formamidase family</a><br> 
+																	HOG00558&emsp;&emsp;<br> 
+																	<a href="HOG00559.html">HOG00559&emsp;&emsp;kynureninase family</a><br><br> 
+																	<a href="../sequences/hog/HOG00558.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG00558_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG00558_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG00558_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG00558_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG01345<br>EOG8P2NH5<br><br>sce:BNA4<br><br>Genes: 32
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Kynurenine 3-monooxygenase; required for the de novo biosynthesis of NAD from tryptophan via kynurenine; expression regulated by Hst1p; putative therapeutic target for Huntington disease<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have kynurenine 3-monooxygenase activity<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12062417" target=_blank>Panozzo C, <i>et al.</i> (2002 Apr 24)</a>. Aerobic and anaerobic NAD+ metabolism in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14576278" target=_blank>Sickmann A, <i>et al.</i> (2003 Nov 11)</a>. The proteome of Saccharomyces cerevisiae mitochondria.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15806102" target=_blank>Giorgini F, <i>et al.</i> (2005 May)</a>. A genomic screen in yeast implicates kynurenine 3-monooxygenase as a therapeutic target for Huntington disease.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16407407" target=_blank>Zahedi RP, <i>et al.</i> (2006 Mar)</a>. Proteomic analysis of the yeast mitochondrial outer membrane reveals accumulation of a subclass of preproteins.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23472095" target=_blank>Colabardini AC, <i>et al.</i> (2013)</a>. Functional characterization of Aspergillus nidulans ypkA, a homologue of the mammalian kinase SGK.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG01345_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG01345_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG01345_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG01345_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00558_phobius.html#FOG01345">Phobius transmembrane predictions</a>
+										<br>29 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG01346<br>EOG8P2NH5<br><br>sce:absent<br><br>Genes: 2
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>AspGD Description</b><br>Putative kynurenine3-hydroxylase|Has domain(s) with predicted FAD binding, oxidoreductase activity and role in metabolic process<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG01346_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG01346_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG01346_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG01346_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00558_phobius.html#FOG01346">Phobius transmembrane predictions</a>
+										<br>2 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG00558.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

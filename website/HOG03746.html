@@ -1,0 +1,113 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG03745.html">HOG03745&emsp;&emsp;</a><br> 
+																	HOG03746&emsp;&emsp;<br> 
+																	<a href="HOG03747.html">HOG03747&emsp;&emsp;RRP17 family</a><br><br> 
+																	<a href="../sequences/hog/HOG03746.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG03746_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG03746_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG03746_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG03746_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG07819<br>EOG85QFV2<br><br>sce:UBP2<br><br>Genes: 34
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Ubiquitin-specific protease; removes ubiquitin from ubiquitinated proteins; controls K63 homeostasis during oxidative stress; deubiquitinates Rsp5p and is required for MVB sorting of membrane proteins; can cleave polyubiquitin and has isopeptidase activity<br><br>
+			<br><b>PomBase Description</b><br>ubiquitin C-terminal hydrolase Ubp2<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have ubiquitin-specific protease activity, role in protein deubiquitination, ubiquitin homeostasis, ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway and cytosol localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1429680" target=_blank>Baker RT, <i>et al.</i> (1992 Nov 15)</a>. Ubiquitin-specific proteases of Saccharomyces cerevisiae. Cloning of UBP2 and UBP3, and functional analysis of the UBP gene family.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10953877" target=_blank>Winkler AA, <i>et al.</i> (2000 Jul)</a>. Isolation and characterization of KIUBP2, a ubiquitin hydrolase gene of Kluyveromyces lactis that can suppress a ts-mutation in CBF2, a gene encoding a centromeric protein of Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15933713" target=_blank>Kee Y, <i>et al.</i> (2005 Jul 6)</a>. The Rsp5 ubiquitin ligase is coupled to and antagonized by the Ubp2 deubiquitinating enzyme.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23317502" target=_blank>Anton F, <i>et al.</i> (2013 Feb 7)</a>. Two deubiquitylases act on mitofusin and regulate mitochondrial fusion along independent pathways.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG07819_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG07819_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG07819_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG07819_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG03746_phobius.html#FOG07819">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG03746.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

@@ -1,0 +1,112 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG12781.html">HOG12781&emsp;&emsp;</a><br> 
+																	HOG12783&emsp;&emsp;<br> 
+																	<a href="HOG12784.html">HOG12784&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG12783.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG12783_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG12783_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG12783_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG12783_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG16996<br>EOG85DV74<br>EOG86T1JG<br><br>sce:ECM18;ICT1<br><br>Genes: 25
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Protein of unknown function; ECM18 has a paralog, ICT1, that arose from the whole genome duplication|Lysophosphatidic acid acyltransferase; responsible for enhanced phospholipid synthesis during organic solvent stress; null displays increased sensitivity to Calcofluor white; highly expressed during organic solvent stress; ICT1 has a paralog, ECM18, that arose from the whole genome duplication<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9335584" target=_blank>Lussier M, <i>et al.</i> (1997 Oct)</a>. Large scale identification of genes involved in cell surface biosynthesis and architecture in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9717239" target=_blank>Launhardt H, <i>et al.</i> (1998 Jul)</a>. Drug-induced phenotypes provide a tool for the functional analysis of yeast genes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10628851" target=_blank>Entian KD, <i>et al.</i> (1999 Dec)</a>. Functional analysis of 150 deletion mutants in Saccharomyces cerevisiae by a systematic approach.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11055939" target=_blank>Miura S, <i>et al.</i> (2000 Nov)</a>. Screening of genes involved in isooctane tolerance in Saccharomyces cerevisiae by using mRNA differential display.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18252723" target=_blank>Ghosh AK, <i>et al.</i> (2008 Apr 11)</a>. YLR099C (ICT1) encodes a soluble Acyl-CoA-dependent lysophosphatidic acid acyltransferase responsible for enhanced phospholipid synthesis on organic solvent stress in Saccharomyces cerevisiae.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG16996_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG16996_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG16996_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG16996_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG12783_phobius.html#FOG16996">Phobius transmembrane predictions</a>
+										<br>3 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG12783.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

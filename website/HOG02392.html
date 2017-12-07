@@ -1,0 +1,154 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG02391.html">HOG02391&emsp;&emsp;ATG12 family</a><br> 
+																	HOG02392&emsp;&emsp;<br> 
+																	<a href="HOG02393.html">HOG02393&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG02392.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG02392_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG02392_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG02392_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG05966<br>EOG8T1G63<br><br>sce:NPC2<br><br>Genes: 33
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Sterol transport protein and functional homolog of human NPC2/He1; human NPC2 is a cholesterol-binding protein whose deficiency causes Niemann-Pick type C2 disease involving retention of cholesterol in lysosomes; yeast NPC2 can complement mutations in human NPC2<br><br>
+			<br><b>PomBase Description</b><br>Niemann-Pick disease type C2 protein hE1 homolog Npc2 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have role in intracellular sterol transport and extracellular region, fungal-type vacuole lumen localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12529438" target=_blank>Chen D, <i>et al.</i> (2003 Jan)</a>. Global transcriptional responses of fission yeast to environmental stress.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22384365" target=_blank>Wendland J, <i>et al.</i> (2011 Dec)</a>. Genome evolution in the eremothecium clade of the Saccharomyces complex revealed by comparative genomics.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22835028" target=_blank>Saykhedkar S, <i>et al.</i> (2012 Jul 26)</a>. A time course analysis of the extracellular proteome of Aspergillus nidulans growing on sorghum stover.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23173672" target=_blank>Pan X, <i>et al.</i> (2012 Nov 23)</a>. Identification of novel genes involved in DNA damage response by screening a genome-wide Schizosaccharomyces pombe deletion library.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25043916" target=_blank>Martins I, <i>et al.</i> (2014 Jul 21)</a>. Elucidating how the saprophytic fungus Aspergillus nidulans uses the plant polyester suberin as carbon source.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG05966_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05966_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05966_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG05966_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG02392_phobius.html#FOG05966">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG05967<br>EOG8T1G63<br><br>sce:absent<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG05967_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05967_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05967_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG05967_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG02392_phobius.html#FOG05967">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG02392.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

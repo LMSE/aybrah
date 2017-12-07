@@ -1,0 +1,888 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG00231.html">HOG00231&emsp;&emsp;zinc-containing alcohol dehydrogenase family</a><br> 
+																	HOG00232&emsp;&emsp;<br> 
+																	<a href="HOG00233.html">HOG00233&emsp;&emsp;acireductone dioxygenase (ARD) family; short-chain dehydrogenases/reductases (SDR) family</a><br><br> 
+																	<a href="../sequences/hog/HOG00232.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG00232_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG00232_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG00232_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG00232_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG00411<br>EOG84XH0C<br>ARA1<br>sce:ARA1<br><br>Genes: 30
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>NADP+ dependent arabinose dehydrogenase; involved in carbohydrate metabolism; purified as homodimer; naturally occurs with a N-terminus degradation product<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2005616" target=_blank>Martínez-Soriano JP, <i>et al.</i> (1991 Feb 20)</a>. A widely distributed "CAT" family of repetitive DNA sequences.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9920381" target=_blank>Kim ST, <i>et al.</i> (1998 Dec 8)</a>. D-arabinose dehydrogenase and its gene from Saccharomyces cerevisiae.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00411_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00411_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00411_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00411_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00232_phobius.html#FOG00411">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG00412<br>EOG84XH0C<br><br>sce:absent<br><br>Genes: 33
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>NADPH-dependent alpha-keto amide reductase; reduces aromatic alpha-keto amides, aliphatic alpha-keto esters, and aromatic alpha-keto esters; member of the aldo-keto reductase (AKR) family; protein abundance increases in response to DNA replication stress<br><br>
+			<br><b>PomBase Description</b><br>NADH/NADPH dependent indole-3-acetaldehyde reductase<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have alditol:NADP+ 1-oxidoreductase activity, alpha-keto amide reductase activity, alpha-keto ester reductase activity and indole-3-acetaldehyde reductase (NADH) activity, more<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11306085" target=_blank>Petrash JM, <i>et al.</i> (2001 Jan 30)</a>. Functional genomic studies of aldo-keto reductases.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12529438" target=_blank>Chen D, <i>et al.</i> (2003 Jan)</a>. Global transcriptional responses of fission yeast to environmental stress.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12627397" target=_blank>Salusjärvi L, <i>et al.</i> (2003 Mar)</a>. Proteome analysis of recombinant xylose-fermenting Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15564669" target=_blank>Ishihara K, <i>et al.</i> (2004 Nov)</a>. Purification and characterization of alpha-keto amide reductase from Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16813561" target=_blank>Di Luccio E, <i>et al.</i> (2006 Nov 15)</a>. Identification of a novel NADH-specific aldo-keto reductase using sequence and structural homologies.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22840777" target=_blank>Kawashima SA, <i>et al.</i> (2012 Jul 27)</a>. Analyzing fission yeast multidrug resistance mechanisms to develop a genetically tractable model system for chemical biology.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26412298" target=_blank>Beckley JR, <i>et al.</i> (2015 Dec)</a>. A Degenerate Cohort of Yeast Membrane Trafficking DUBs Mediates Cell Polarity and Survival.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00412_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00412_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00412_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00412_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00232_phobius.html#FOG00412">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d7edd3" class="col">
+			FOG00413<br>EOG84XH0C<br><br>sce:absent<br><br>Genes: 2
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00413_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00413_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00413_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00413_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00232_phobius.html#FOG00413">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e5d4e9" class="col">
+			FOG00414<br>EOG84XH0C<br><br>sce:absent<br><br>Genes: 23
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Parent</b><br>paralog:FOG00412<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00414_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00414_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00414_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00414_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00232_phobius.html#FOG00414">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fbe2c3" class="col">
+			FOG00415<br><br><br>sce:absent<br><br>Genes: 3
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Parent</b><br>paralog:FOG00414<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00415_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00415_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00415_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00415_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00232_phobius.html#FOG00415">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fdffcc" class="col">
+			FOG00416<br>EOG84XH0C<br><br>sce:absent<br><br>Genes: 72
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Xylose and arabinose reductase; member of the aldo-keto reductase (AKR) family; GFP-fusion protein is induced in response to the DNA-damaging agent MMS<br><br>
+			<br><b>PomBase Description</b><br>xylose and arabinose reductase (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Has domain(s) with predicted oxidoreductase activity and role in oxidation-reduction process|Ortholog(s) have alditol:NADP+ 1-oxidoreductase activity, role in D-xylose catabolic process, arabinose catabolic process, cellular response to oxidative stress and cytosol, nucleus localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12529438" target=_blank>Chen D, <i>et al.</i> (2003 Jan)</a>. Global transcriptional responses of fission yeast to environmental stress.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17880424" target=_blank>Malavazi I, <i>et al.</i> (2007 Oct)</a>. Transcriptome analysis of the Aspergillus nidulans AtmA (ATM, Ataxia-Telangiectasia mutated) null mutant.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22840777" target=_blank>Kawashima SA, <i>et al.</i> (2012 Jul 27)</a>. Analyzing fission yeast multidrug resistance mechanisms to develop a genetically tractable model system for chemical biology.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25452419" target=_blank>Sideri T, <i>et al.</i> (2014 Dec 1)</a>. Parallel profiling of fission yeast deletion mutants for proliferation and for lifespan during long-term quiescence.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00416_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00416_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00416_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00416_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00232_phobius.html#FOG00416">Phobius transmembrane predictions</a>
+										<br>2 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e7d7cd" class="col">
+			FOG00417<br>EOG84XH0C<br><br>sce:GCY1<br><br>Genes: 57
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Glycerol dehydrogenase; involved in an alternative pathway for glycerol catabolism used under microaerobic conditions; also has mRNA binding activity; member of the aldo-keto reductase (AKR) family; protein abundance increases in response to DNA replication stress; GCY1 has a paralog, YPR1, that arose from the whole genome duplication<br><br>
+			<br><b>AspGD Description</b><br>Glycerol dehydrogenase|Uronate dehydrogenase|Ortholog(s) have alditol:NADP+ 1-oxidoreductase activity, glycerol dehydrogenase [NAD(P)+] activity, mRNA binding activity and role in D-xylose catabolic process, arabinose catabolic process, cellular response to oxidative stress<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=6092058" target=_blank>Sadler I, <i>et al.</i> (1984 Sep)</a>. Sequencing of the nuclear gene for the yeast cytochrome c1 precursor reveals an unusually complex amino-terminal presequence.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2901985" target=_blank>Oechsner U, <i>et al.</i> (1988 Sep 26)</a>. A nuclear yeast gene (GCY) encodes a polypeptide with high homology to a vertebrate eye lens protein.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2199324" target=_blank>Magdolen V, <i>et al.</i> (1990 May 31)</a>. Transcriptional control by galactose of a yeast gene encoding a protein homologous to mammalian aldo/keto reductases.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9395503" target=_blank>Angermayr M, <i>et al.</i> (1997 Dec 12)</a>. The type of basal promoter determines the regulated or constitutive mode of transcription in the common control region of the yeast gene pair GCY1/RIO1.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9038161" target=_blank>Norbeck J, <i>et al.</i> (1997 Feb 28)</a>. Metabolic and regulatory changes associated with growth of Saccharomyces cerevisiae in 1.4 M NaCl. Evidence for osmotic induction of glycerol dissimilation via the dihydroxyacetone pathway.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9435793" target=_blank>Angermayr M, <i>et al.</i> (1997 Nov)</a>. The general regulatory factor Reb1p controls basal, but not Gal4p-mediated, transcription of the GCY1 gene in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11113971" target=_blank>Costenoble R, <i>et al.</i> (2000 Dec)</a>. Microaerobic glycerol formation in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10818358" target=_blank>Hur E, <i>et al.</i> (2000 Jun)</a>. Crystallization and aldo-keto reductase activity of Gcy1p from Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10873857" target=_blank>Hunte C, <i>et al.</i> (2000 Jun 15)</a>. Structure at 2.3 A resolution of the cytochrome bc(1) complex from the yeast Saccharomyces cerevisiae co-crystallized with an antibody Fv fragment.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11306085" target=_blank>Petrash JM, <i>et al.</i> (2001 Jan 30)</a>. Functional genomic studies of aldo-keto reductases.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11880631" target=_blank>Lange C, <i>et al.</i> (2002 Mar 5)</a>. Crystal structure of the yeast cytochrome bc1 complex with its bound substrate cytochrome c.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12536147" target=_blank>Angermayr M, <i>et al.</i> (2003 Mar 28)</a>. Permanent nucleosome exclusion from the Gal4p-inducible yeast GCY1 promoter.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15127164" target=_blank>Izawa S, <i>et al.</i> (2004 Nov)</a>. Intracellular glycerol influences resistance to freeze stress in Saccharomyces cerevisiae: analysis of a quadruple mutant in glycerol dehydrogenase genes and glycerol-enriched cells.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17140678" target=_blank>Chang Q, <i>et al.</i> (2007 Mar)</a>. Functional studies of aldo-keto reductases in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20969648" target=_blank>Schinko T, <i>et al.</i> (2010 Nov)</a>. Transcriptome analysis of nitrate assimilation in Aspergillus nidulans reveals connections to nitric oxide metabolism.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20844764" target=_blank>Tsvetanova NG, <i>et al.</i> (2010 Sep 10)</a>. Proteome-wide search reveals unexpected RNA-binding proteins in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22979944" target=_blank>Jung JY, <i>et al.</i> (2012 Dec)</a>. Characterization of GCY1 in Saccharomyces cerevisiae by metabolic profiling.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22835028" target=_blank>Saykhedkar S, <i>et al.</i> (2012 Jul 26)</a>. A time course analysis of the extracellular proteome of Aspergillus nidulans growing on sorghum stover.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22842922" target=_blank>Tkach JM, <i>et al.</i> (2012 Sep)</a>. Dissecting DNA damage response pathways by analysing protein localization and abundance changes during DNA replication stress.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23896974" target=_blank>Zhang L, <i>et al.</i> (2013 Oct)</a>. Engineering of the glycerol decomposition pathway and cofactor regulation in an industrial yeast improves ethanol production.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23770562" target=_blank>Yoon SA, <i>et al.</i> (2013 Oct 28)</a>. Development of a bioconversion system using Saccharomyces cerevisiae Reductase YOR120W and Bacillus subtilis glucose dehydrogenase for chiral alcohol synthesis.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00417_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00417_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00417_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00417_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00232_phobius.html#FOG00417">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fadff0" class="col">
+			FOG00418<br>EOG84XH0C<br><br>sce:YPR1<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>NADPH-dependent aldo-keto reductase; reduces multiple substrates including 2-methylbutyraldehyde and D,L-glyceraldehyde, expression is induced by osmotic and oxidative stress; functionally redundant with other aldo-keto reductases; protein abundance increases in response to DNA replication stress; YPR1 has a paralog, GCY1, that arose from the whole genome duplication<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00418_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00418_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00418_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00418_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00232_phobius.html#FOG00418">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f2c0c1" class="col">
+			FOG00419<br>EOG84XH0C<br>EOG8JQ2CD<br>EOG8STQKF<br><br>sce:OXP1<br><br>Genes: 69
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>5-oxoprolinase; enzyme is ATP-dependent and functions as a dimer; similar to mouse Oplah gene; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm; protein abundance increases in response to DNA replication stress<br><br>
+			<br><b>PomBase Description</b><br>5-oxoprolinase (ATP-hydrolizing) (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Has domain(s) with predicted catalytic activity, hydrolase activity|Has domain(s) with predicted catalytic activity, hydrolase activity|Has domain(s) with predicted catalytic activity, hydrolase activity|Ortholog(s) have cytosol localization|Has domain(s) with predicted catalytic activity, hydrolase activity|Has domain(s) with predicted catalytic activity, hydrolase activity<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1511880" target=_blank>Roy A, <i>et al.</i> (1992 Sep 1)</a>. Nucleotide sequence of the URA1 gene of Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17556368" target=_blank>van Slegtenhorst M, <i>et al.</i> (2007 Aug 24)</a>. The Birt-Hogg-Dube and tuberous sclerosis complex homologs have opposing roles in amino acid homeostasis in Schizosaccharomyces pombe.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20349993" target=_blank>Lu W, <i>et al.</i> (2010 Apr 15)</a>. Metabolomic analysis via reversed-phase ion-pairing liquid chromatography coupled to a stand alone orbitrap mass spectrometer.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20402795" target=_blank>Kumar A, <i>et al.</i> (2010 Jun)</a>. OXP1/YKL215c encodes an ATP-dependent 5-oxoprolinase in Saccharomyces cerevisiae: functional characterization, domain structure and identification of actin-like ATP-binding motifs in eukaryotic 5-oxoprolinases.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22814378" target=_blank>Van Damme P, <i>et al.</i> (2012 Jul 31)</a>. N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00419_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00419_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00419_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00419_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00232_phobius.html#FOG00419">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#cbd9eb" class="col">
+			FOG00420<br>EOG84XH0C<br>XYL1<br>sce:GRE3<br><br>Genes: 34
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>NADPH Xylose reductase<br><br>
+			<br><b>SGD Description</b><br>Aldose reductase; involved in methylglyoxal, d-xylose, arabinose, and galactose metabolism; stress induced (osmotic, ionic, oxidative, heat shock, starvation and heavy metals); regulated by the HOG pathway; protein abundance increases in response to DNA replication stress<br><br>
+			<br><b>AspGD Description</b><br>D-xylose reductase (xylitol dehydrogenase); expression induced by growth on xylose or l-arabinose; XlnR regulated; key enzyme for d-galactose reduction<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7747971" target=_blank>Kuhn A, <i>et al.</i> (1995 Apr)</a>. Purification and partial characterization of an aldo-keto reductase from Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7557424" target=_blank>Billard P, <i>et al.</i> (1995 Aug 30)</a>. Isolation and characterization of the gene encoding xylose reductase from Kluyveromyces lactis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9615481" target=_blank>Handumrongkul C, <i>et al.</i> (1998 Apr)</a>. Cloning and expression of Candida guilliermondii xylose reductase gene (xyl1) in Pichia pastoris.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9730277" target=_blank>Lee H, <i>et al.</i> (1998 Aug)</a>. The structure and function of yeast xylose (aldose) reductases.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10407268" target=_blank>Garay-Arroyo A, <i>et al.</i> (1999 Jul)</a>. Three genes whose expression is induced by stress in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11722921" target=_blank>Träff KL, <i>et al.</i> (2001 Dec)</a>. Deletion of the GRE3 aldose reductase gene and its influence on xylose metabolism in recombinant strains of Saccharomyces cerevisiae expressing the xylA and XKS1 genes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11525399" target=_blank>Aguilera J, <i>et al.</i> (2001 Jul)</a>. The Saccharomyces cerevisiae aldose reductase is implied in the metabolism of methylglyoxal in response to stress conditions.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18332432" target=_blank>Andersen MR, <i>et al.</i> (2008 Mar 18)</a>. A trispecies Aspergillus microarray: comparative transcriptomics of three Aspergillus species.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22384365" target=_blank>Wendland J, <i>et al.</i> (2011 Dec)</a>. Genome evolution in the eremothecium clade of the Saccharomyces complex revealed by comparative genomics.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22155165" target=_blank>Mojzita D, <i>et al.</i> (2012 Feb)</a>. Identification of the galactitol dehydrogenase, LadB, that is part of the oxido-reductive D-galactose catabolic pathway in Aspergillus niger.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22835028" target=_blank>Saykhedkar S, <i>et al.</i> (2012 Jul 26)</a>. A time course analysis of the extracellular proteome of Aspergillus nidulans growing on sorghum stover.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23766336" target=_blank>Coradetti ST, <i>et al.</i> (2013 Aug)</a>. Analysis of a conserved cellulase transcriptional regulator reveals inducer-independent production of cellulolytic enzymes in Neurospora crassa.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26580075" target=_blank>Kowalczyk JE, <i>et al.</i> (2015)</a>. Genetic Interaction of Aspergillus nidulans galR, xlnR and araR in Regulating D-Galactose and L-Arabinose Release and Catabolism Gene Expression.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00420_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00420_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00420_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00420_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00232_phobius.html#FOG00420">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d0eacb" class="col">
+			FOG00421<br>EOG84XH0C<br>XYL1.2<br>sce:absent<br><br>Genes: 2
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>NADPH/NADH Xylose reductase<br><br>
+			<br><b>Parent</b><br>paralog:FOG00420<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=3921014" target=_blank>Verduyn C, <i>et al.</i> (1985 Mar 15)</a>. Properties of the NAD(P)H-dependent xylose reductase from the xylose-fermenting yeast Pichia stipitis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1756986" target=_blank>Amore R, <i>et al.</i> (1991 Dec 20)</a>. Cloning and expression in Saccharomyces cerevisiae of the NAD(P)H-dependent xylose reductase-encoding gene (XYL1) from the xylose-assimilating yeast Pichia stipitis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27400037" target=_blank>Watanabe S, <i>et al.</i> (2016 Jul 11)</a>. Identification and characterization of d-arabinose reductase and d-arabinose transporters from Pichia stipitis.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00421_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00421_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00421_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00421_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00232_phobius.html#FOG00421">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e0cce5" class="col">
+			FOG00422<br>EOG84XH0C<br><br>sce:absent<br><br>Genes: 20
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>ERR1 from tre<br><br>
+			<br><b>PomBase Description</b><br>alditol NADP+ 1-oxidoreductase activity (predicted)|glucose 1-dehydrogenase (NADP+) (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Has domain(s) with predicted oxidoreductase activity and role in oxidation-reduction process|L-arabinose reductase; also described as aldehyde reductase and D-ribose reductase|Putative alcohol dehydrogenase (catalyzed by glycerol dehydrogenase II (NADP+)|Ortholog(s) have cytosol, nucleus localization|Putative L-arabinose reductase; also described as aldehyde reductase and D-ribose reductase|NADPH-dependent erythrose reductase; slow growth phenotype on l-arabinose<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12529438" target=_blank>Chen D, <i>et al.</i> (2003 Jan)</a>. Global transcriptional responses of fission yeast to environmental stress.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17107606" target=_blank>David H, <i>et al.</i> (2006)</a>. Metabolic network driven analysis of genome-wide transcription data from Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18332432" target=_blank>Andersen MR, <i>et al.</i> (2008 Mar 18)</a>. A trispecies Aspergillus microarray: comparative transcriptomics of three Aspergillus species.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18768163" target=_blank>Martens-Uzunova ES, <i>et al.</i> (2008 Nov)</a>. An evolutionary conserved d-galacturonic acid metabolic pathway operates across filamentous fungi capable of pectin degradation.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19784673" target=_blank>Salazar M, <i>et al.</i> (2009 Dec)</a>. Uncovering transcriptional regulation of glycerol metabolism in Aspergilli through genome-wide gene expression data analysis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21484208" target=_blank>Battaglia E, <i>et al.</i> (2011 Jul)</a>. Regulation of pentose utilisation by AraR, but not XlnR, differs in Aspergillus nidulans and Aspergillus niger.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22835028" target=_blank>Saykhedkar S, <i>et al.</i> (2012 Jul 26)</a>. A time course analysis of the extracellular proteome of Aspergillus nidulans growing on sorghum stover.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23924507" target=_blank>Jovanović B, <i>et al.</i> (2013 Aug 8)</a>. Characterization of erythrose reductases from filamentous fungi.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26580075" target=_blank>Kowalczyk JE, <i>et al.</i> (2015)</a>. Genetic Interaction of Aspergillus nidulans galR, xlnR and araR in Regulating D-Galactose and L-Arabinose Release and Catabolism Gene Expression.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26167880" target=_blank>Lipp JJ, <i>et al.</i> (2015 Aug)</a>. SR protein kinases promote splicing of nonconsensus introns.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26412298" target=_blank>Beckley JR, <i>et al.</i> (2015 Dec)</a>. A Degenerate Cohort of Yeast Membrane Trafficking DUBs Mediates Cell Polarity and Survival.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28218250" target=_blank>Lee J, <i>et al.</i> (2017 Feb 20)</a>. Chromatin remodeller Fun30&lt;sup&gt;Fft3&lt;/sup&gt; induces nucleosome disassembly to facilitate RNA polymerase II elongation.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00422_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00422_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00422_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00422_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00232_phobius.html#FOG00422">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fadcb8" class="col">
+			FOG00423<br>EOG84XH0C<br><br>sce:absent<br><br>Genes: 6
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>AspGD Description</b><br>Glycerol dehydrogenase; D-arabinose 1-dehydrogenase [NAD(P)+]; protein levels influenced by presence of starch<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2200840" target=_blank>Schuurink R, <i>et al.</i> (1990 Jun)</a>. Purification and properties of NADP(+)-dependent glycerol dehydrogenases from Aspergillus nidulans and A. niger.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1394511" target=_blank>Sealy-Lewis HM, <i>et al.</i> (1992 Oct)</a>. An NADP(+)-dependent glycerol dehydrogenase in Aspergillus nidulans is inducible by D-galacturonate.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7765123" target=_blank>Felenbok B, <i>et al.</i> (1994)</a>. Alcohol metabolism.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12823816" target=_blank>de Vries RP, <i>et al.</i> (2003 Jul)</a>. Glycerol dehydrogenase, encoded by gldB is essential for osmotolerance in Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17107606" target=_blank>David H, <i>et al.</i> (2006)</a>. Metabolic network driven analysis of genome-wide transcription data from Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17420584" target=_blank>Hagiwara D, <i>et al.</i> (2007 Apr)</a>. The SskA and SrrA response regulators are implicated in oxidative stress responses of hyphae and asexual spores in the phosphorelay signaling network of Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19784673" target=_blank>Salazar M, <i>et al.</i> (2009 Dec)</a>. Uncovering transcriptional regulation of glycerol metabolism in Aspergilli through genome-wide gene expression data analysis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19919853" target=_blank>Oh YT, <i>et al.</i> (2010 Mar)</a>. Proteomic analysis of early phase of conidia germination in Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22792266" target=_blank>Etxebeste O, <i>et al.</i> (2012)</a>. GmcA is a putative glucose-methanol-choline oxidoreductase required for the induction of asexual development in Aspergillus nidulans.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00423_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00423_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00423_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00423_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00232_phobius.html#FOG00423">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fdffc3" class="col">
+			FOG00424<br>EOG84XH0C<br><br>sce:absent<br><br>Genes: 2
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>AspGD Description</b><br>Has domain(s) with predicted oxidoreductase activity and role in oxidation-reduction process<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00424_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00424_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00424_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00424_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00232_phobius.html#FOG00424">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e3d0c3" class="col">
+			FOG00425<br>EOG84XH0C<br><br>sce:absent<br><br>Genes: 2
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>AspGD Description</b><br>Morphine dehydrogenase<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22561085" target=_blank>Gerke J, <i>et al.</i> (2012 Jun)</a>. Fungal S-adenosylmethionine synthetase and the control of development and secondary metabolism in Aspergillus nidulans.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00425_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00425_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00425_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00425_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00232_phobius.html#FOG00425">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f9d9ed" class="col">
+			FOG00426<br>EOG84XH0C<br><br>sce:absent<br><br>Genes: 2
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00426_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00426_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00426_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00426_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00232_phobius.html#FOG00426">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f0b6b7" class="col">
+			FOG00427<br>EOG8STQKF<br><br>sce:absent<br><br>Genes: 4
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>AspGD Description</b><br>Protein of unknown function<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00427_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00427_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00427_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00427_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00232_phobius.html#FOG00427">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#c3d3e7" class="col">
+			FOG00428<br>EOG84XH0C<br><br>sce:absent<br><br>Genes: 4
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00428_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00428_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00428_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00428_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00232_phobius.html#FOG00428">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG00232.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

@@ -1,0 +1,111 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG04212.html">HOG04212&emsp;&emsp;</a><br> 
+																	HOG04220&emsp;&emsp;<br> 
+																	<a href="HOG04221.html">HOG04221&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG04220.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG04220_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG04220_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG04220_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG04220_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG08432<br>EOG8ZPCG3<br><br>sce:HIF1<br><br>Genes: 3
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Non-essential component of the HAT-B histone acetyltransferase complex; localized to the nucleus; has a role in telomeric silencing; other members are Hat1p and Hat2p<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14761951" target=_blank>Poveda A, <i>et al.</i> (2004 Apr 16)</a>. Hif1 is a component of yeast histone acetyltransferase B, a complex mainly localized in the nucleus.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15099519" target=_blank>Ai X, <i>et al.</i> (2004 Apr 23)</a>. The nuclear Hat1p/Hat2p complex: a molecular link between type B histone acetyltransferases and chromatin assembly.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24946827" target=_blank>Liu H, <i>et al.</i> (2014 Sep 15)</a>. Structural insights into yeast histone chaperone Hif1: a scaffold protein recruiting protein complexes to core histones.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27618665" target=_blank>Zhang M, <i>et al.</i> (2016 Oct 4)</a>. Structural Insights into the Association of Hif1 with Histones H2A-H2B Dimer and H3-H4 Tetramer.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG08432_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG08432_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG08432_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG08432_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG04220_phobius.html#FOG08432">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG04220.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

@@ -1,0 +1,246 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01421.html">HOG01421&emsp;&emsp;5'-AMP-activated protein kinase beta subunit family</a><br> 
+																	HOG01422&emsp;&emsp;<br> 
+																	<a href="HOG01423.html">HOG01423&emsp;&emsp;bacterial ribosomal protein bL35 family</a><br><br> 
+																	<a href="../sequences/hog/HOG01422.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01422_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01422_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG01422_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG04108<br>EOG88PK1H<br><br>sce:EAR1<br><br>Genes: 34
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Specificity factor required for Rsp5p-dependent ubiquitination; also required for sorting of specific cargo proteins at the multivesicular body; mRNA is targeted to the bud via the mRNA transport system involving She2p<br><br>
+			<br><b>PomBase Description</b><br>SPRY domain protein<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have cytoplasm localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21760946" target=_blank>Takeda K, <i>et al.</i> (2011)</a>. Identification of genes affecting the toxicity of anti-cancer drug bortezomib by genome-wide screening in S. pombe.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21504829" target=_blank>Stewart EV, <i>et al.</i> (2011 Apr 22)</a>. Yeast SREBP cleavage activation requires the Golgi Dsc E3 ligase complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26412298" target=_blank>Beckley JR, <i>et al.</i> (2015 Dec)</a>. A Degenerate Cohort of Yeast Membrane Trafficking DUBs Mediates Cell Polarity and Survival.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27887640" target=_blank>Malecki M, <i>et al.</i> (2016 Nov 25)</a>. Functional and regulatory profiling of energy metabolism in fission yeast.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG04108_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04108_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04108_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG04108_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01422_phobius.html#FOG04108">Phobius transmembrane predictions</a>
+										<br>30 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG04109<br>EOG88PK1H<br><br>sce:SSH4<br><br>Genes: 23
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Specificity factor required for Rsp5p-dependent ubiquitination; also required for sorting of cargo proteins at the multivesicular body; identified as a high-copy suppressor of a SHR3 deletion, increasing steady-state levels of amino acid permeases<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1514329" target=_blank>Colleaux L, <i>et al.</i> (1992 Apr)</a>. Sequence of a segment of yeast chromosome XI identifies a new mitochondrial carrier, a new member of the G protein family, and a protein with the PAAKK motif of the H1 histones.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9610367" target=_blank>Fujimura H, <i>et al.</i> (1998 May 19)</a>. Molecular cloning of Saccharomyces cerevisiae MLF4/SSH4 gene which confers the immunosuppressant leflunomide resistance.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17287526" target=_blank>Kota J, <i>et al.</i> (2007 Apr)</a>. Ssh4, Rcr2 and Rcr1 affect plasma membrane transporter activity in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22106047" target=_blank>Starita LM, <i>et al.</i> (2012 Jan)</a>. Sites of ubiquitin attachment in Saccharomyces cerevisiae.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG04109_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04109_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04109_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG04109_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01422_phobius.html#FOG04109">Phobius transmembrane predictions</a>
+										<br>20 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d7edd3" class="col">
+			FOG04110<br>EOG88PK1H<br><br>sce:absent<br><br>Genes: 18
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>PomBase Description</b><br>GID complex subunit, Ran GTPase binding protein Gid1 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Protein of unknown function<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21511999" target=_blank>Rhind N, <i>et al.</i> (2011 May 20)</a>. Comparative functional genomics of the fission yeasts.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG04110_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04110_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04110_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG04110_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01422_phobius.html#FOG04110">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e5d4e9" class="col">
+			FOG04111<br>EOG88PK1H<br><br>sce:VID30<br><br>Genes: 5
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Central component of GID Complex, involved in FBPase degradation; interacts strongly with Gid8p to serve as a scaffold for other GID Complex subunits; contains SPRY domain and 3 domains that are also found in Gid8p - LisH, CTLH, and CRA; required for association of Vid vesicles and actin patches in vacuole import and degradation pathway; shifts the balance of nitrogen metabolism toward glutamate production; localizes to the nucleus and the cytoplasm<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12686616" target=_blank>Regelmann J, <i>et al.</i> (2003 Apr)</a>. Catabolite degradation of fructose-1,6-bisphosphatase in the yeast Saccharomyces cerevisiae: a genome-wide screen identifies eight novel GID genes and indicates the existence of two degradation pathways.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22814378" target=_blank>Van Damme P, <i>et al.</i> (2012 Jul 31)</a>. N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG04111_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04111_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04111_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG04111_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01422_phobius.html#FOG04111">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01422.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

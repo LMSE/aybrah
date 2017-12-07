@@ -1,0 +1,114 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG09137.html">HOG09137&emsp;&emsp;</a><br> 
+																	HOG09140&emsp;&emsp;<br> 
+																	<a href="HOG09141.html">HOG09141&emsp;&emsp;phosducin family</a><br><br> 
+																	<a href="../sequences/hog/HOG09140.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG09140_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG09140_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG09140_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG09140_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG13353<br>EOG8J6Q8P<br><br>sce:MBA1<br><br>Genes: 29
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Membrane-associated mitochondrial ribosome receptor; forms a complex with Mdm38p that may facilitate recruitment of mRNA-specific translational activators to ribosomes; possible role in protein export from the matrix to inner membrane<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8690083" target=_blank>Rep M, <i>et al.</i> (1996 Jun 17)</a>. MBA1 encodes a mitochondrial membrane-associated protein required for biogenesis of the respiratory chain.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11381092" target=_blank>Preuss M, <i>et al.</i> (2001 May 28)</a>. Mba1, a novel component of the mitochondrial protein export machinery of the yeast Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16601683" target=_blank>Ott M, <i>et al.</i> (2006 Apr 19)</a>. Mba1, a membrane-associated ribosome receptor in mitochondria.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18727146" target=_blank>Pir P, <i>et al.</i> (2008 Sep)</a>. Exometabolic and transcriptional response in relation to phenotype and gene copy number in respiration-related deletion mutants of S. cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20427570" target=_blank>Bauerschmitt H, <i>et al.</i> (2010 Jun 15)</a>. Ribosome-binding proteins Mdm38 and Mba1 display overlapping functions for regulation of mitochondrial translation.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20404317" target=_blank>Gruschke S, <i>et al.</i> (2010 Jun 18)</a>. Proteins at the polypeptide tunnel exit of the yeast mitochondrial ribosome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25609543" target=_blank>Pfeffer S, <i>et al.</i> (2015 Jan 22)</a>. Organization of the mitochondrial translation machinery studied in situ by cryoelectron tomography.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG13353_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG13353_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG13353_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG13353_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG09140_phobius.html#FOG13353">Phobius transmembrane predictions</a>
+										<br>2 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG09140.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

@@ -1,0 +1,186 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG03870.html">HOG03870&emsp;&emsp;</a><br> 
+																	HOG03871&emsp;&emsp;<br> 
+																	<a href="HOG03872.html">HOG03872&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG03871.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG03871_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG03871_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG03871_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG03871_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG07994<br>EOG841NS9<br><br>sce:DPB11<br><br>Genes: 32
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>DNA replication initiation protein; loads DNA pol epsilon onto pre-replication complexes at origins; checkpoint sensor recruited to stalled replication forks by the checkpoint clamp complex where it activates Mec1p; along with Rfa1p, binds to ultrafine anaphase bridges in mitotic cells and prevents accumulation of chromatin bridges by stimulating the Mec1p kinase and suppressing homologous recombination; ortholog of human TopBP1; forms nuclear foci upon DNA replication stress<br><br>
+			<br><b>PomBase Description</b><br>BRCT domain protein Rad4<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have protein complex scaffold activity and role in mitotic DNA damage checkpoint, mitotic DNA replication checkpoint, mitotic DNA replication preinitiation complex assembly<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8524850" target=_blank>Araki H, <i>et al.</i> (1995 Dec 5)</a>. Dpb11, which interacts with DNA polymerase II(epsilon) in Saccharomyces cerevisiae, has a dual role in S-phase progression and at a cell cycle checkpoint.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9742127" target=_blank>Kamimura Y, <i>et al.</i> (1998 Oct)</a>. Sld2, which interacts with Dpb11 in Saccharomyces cerevisiae, is required for chromosomal DNA replication.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10097122" target=_blank>Wang H, <i>et al.</i> (1999 Mar 30)</a>. DRC1, DNA replication and checkpoint protein 1, functions with DPB11 to control DNA replication and the S-phase checkpoint in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12730134" target=_blank>Takayama Y, <i>et al.</i> (2003 May 1)</a>. GINS, a novel multiprotein complex required for chromosomal DNA replication in budding yeast.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG07994_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG07994_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG07994_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG07994_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG03871_phobius.html#FOG07994">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG07995<br>EOG841NS9<br><br>sce:RTT107<br><br>Genes: 31
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Protein implicated in Mms22-dependent DNA repair during S phase; involved in recruiting the SMC5/6 complex to double-strand breaks; DNA damage induces phosphorylation by Mec1p at one or more SQ/TQ motifs; interacts with Mms22p and Slx4p; has four BRCT domains; has a role in regulation of Ty1 transposition; relative distribution to nuclear foci increases upon DNA replication stress<br><br>
+			<br><b>PomBase Description</b><br>BRCT domain protein Brc1<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have role in cellular response to biotic stimulus, cellular response to starvation and filamentous growth of a population of unicellular organisms in response to biotic stimulus, more<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10473635" target=_blank>Verkade HM, <i>et al.</i> (1999 Sep)</a>. Rad18 is required for DNA repair and checkpoint responses in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12618370" target=_blank>Decottignies A, <i>et al.</i> (2003 Mar)</a>. Schizosaccharomyces pombe essential genes: a pilot study.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14988729" target=_blank>Rouse J, <i>et al.</i> (2004 Mar 10)</a>. Esc4p, a new target of Mec1p (ATR), promotes resumption of DNA synthesis after DNA damage.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15485909" target=_blank>Morikawa H, <i>et al.</i> (2004 Nov)</a>. Rad62 protein functionally and physically associates with the smc5/smc6 protein complex and is required for chromosome integrity and recombination repair in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15331764" target=_blank>Pebernard S, <i>et al.</i> (2004 Nov)</a>. Nse1, Nse2, and a novel subunit of the Smc5-Smc6 complex, Nse3, play a crucial role in meiosis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15972456" target=_blank>Sheedy DM, <i>et al.</i> (2005 Oct)</a>. Brc1-mediated DNA repair and damage tolerance.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16569515" target=_blank>Chin JK, <i>et al.</i> (2006 May 10)</a>. Esc4/Rtt107 and the control of recombination during replication.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17277362" target=_blank>Lee KM, <i>et al.</i> (2007 Apr)</a>. Brc1-mediated rescue of Smc5/6 deficiency: requirement for multiple nucleases and a novel Rad18 function.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17213188" target=_blank>Perreault A, <i>et al.</i> (2007 Mar 9)</a>. Regulation of the nuclear poly(A)-binding protein by arginine methylation in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17978089" target=_blank>Roberts TM, <i>et al.</i> (2008 Jan)</a>. Regulation of rtt107 recruitment to stalled DNA replication forks by the cullin rtt101 and the rtt109 acetyltransferase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19528228" target=_blank>Outwin EA, <i>et al.</i> (2009 Aug)</a>. Smc5-Smc6-dependent removal of cohesin from mitotic chromosomes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19547744" target=_blank>Beltrao P, <i>et al.</i> (2009 Jun 16)</a>. Evolution of phosphoregulation: comparison of phosphorylation patterns across yeast species.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20661445" target=_blank>Rozenzhak S, <i>et al.</i> (2010 Jul 22)</a>. Rad3 decorates critical chromosomal domains with gammaH2A to protect genome integrity during S-Phase in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20094029" target=_blank>Williams JS, <i>et al.</i> (2010 Mar 17)</a>. gammaH2A binds Brc1 to maintain genome integrity during S-phase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20139071" target=_blank>Mimura S, <i>et al.</i> (2010 Mar 26)</a>. Cul8/Rtt101 forms a variety of protein complexes that regulate DNA damage response and transcriptional silencing.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20885790" target=_blank>Cavero S, <i>et al.</i> (2010 Sep 23)</a>. Critical functions of Rpa3/Ssb3 in S-phase DNA damage responses in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22366461" target=_blank>Bass KL, <i>et al.</i> (2012 Jun 1)</a>. Brc1-dependent recovery from replication stress.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22262834" target=_blank>Li X, <i>et al.</i> (2012 Mar 16)</a>. Structure of C-terminal tandem BRCT repeats of Rtt107 protein reveals critical role in interaction with phosphorylated histone H2A during DNA damage repair.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22927644" target=_blank>Sánchez A, <i>et al.</i> (2012 Nov)</a>. Replication fork collapse and genome instability in a deoxycytidylate deaminase mutant.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23358415" target=_blank>Lee SY, <i>et al.</i> (2013 Apr)</a>. γH2A-binding protein Brc1 affects centromere function in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23703609" target=_blank>Schonbrun M, <i>et al.</i> (2013 Jul 5)</a>. TORC2 is required to maintain genome stability during S phase in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23656778" target=_blank>Lee SY, <i>et al.</i> (2013 Jun 1)</a>. Brc1 links replication stress response and centromere function.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23628481" target=_blank>Yu Y, <i>et al.</i> (2013 Jun 1)</a>. A proteome-wide visual screen identifies fission yeast proteins localizing to DNA double-strand breaks.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25965521" target=_blank>Sánchez A, <i>et al.</i> (2015)</a>. Ku stabilizes replication forks in the absence of Brc1.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25795664" target=_blank>Sánchez A, <i>et al.</i> (2015 Mar 19)</a>. Genetic Interaction Landscape Reveals Critical Requirements for Schizosaccharomyces pombe Brc1 in DNA Damage Response Mutants.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26368543" target=_blank>Mejia-Ramirez E, <i>et al.</i> (2015 Sep)</a>. Critical Function of γH2A in S-Phase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26446992" target=_blank>Zabrady K, <i>et al.</i> (2016 Feb 18)</a>. Chromatin association of the SMC5/6 complex is dependent on binding of its NSE3 subunit to DNA.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27168121" target=_blank>Chen JS, <i>et al.</i> (2016 Sep)</a>. Discovery of genes involved in mitosis, cell division, cell wall integrity and chromosome segregation through construction of Schizosaccharomyces pombe deletion strains.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28718400" target=_blank>Yadav RK, <i>et al.</i> (2017 Jul 18)</a>. Histone H3G34R mutation causes replication stress, homologous recombination defects and genomic instability in &lt;i&gt;S. pombe&lt;/i&gt;.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG07995_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG07995_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG07995_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG07995_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG03871_phobius.html#FOG07995">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG03871.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

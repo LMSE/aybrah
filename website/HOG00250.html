@@ -1,0 +1,373 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG00249.html">HOG00249&emsp;&emsp;glyoxalase I family</a><br> 
+																	HOG00250&emsp;&emsp;<br> 
+																	<a href="HOG00251.html">HOG00251&emsp;&emsp;FAD-binding oxidoreductase/transferase type 4 family</a><br><br> 
+																	<a href="../sequences/hog/HOG00250.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG00250_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG00250_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG00250_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG00250_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG00566<br>EOG8CRJJN<br><br>sce:absent<br><br>Genes: 31
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>GLO4[m]/[c]<br><br>
+			<br><b>Features</b><br>[m];[c]<br><br>
+			<br><b>AspGD Description</b><br>Hydroxyacylglutathione hydrolase<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22384365" target=_blank>Wendland J, <i>et al.</i> (2011 Dec)</a>. Genome evolution in the eremothecium clade of the Saccharomyces complex revealed by comparative genomics.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00566_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00566_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00566_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00566_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00250_phobius.html#FOG00566">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG00567<br>EOG8CRJJN<br>GLO4<br>sce:GLO4<br><br>Genes: 2
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>GLO4[m]<br><br>
+			<br><b>Features</b><br>[m]<br><br>
+			<br><b>Parent</b><br>paralog:FOG00566<br><br>
+			<br><b>SGD Description</b><br>Mitochondrial glyoxalase II; catalyzes the hydrolysis of S-D-lactoylglutathione into glutathione and D-lactate; GLO4 has a paralog, GLO2, that arose from the whole genome duplication<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9261170" target=_blank>Bito A, <i>et al.</i> (1997 Aug 22)</a>. Identification and phenotypic analysis of two glyoxalase II encoding genes from Saccharomyces cerevisiae, GLO2 and GLO4, and intracellular localization of the corresponding proteins.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00567_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00567_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00567_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00567_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00250_phobius.html#FOG00567">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d7edd3" class="col">
+			FOG00568<br>EOG8CRJJN<br>GLO2<br>sce:GLO2<br><br>Genes: 2
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>GLO2[c]<br><br>
+			<br><b>Features</b><br>[c]<br><br>
+			<br><b>Parent</b><br>paralog:FOG00566<br><br>
+			<br><b>SGD Description</b><br>Cytoplasmic glyoxalase II; catalyzes the hydrolysis of S-D-lactoylglutathione into glutathione and D-lactate; GLO2 has a paralog, GLO4, that arose from the whole genome duplication<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9261170" target=_blank>Bito A, <i>et al.</i> (1997 Aug 22)</a>. Identification and phenotypic analysis of two glyoxalase II encoding genes from Saccharomyces cerevisiae, GLO2 and GLO4, and intracellular localization of the corresponding proteins.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22814378" target=_blank>Van Damme P, <i>et al.</i> (2012 Jul 31)</a>. N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00568_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00568_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00568_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00568_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00250_phobius.html#FOG00568">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e5d4e9" class="col">
+			FOG00569<br>EOG8CRJJN<br>GLO2.1<br>sce:absent<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>GLO2.1[m]<br><br>
+			<br><b>Features</b><br>[m]<br><br>
+			<br><b>PomBase Description</b><br>glyoxalase II<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00569_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00569_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00569_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00569_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00250_phobius.html#FOG00569">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fbe2c3" class="col">
+			FOG00570<br>EOG8CRJJN<br>GLO2.2<br>sce:absent<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>GLO2.2[c]<br><br>
+			<br><b>Features</b><br>[c]<br><br>
+			<br><b>PomBase Description</b><br>hydroxyacylglutathione hydrolase (predicted)<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00570_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00570_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00570_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00570_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00250_phobius.html#FOG00570">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fdffcc" class="col">
+			FOG00571<br>EOG8905S7<br>EOG8CRJJN<br>LAS1<br>sce:LAS1<br><br>Genes: 32
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Protein required for pre-rRNA processing at both ends of ITS2; functions with Grc3p in a conserved mechanism to modulate rRNA processing and ribosome biogenesis; may coordinate the action of the Rat1p-Rai1p exoRNAse; required for the G1/S cell cycle transition; human ortholog is Las1L; mutants require the SSD1-v allele for viability<br><br>
+			<br><b>PomBase Description</b><br>Las1 pre-rRNA processing protein<br><br>
+			<br><b>AspGD Description</b><br>Ortholog of A. nidulans FGSC A4 : AN6822, A. fumigatus Af293 : Afu5g12850, A. oryzae RIB40 : AO090120000405, Neosartorya fischeri NRRL 181 : NFIA_074310 and Aspergillus wentii : Aspwe1_0026733<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8582632" target=_blank>Doseff AI, <i>et al.</i> (1995 Nov)</a>. LAS1 is an essential nuclear protein involved in cell morphogenesis and cell surface growth.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12529438" target=_blank>Chen D, <i>et al.</i> (2003 Jan)</a>. Global transcriptional responses of fission yeast to environmental stress.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14576278" target=_blank>Sickmann A, <i>et al.</i> (2003 Nov 11)</a>. The proteome of Saccharomyces cerevisiae mitochondria.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21385875" target=_blank>Kitano E, <i>et al.</i> (2011 Apr 29)</a>. Roles of fission yeast Grc3 protein in ribosomal RNA processing and heterochromatic gene silencing.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00571_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00571_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00571_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00571_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00250_phobius.html#FOG00571">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e7d7cd" class="col">
+			FOG00572<br>EOG8905S7<br><br>sce:absent<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00572_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00572_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00572_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00572_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00250_phobius.html#FOG00572">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG00250.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

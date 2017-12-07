@@ -1,0 +1,354 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG00261.html">HOG00261&emsp;&emsp;aconitase/IPM isomerase family</a><br> 
+																	HOG00262&emsp;&emsp;<br> 
+																	<a href="HOG00263.html">HOG00263&emsp;&emsp;isocitrate and isopropylmalate dehydrogenases family</a><br><br> 
+																	<a href="../sequences/hog/HOG00262.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG00262_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG00262_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG00262_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG00262_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG00617<br>EOG8S4MZ6<br>IDP0<br>sce:absent<br><br>Genes: 8
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>Cytoplasmic, mitochondrial, peroxisomal isocitrate dehydrogenase<br><br>
+			<br><b>Features</b><br>[c];[m];[x]<br><br>
+			<br><b>AspGD Description</b><br>NADP+-specific isocitrate dehydrogenase; induced by growth on starch and lactate<br><br>
+			<br><b>Suggested Analysis</b><br>[m]-tag missing in arx ortholog<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=6123545" target=_blank>Kelly JM, <i>et al.</i> (1982 Jan)</a>. The regulation of NADP-linked isocitrate dehydrogenase in Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11483612" target=_blank>Szewczyk E, <i>et al.</i> (2001 Oct 5)</a>. A single gene produces mitochondrial, cytoplasmic, and peroxisomal NADP-dependent isocitrate dehydrogenase in Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19610199" target=_blank>Flipphi M, <i>et al.</i> (2009 Mar)</a>. Biodiversity and evolution of primary carbon metabolism in Aspergillus nidulans  and other Aspergillus spp.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20878186" target=_blank>Masuo S, <i>et al.</i> (2010 Dec)</a>. Global gene expression analysis of Aspergillus nidulans reveals metabolic shift and transcription suppression under hypoxia.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22835028" target=_blank>Saykhedkar S, <i>et al.</i> (2012 Jul 26)</a>. A time course analysis of the extracellular proteome of Aspergillus nidulans growing on sorghum stover.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00617_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00617_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00617_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00617_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00262_phobius.html#FOG00617">Phobius transmembrane predictions</a>
+										<br>FOG00617    0
+FOG00617    0
+Name: 1, dtype: int64 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG00618<br>EOG8S4MZ6<br>IDP1<br>sce:absent<br><br>Genes: 21
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>Cytoplasmic, peroxisomal isocitrate dehydrogenase derived from IDP0<br><br>
+			<br><b>Features</b><br>[c];[x]<br><br>
+			<br><b>Parent</b><br>ortholog:FOG00617<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00618_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00618_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00618_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00618_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00262_phobius.html#FOG00618">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d7edd3" class="col">
+			FOG00619<br>EOG8S4MZ6<br>IDP2<br>sce:IDP2<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>Cytoplasmic isocitrate dehydrogenase<br><br>
+			<br><b>Features</b><br>[c];NADP<br><br>
+			<br><b>Parent</b><br>ortholog:FOG00617<br><br>
+			<br><b>SGD Description</b><br>Cytosolic NADP-specific isocitrate dehydrogenase; catalyzes oxidation of isocitrate to alpha-ketoglutarate; levels are elevated during growth on non-fermentable carbon sources and reduced during growth on glucose; IDP2 has a paralog, IDP3, that arose from the whole genome duplication<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8099357" target=_blank>Haselbeck RJ, <i>et al.</i> (1993 Jun 5)</a>. Function and expression of yeast mitochondrial NAD- and NADP-specific isocitrate dehydrogenases.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8068643" target=_blank>Loftus TM, <i>et al.</i> (1994 Aug 16)</a>. Isolation, characterization, and disruption of the yeast gene encoding cytosolic NADP-specific isocitrate dehydrogenase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9452501" target=_blank>Henke B, <i>et al.</i> (1998 Feb 6)</a>. IDP3 encodes a peroxisomal NADP-dependent isocitrate dehydrogenase required for the beta-oxidation of unsaturated fatty acids.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11483612" target=_blank>Szewczyk E, <i>et al.</i> (2001 Oct 5)</a>. A single gene produces mitochondrial, cytoplasmic, and peroxisomal NADP-dependent isocitrate dehydrogenase in Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22814378" target=_blank>Van Damme P, <i>et al.</i> (2012 Jul 31)</a>. N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00619_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00619_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00619_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00619_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00262_phobius.html#FOG00619">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e5d4e9" class="col">
+			FOG00620<br>EOG8S4MZ6<br>IDP3<br>sce:IDP3<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>Peroxisomal isocitrate dehydrogenase<br><br>
+			<br><b>Features</b><br>[x]<br><br>
+			<br><b>Parent</b><br>ohnolog?:FOG00619<br><br>
+			<br><b>SGD Description</b><br>Peroxisomal NADP-dependent isocitrate dehydrogenase; catalyzes oxidation of isocitrate to alpha-ketoglutarate with the formation of NADP(H+), required for growth on unsaturated fatty acids; IDP3 has a paralog, IDP2, that arose from the whole genome duplication<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00620_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00620_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00620_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00620_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00262_phobius.html#FOG00620">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fbe2c3" class="col">
+			FOG00621<br>EOG8S4MZ6<br>IDP1.2<br>sce:IDP1<br><br>Genes: 24
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>Mitochondrial isocitrate dehydrogenase<br><br>
+			<br><b>Features</b><br>[m]<br><br>
+			<br><b>Parent</b><br>paralog:FOG00617<br><br>
+			<br><b>SGD Description</b><br>Mitochondrial NADP-specific isocitrate dehydrogenase; catalyzes the oxidation of isocitrate to alpha-ketoglutarate; not required for mitochondrial respiration and may function to divert alpha-ketoglutarate to biosynthetic processes<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=4380945" target=_blank>Bernofsky C, <i>et al.</i> (1966 Nov 25)</a>. Mitochondrial isocitrate dehydrogenases from yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1989987" target=_blank>Haselbeck RJ, <i>et al.</i> (1991 Feb 5)</a>. Isolation, nucleotide sequence, and disruption of the Saccharomyces cerevisiae gene encoding mitochondrial NADP(H)-specific isocitrate dehydrogenase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8099357" target=_blank>Haselbeck RJ, <i>et al.</i> (1993 Jun 5)</a>. Function and expression of yeast mitochondrial NAD- and NADP-specific isocitrate dehydrogenases.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8068643" target=_blank>Loftus TM, <i>et al.</i> (1994 Aug 16)</a>. Isolation, characterization, and disruption of the yeast gene encoding cytosolic NADP-specific isocitrate dehydrogenase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9452501" target=_blank>Henke B, <i>et al.</i> (1998 Feb 6)</a>. IDP3 encodes a peroxisomal NADP-dependent isocitrate dehydrogenase required for the beta-oxidation of unsaturated fatty acids.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16233178" target=_blank>Kirimura K, <i>et al.</i> (2002)</a>. Cloning and expression of Aspergillus niger icdA gene encoding mitochondrial NADP+-specific isocitrate dehydrogenase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16630276" target=_blank>Nosek J, <i>et al.</i> (2006 May)</a>. Mitochondrial chromosome structure: an insight from analysis of complete yeast genomes.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00621_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00621_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00621_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00621_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00262_phobius.html#FOG00621">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fdffcc" class="col">
+			FOG00622<br>EOG8S4MZ6<br>IDP1.3<br>sce:absent<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>Mitochondrial isocitrate dehydrogenase<br><br>
+			<br><b>Features</b><br>[m]<br><br>
+			<br><b>Parent</b><br>ortholog:FOG00617<br><br>
+			<br><b>PomBase Description</b><br>isocitrate dehydrogenase Idp1 (predicted)<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21504829" target=_blank>Stewart EV, <i>et al.</i> (2011 Apr 22)</a>. Yeast SREBP cleavage activation requires the Golgi Dsc E3 ligase complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21511999" target=_blank>Rhind N, <i>et al.</i> (2011 May 20)</a>. Comparative functional genomics of the fission yeasts.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24957674" target=_blank>Anver S, <i>et al.</i> (2014 Aug)</a>. Yeast X-chromosome-associated protein 5 (Xap5) functions with H2A.Z to suppress aberrant transcripts.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26152728" target=_blank>Mathiassen SG, <i>et al.</i> (2015 Aug 21)</a>. A Two-step Protein Quality Control Pathway for a Misfolded DJ-1 Variant in Fission Yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28410370" target=_blank>Dudin O, <i>et al.</i> (2017 Apr)</a>. A systematic screen for morphological abnormalities during fission yeast sexual reproduction identifies a mechanism of actin aster formation for cell fusion.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28218250" target=_blank>Lee J, <i>et al.</i> (2017 Feb 20)</a>. Chromatin remodeller Fun30&lt;sup&gt;Fft3&lt;/sup&gt; induces nucleosome disassembly to facilitate RNA polymerase II elongation.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28821619" target=_blank>Burr R, <i>et al.</i> (2017 Sep 29)</a>. Dsc E3 ligase localization to the Golgi requires the ATPase Cdc48 and cofactor Ufd1 for activation of sterol regulatory element-binding protein in fission yeast.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00622_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00622_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00622_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00622_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00262_phobius.html#FOG00622">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG00262.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

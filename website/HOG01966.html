@@ -1,0 +1,112 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01965.html">HOG01965&emsp;&emsp;TRAFAC class OBG-HflX-like GTPase superfamily. OBG GTPase family; TRAFAC class OBG-HflX-like GTPase superfamily. OBG GTPase family. YchF/OLA1 subfamily</a><br> 
+																	HOG01966&emsp;&emsp;<br> 
+																	<a href="HOG01967.html">HOG01967&emsp;&emsp;fl(2)d family</a><br><br> 
+																	<a href="../sequences/hog/HOG01966.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01966_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01966_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG01966_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG05332<br>EOG83XSMD<br><br>sce:YIP5<br><br>Genes: 30
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Protein that interacts with Rab GTPases; localized to late Golgi vesicles; computational analysis of large-scale protein-protein interaction data suggests a possible role in vesicle-mediated transport<br><br>
+			<br><b>PomBase Description</b><br>Rab GTPase binding Yip5 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have endoplasmic reticulum localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11943201" target=_blank>Calero M, <i>et al.</i> (2002 Mar 27)</a>. Identification of the novel proteins Yip4p and Yip5p as Rab GTPase interacting factors.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15263065" target=_blank>Vollert CS, <i>et al.</i> (2004 Nov)</a>. The phox homology (PX) domain protein interaction network in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17178117" target=_blank>Inadome H, <i>et al.</i> (2007 Feb 15)</a>. Tvp38, Tvp23, Tvp18 and Tvp15: novel membrane proteins in the Tlg2-containing Golgi/endosome compartments of Saccharomyces cerevisiae.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG05332_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05332_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05332_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG05332_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01966_phobius.html#FOG05332">Phobius transmembrane predictions</a>
+										<br>30 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01966.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

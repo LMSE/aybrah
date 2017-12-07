@@ -1,0 +1,160 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG03559.html">HOG03559&emsp;&emsp;IBD2 family</a><br> 
+																	HOG03560&emsp;&emsp;<br> 
+																	<a href="HOG03561.html">HOG03561&emsp;&emsp;2H phosphoesterase superfamily. USB1 family</a><br><br> 
+																	<a href="../sequences/hog/HOG03560.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG03560_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG03560_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG03560_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG03560_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG07574<br>EOG889330<br><br>sce:MCP2<br><br>Genes: 33
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Mitochondrial protein of unknown function involved in lipid homeostasis; associates with mitochondrial ribosome; integral membrane protein that localizes to the mitochondrial inner membrane; involved in mitochondrial morphology; non-essential gene which interacts genetically with MDM10, and other members of the ERMES complex; transcription is periodic during the metabolic cycle; homologous to human aarF domain containing kinase, ADCK1<br><br>
+			<br><b>PomBase Description</b><br>ABC1 kinase family protein, implicted in mitochondrial ergosterol and phospholipd homeostasis<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have role in lipid homeostasis, mitochondrion organization and integral component of mitochondrial membrane, mitochondrial inner membrane localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16823961" target=_blank>Reinders J, <i>et al.</i> (2006 Jul)</a>. Toward the complete yeast mitochondrial proteome: multidimensional separation techniques for mitochondrial proteomics.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21511999" target=_blank>Rhind N, <i>et al.</i> (2011 May 20)</a>. Comparative functional genomics of the fission yeasts.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23781023" target=_blank>Tan T, <i>et al.</i> (2013 Aug 15)</a>. Mcp1 and Mcp2, two novel proteins involved in mitochondrial lipid homeostasis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25683707" target=_blank>Kehrein K, <i>et al.</i> (2015 Feb 12)</a>. Organization of Mitochondrial Gene Expression in Two Distinct Ribosome-Containing Assemblies.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG07574_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG07574_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG07574_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG07574_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG03560_phobius.html#FOG07574">Phobius transmembrane predictions</a>
+										<br>19 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG07575<br>EOG889330<br><br>sce:absent<br><br>Genes: 33
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Putative protein of unknown function; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies<br><br>
+			<br><b>PomBase Description</b><br>ABC1 kinase family protein<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have mitochondrion localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12844361" target=_blank>Brachat S, <i>et al.</i> (2003)</a>. Reinvestigation of the Saccharomyces cerevisiae genome annotation by comparison to the genome of a related fungus: Ashbya gossypii.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12748633" target=_blank>Kellis M, <i>et al.</i> (2003 May 15)</a>. Sequencing and comparison of yeast species to identify genes and regulatory elements.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14576278" target=_blank>Sickmann A, <i>et al.</i> (2003 Nov 11)</a>. The proteome of Saccharomyces cerevisiae mitochondria.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG07575_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG07575_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG07575_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG07575_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG03560_phobius.html#FOG07575">Phobius transmembrane predictions</a>
+										<br>33 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG03560.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

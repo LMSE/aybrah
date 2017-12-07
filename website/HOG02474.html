@@ -1,0 +1,111 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG02473.html">HOG02473&emsp;&emsp;SGT1 family</a><br> 
+																	HOG02474&emsp;&emsp;<br> 
+																	<a href="HOG02475.html">HOG02475&emsp;&emsp;RENT3 family</a><br><br> 
+																	<a href="../sequences/hog/HOG02474.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG02474_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG02474_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG02474_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG06078<br>EOG8S4N3D<br><br>sce:CSI1<br><br>Genes: 4
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Subunit of the Cop9 signalosome; which is required for deneddylation, or removal of the ubiquitin-like protein Rub1p from Cdc53p (cullin); involved in adaptation to pheromone signaling; functional equivalent of canonical Csn6 subunit of the COP9 signalosome<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12186635" target=_blank>Wee S, <i>et al.</i> (2002 Aug 20)</a>. Conservation of the COP9/signalosome in budding yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12446563" target=_blank>Maytal-Kivity V, <i>et al.</i> (2002 Dec)</a>. COP9 signalosome components play a role in the mating pheromone response of S. cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11805826" target=_blank>Gavin AC, <i>et al.</i> (2002 Jan 10)</a>. Functional organization of the yeast proteome by systematic analysis of protein complexes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12672462" target=_blank>Maytal-Kivity V, <i>et al.</i> (2003 May)</a>. The COP9 signalosome-like complex in S. cerevisiae and links to other PCI complexes.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG06078_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG06078_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG06078_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG06078_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG02474_phobius.html#FOG06078">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG02474.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

@@ -1,0 +1,410 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01279.html">HOG01279&emsp;&emsp;PUF3 family</a><br> 
+																	HOG01280&emsp;&emsp;<br> 
+																	<a href="HOG01281.html">HOG01281&emsp;&emsp;peptidase C48 family</a><br><br> 
+																	<a href="../sequences/hog/HOG01280.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01280_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01280_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG01280_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG03633<br>EOG8ZS7NX<br><br>sce:SYS1<br><br>Genes: 29
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Integral membrane protein of the Golgi; required for targeting of the Arf-like GTPase Arl3p to the Golgi; multicopy suppressor of ypt6 null mutation<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have role in Golgi to endosome transport, Golgi to plasma membrane protein transport, protein targeting to Golgi, vesicle organization and integral component of Golgi membrane, trans-Golgi network localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=3327602" target=_blank>Masson P, <i>et al.</i> (1986)</a>. Yeast adenylate cyclase catalytic domain is carboxy terminal.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7720878" target=_blank>Pathak R, <i>et al.</i> (1995 Apr 3)</a>. The essential yeast NLT1 gene encodes the 64 kDa glycoprotein subunit of the oligosaccharyl transferase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14557538" target=_blank>Hitchcock AL, <i>et al.</i> (2003 Oct 28)</a>. A subset of membrane-associated proteins is ubiquitinated in response to mutations in the endoplasmic reticulum degradation machinery.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15077113" target=_blank>Behnia R, <i>et al.</i> (2004 May)</a>. Targeting of the Arf-like GTPase Arl3p to the Golgi requires N-terminal acetylation and the membrane protein Sys1p.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15077114" target=_blank>Setty SR, <i>et al.</i> (2004 May)</a>. Golgi targeting of ARF-like GTPase Arl3p requires its Nalpha-acetylation and the integral membrane protein Sys1p.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16847258" target=_blank>Kim H, <i>et al.</i> (2006 Jul 25)</a>. A global topology map of the Saccharomyces cerevisiae membrane proteome.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03633_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03633_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03633_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03633_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01280_phobius.html#FOG03633">Phobius transmembrane predictions</a>
+										<br>29 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG03634<br>EOG87H48G<br><br>sce:absent<br><br>Genes: 5
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03634_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03634_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03634_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03634_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01280_phobius.html#FOG03634">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d7edd3" class="col">
+			FOG03635<br>EOG87H48G<br>EOG8ZS7NX<br><br>sce:TOD6<br><br>Genes: 4
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>PAC motif binding protein involved in rRNA and ribosome biogenesis; subunit of the RPD3L histone deacetylase complex; Myb-like HTH transcription factor; hypophosphorylated by rapamycin treatment in a Sch9p-dependent manner; activated in stochastic pulses of nuclear localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16544271" target=_blank>Wade CH, <i>et al.</i> (2006 Mar)</a>. The budding yeast rRNA and ribosome biosynthesis (RRB) regulon contains over 200 genes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19040720" target=_blank>Shevchenko A, <i>et al.</i> (2008)</a>. Chromatin Central: towards the comparative proteome by accurate mapping of the yeast proteomic environment.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19111667" target=_blank>Badis G, <i>et al.</i> (2008 Dec 26)</a>. A library of yeast transcription factor motifs reveals a widespread function for Rsc3 in targeting nucleosome exclusion at promoters.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19158363" target=_blank>Zhu C, <i>et al.</i> (2009 Apr)</a>. High-resolution DNA-binding specificity analysis of yeast transcription factors.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03635_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03635_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03635_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03635_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01280_phobius.html#FOG03635">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e5d4e9" class="col">
+			FOG03636<br>EOG866T68<br>EOG87H48G<br><br>sce:DOT6<br><br>Genes: 4
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Protein involved in rRNA and ribosome biogenesis; activated in stochastic pulses of nuclear localization; binds polymerase A and C motif; subunit of the RPD3L histone deacetylase complex; has chromatin specific SANT domain; involved in telomeric gene silencing and filamentation; relative distribution to the nucleus increases upon DNA replication stress<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9755194" target=_blank>Singer MS, <i>et al.</i> (1998 Oct)</a>. Identification of high-copy disruptors of telomeric silencing in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19040720" target=_blank>Shevchenko A, <i>et al.</i> (2008)</a>. Chromatin Central: towards the comparative proteome by accurate mapping of the yeast proteomic environment.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19111667" target=_blank>Badis G, <i>et al.</i> (2008 Dec 26)</a>. A library of yeast transcription factor motifs reveals a widespread function for Rsc3 in targeting nucleosome exclusion at promoters.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19158363" target=_blank>Zhu C, <i>et al.</i> (2009 Apr)</a>. High-resolution DNA-binding specificity analysis of yeast transcription factors.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03636_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03636_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03636_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03636_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01280_phobius.html#FOG03636">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fbe2c3" class="col">
+			FOG03637<br>EOG87H48G<br><br>sce:absent<br><br>Genes: 3
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03637_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03637_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03637_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03637_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01280_phobius.html#FOG03637">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fdffcc" class="col">
+			FOG03638<br>EOG87H48G<br><br>sce:absent<br><br>Genes: 4
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15051880" target=_blank>Chen H, <i>et al.</i> (2004 Apr 6)</a>. Tyrosol is a quorum-sensing molecule in Candida albicans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17645752" target=_blank>Zakikhany K, <i>et al.</i> (2007 Dec)</a>. In vivo transcript profiling of Candida albicans identifies a gene essential for interepithelial dissemination.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20435697" target=_blank>Rosenbach A, <i>et al.</i> (2010 Jul)</a>. Adaptations of Candida albicans for growth in the mammalian intestinal tract.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21512583" target=_blank>Martin R, <i>et al.</i> (2011 Apr 7)</a>. The Candida albicans-specific gene EED1 encodes a key regulator of hyphal extension.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21407800" target=_blank>Wächtler B, <i>et al.</i> (2011 Feb 23)</a>. From attachment to damage: defined genes of Candida albicans mediate adhesion, invasion and damage during interaction with oral epithelial cells.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23210679" target=_blank>Hsu CC, <i>et al.</i> (2013 Jul)</a>. The inhibitory activity of linalool against the filamentous growth and biofilm formation in Candida albicans.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03638_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03638_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03638_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03638_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01280_phobius.html#FOG03638">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e7d7cd" class="col">
+			FOG03639<br>EOG8ZS7NX<br><br>sce:absent<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03639_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03639_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03639_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03639_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01280_phobius.html#FOG03639">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fadff0" class="col">
+			FOG03640<br>EOG866T68<br><br>sce:absent<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03640_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03640_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03640_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03640_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01280_phobius.html#FOG03640">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01280.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

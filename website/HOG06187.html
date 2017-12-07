@@ -1,0 +1,106 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>																	<a href="HOG06186.html">HOG06186&emsp;&emsp;</a><br> 																	HOG06187&emsp;&emsp;<br> 																	<a href="HOG06188.html">HOG06188&emsp;&emsp;</a><br><br> 																	<a href="../sequences/hog/HOG06187.fasta">FASTA</a><br> 																	<a href="../trees/by_hog/msa/HOG06187_msa.fasta">MAFFT sequence alignment<br> 																	<a href="../trees/by_hog/phyml/HOG06187_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 																	<a href="">Gblocks</a><br> 																	<a href="HOG06187_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG10400<br>EOG8SQVDK<br><br>sce:REC107<br><br>Genes: 2
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Protein involved in early stages of meiotic recombination; involved in coordination between the initiation of recombination and the first division of meiosis; part of a complex (Rec107p-Mei4p-Rec114p) required for ds break formation<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2203538" target=_blank>Engebrecht J, <i>et al.</i> (1990 Sep 7)</a>. Meiotic gene conversion and crossing over: their relationship to each other and to chromosome synapsis and segregation.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1840507" target=_blank>Engebrecht JA, <i>et al.</i> (1991 Sep 20)</a>. Meiosis-specific RNA splicing in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1545806" target=_blank>Cool M, <i>et al.</i> (1992 Mar)</a>. Molecular and genetic analysis of the yeast early meiotic recombination genes REC102 and REC107/MER2.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7781779" target=_blank>Hani J, <i>et al.</i> (1995 May 29)</a>. PTF1 encodes an essential protein in Saccharomyces cerevisiae, which shows strong homology with a new putative family of PPIases.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14992724" target=_blank>Arora C, <i>et al.</i> (2004 Feb 27)</a>. Antiviral protein Ski8 is a direct partner of Spo11 in meiotic DNA break formation, independent of its cytoplasmic role in RNA metabolism.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16783010" target=_blank>Li J, <i>et al.</i> (2006 Aug)</a>. Saccharomyces cerevisiae Mer2, Mei4 and Rec114 form a complex required for meiotic double-strand break formation.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG10400_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG10400_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG10400_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG10400_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG06187_phobius.html#FOG10400">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<!--link to gblock-->
+	<img src="../img/trees/HOG06187.png"
+	</div>
+	<div id="footer">Footer</div>
+</div>
+
+</body></html>

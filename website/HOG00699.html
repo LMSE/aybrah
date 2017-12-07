@@ -1,0 +1,114 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG00698.html">HOG00698&emsp;&emsp;</a><br> 
+																	HOG00699&emsp;&emsp;<br> 
+																	<a href="HOG00700.html">HOG00700&emsp;&emsp;PdxS/SNZ family</a><br><br> 
+																	<a href="../sequences/hog/HOG00699.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG00699_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG00699_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG00699_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG00699_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG01652<br>EOG805QJW<br><br>sce:SNO1;SNO2;SNO3<br><br>Genes: 32
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Protein of unconfirmed function; involved in pyridoxine metabolism; expression is induced during stationary phase; forms a putative glutamine amidotransferase complex with Snz1p, with Sno1p serving as the glutaminase|Protein of unknown function; nearly identical to Sno3p; expression is induced before the diauxic shift and also in the absence of thiamin|Protein of unknown function; nearly identical to Sno2p; expression is induced before the diauxic shift and also in the absence of thiamin<br><br>
+			<br><b>PomBase Description</b><br>glutamine aminotransferase subunit Sno1 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have glutaminase activity, role in negative regulation of apoptotic process, pyridoxine biosynthetic process and cytoplasm, glutaminase complex localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24186552" target=_blank>Arst HN Jr, <i>et al.</i> (1982 Dec)</a>. Nitrogen metabolite repression in Aspergillus nidulans: A farewell to tamA?<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2869649" target=_blank>Wiame JM, <i>et al.</i> (1985)</a>. Nitrogen catabolite repression in yeasts and filamentous fungi.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9299197" target=_blank>Clutterbuck AJ, <i>et al.</i> (1997 Jun)</a>. The validity of the Aspergillus nidulans linkage map.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12271461" target=_blank>Rodríguez-Navarro S, <i>et al.</i> (2002 Oct)</a>. Functional analysis of yeast gene families involved in metabolism of vitamins B1 and B6.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14764090" target=_blank>Dong YX, <i>et al.</i> (2004 Feb)</a>. Characterization of the products of the genes SNO1 and SNZ1 involved in pyridoxine synthesis in Saccharomyces cerevisiae.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG01652_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG01652_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG01652_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG01652_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00699_phobius.html#FOG01652">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG00699.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

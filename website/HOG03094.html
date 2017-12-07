@@ -1,0 +1,155 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG03093.html">HOG03093&emsp;&emsp;</a><br> 
+																	HOG03094&emsp;&emsp;<br> 
+																	<a href="HOG03095.html">HOG03095&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG03094.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG03094_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG03094_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG03094_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG03094_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG06940<br>EOG8GHX7N<br><br>sce:absent<br><br>Genes: 34
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Putative protein of unknown function; YOR338W transcription is regulated by Azf1p and its transcript is a specific target of the G protein effector Scp160p; identified as being required for sporulation in a high-throughput mutant screen; YOR338W has a paralog, FUN19, that arose from the whole genome duplication<br><br>
+			<br><b>PomBase Description</b><br>Clr6 L associated factor 1 Laf1|Clr6 associated factor 2, Laf2<br><br>
+			<br><b>AspGD Description</b><br>Ortholog of S. cerevisiae : FUN19, A. nidulans FGSC A4 : AN5099, A. fumigatus Af293 : Afu1g07750, A. oryzae RIB40 : AO090012001027 and Aspergillus wentii : Aspwe1_0121489<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14561723" target=_blank>Sakaki K, <i>et al.</i> (2003 Sep)</a>. Response of genes associated with mitochondrial function to mild heat stress in yeast Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19040720" target=_blank>Shevchenko A, <i>et al.</i> (2008)</a>. Chromatin Central: towards the comparative proteome by accurate mapping of the yeast proteomic environment.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22384365" target=_blank>Wendland J, <i>et al.</i> (2011 Dec)</a>. Genome evolution in the eremothecium clade of the Saccharomyces complex revealed by comparative genomics.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25002536" target=_blank>Zilio N, <i>et al.</i> (2014 Sep 15)</a>. A novel histone deacetylase complex in the control of transcription and genome stability.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG06940_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG06940_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG06940_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG06940_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG03094_phobius.html#FOG06940">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG06941<br>EOG8GHX7N<br><br>sce:FUN19<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Non-essential protein of unknown function; expression induced in response to heat stress; FUN19 has a paralog, YOR338W, that arose from the whole genome duplication<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12748633" target=_blank>Kellis M, <i>et al.</i> (2003 May 15)</a>. Sequencing and comparison of yeast species to identify genes and regulatory elements.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG06941_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG06941_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG06941_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG06941_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG03094_phobius.html#FOG06941">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG03094.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

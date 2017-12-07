@@ -1,0 +1,645 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG00219.html">HOG00219&emsp;&emsp;pyruvate carboxylase </a><br> 
+																	HOG00222&emsp;&emsp;<br> 
+																	<a href="HOG00225.html">HOG00225&emsp;&emsp;Phosphoketolase, alpha subunit</a><br><br> 
+																	<a href="../sequences/hog/HOG00222.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG00222_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG00222_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG00222_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG00222_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG00381<br>EOG88KPSK<br>MAE0<br>sce:absent<br><br>Genes: 4
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>NAD(P)-cytoplasmic malic enzyme<br><br>
+			<br><b>Features</b><br>[c];NAD(P)<br><br>
+			<br><b>AspGD Description</b><br>Protein similar to mitochondrial malic enzyme (NADP-specific); expression repressed by tunicamycin and DTT<br><br>
+			<br><b>Suggested Analysis</b><br>Investigate if ancestral MAE was [c] or [m]<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00381_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00381_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00381_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00381_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00222_phobius.html#FOG00381">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG00382<br>EOG88KPSK<br><br>sce:absent<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>NADP-mitochondrial malic enzyme<br><br>
+			<br><b>Features</b><br>[m];NADP<br><br>
+			<br><b>Parent</b><br>ortholog:FOG00381<br><br>
+			<br><b>Suggested Analysis</b><br>Investigate if gene should be swapped with FOG00387<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=4383262" target=_blank>Zink MW, <i>et al.</i> (1967 Sep)</a>. Regulation of the "malic" enzyme in Neurospora crassa.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=4402367" target=_blank>Zink MW, <i>et al.</i> (1972 May)</a>. Regulation of the two "malic" enzymes in Neurospora crassa.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00382_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00382_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00382_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00382_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00222_phobius.html#FOG00382">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d7edd3" class="col">
+			FOG00383<br><br><br>sce:absent<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>NADP-mitochondrial malic enzyme. (assumed from Rhodosporidium toruloides)<br><br>
+			<br><b>Features</b><br>[m]<br><br>
+			<br><b>Parent</b><br>ortholog:FOG00381<br><br>
+			<br><b>Suggested Analysis</b><br>Investigate if ancestral MAE was [c] or [m]<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00383_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00383_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00383_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00383_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00222_phobius.html#FOG00383">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e5d4e9" class="col">
+			FOG00384<br>EOG88KPSK<br><br>sce:absent<br><br>Genes: 2
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>Cytoplasmic malic enzyme; important for high glucose concentration and anaerobic conditions<br><br>
+			<br><b>Features</b><br>[c];NAD<br><br>
+			<br><b>PomBase Description</b><br>malic enzyme, malate dehydrogenase (oxaloacetate decarboxylating), Mae2<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9809416" target=_blank>Viljoen M, <i>et al.</i> (1998 Oct 15)</a>. Mutation of Gly-444 inactivates the S. pombe malic enzyme.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10187772" target=_blank>Viljoen M, <i>et al.</i> (1999 Apr 9)</a>. Transcriptional regulation of the Schizosaccharomyces pombe malic enzyme gene, mae2.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11453251" target=_blank>Groenewald M, <i>et al.</i> (2001 Jun)</a>. Factors involved in the regulation of the Schizosaccharomyces pombe malic enzyme gene.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16914721" target=_blank>Rodríguez-Gabriel MA, <i>et al.</i> (2006 Sep)</a>. Upf1, an RNA helicase required for nonsense-mediated mRNA decay, modulates the transcriptional response to oxidative stress in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18257517" target=_blank>Wilson-Grady JT, <i>et al.</i> (2008 Mar)</a>. Phosphoproteome analysis of fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19139265" target=_blank>Roberts-Galbraith RH, <i>et al.</i> (2009 Jan 12)</a>. The SH3 domains of two PCH family members cooperate in assembly of the Schizosaccharomyces pombe contractile ring.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23956636" target=_blank>Cho SJ, <i>et al.</i> (2010 Jun)</a>. Possible Roles of LAMMER Kinase Lkh1 in Fission Yeast by Comparative Proteome Analysis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22119525" target=_blank>Singh NS, <i>et al.</i> (2011 Dec 6)</a>. SIN-inhibitory phosphatase complex promotes Cdc11p dephosphorylation and propagates SIN asymmetry in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22540037" target=_blank>Pancaldi V, <i>et al.</i> (2012 Apr)</a>. Predicting the fission yeast protein interaction network.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23738021" target=_blank>Zhou X, <i>et al.</i> (2013)</a>. A genome-wide screening of potential target genes to enhance the antifungal activity of micafungin in Schizosaccharomyces pombe.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23297348" target=_blank>Chen JS, <i>et al.</i> (2013 May)</a>. Comprehensive proteomics analysis reveals new substrates and regulators of the fission yeast clp1/cdc14 phosphatase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25076038" target=_blank>Guo Y, <i>et al.</i> (2014 Jul)</a>. Large scale screening of genetic interaction with sgf73(+) in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25651869" target=_blank>Doi A, <i>et al.</i> (2015 Apr)</a>. Chemical genomics approach to identify genes associated with sensitivity to rapamycin in the fission yeast Schizosaccharomyces pombe.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26412298" target=_blank>Beckley JR, <i>et al.</i> (2015 Dec)</a>. A Degenerate Cohort of Yeast Membrane Trafficking DUBs Mediates Cell Polarity and Survival.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28218250" target=_blank>Lee J, <i>et al.</i> (2017 Feb 20)</a>. Chromatin remodeller Fun30&lt;sup&gt;Fft3&lt;/sup&gt; induces nucleosome disassembly to facilitate RNA polymerase II elongation.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00384_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00384_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00384_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00384_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00222_phobius.html#FOG00384">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fbe2c3" class="col">
+			FOG00385<br>EOG88KPSK<br><br>sce:absent<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>NAD-dependent malic enzyme<br><br>
+			<br><b>Parent</b><br>paralog:FOG00384<br><br>
+			<br><b>PomBase Description</b><br>NAD-dependent malic enzyme (predicted), partial<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00385_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00385_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00385_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00385_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00222_phobius.html#FOG00385">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fdffcc" class="col">
+			FOG00386<br>EOG88KPSK<br><br>sce:absent<br><br>Genes: 2
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>NADP-mitochondrial malic enzyme, possible [c] localization; Malic enzyme has been isolated from Neurospora crassa which can bring about the reversible carboxylation of pyruvic acid. The enzyme is specific to L-malate and NADP and is activated by Mn++ and Mg++. The partially purified enzyme does not decarboxylate oxaloacetate but is competitively inhibited by it. This enzyme is synthesized only during the early stages of the growth cycle and is repressed by acetate.;;ang, tre are [m]; nadp only. Tre verified; different isoforms possible.<br><br>
+			<br><b>Features</b><br>[m]<br><br>
+			<br><b>Parent</b><br>ortholog:FOG00381<br><br>
+			<br><b>AspGD Description</b><br>Malate dehydrogenase (NADP-specific)<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=4383262" target=_blank>Zink MW, <i>et al.</i> (1967 Sep)</a>. Regulation of the "malic" enzyme in Neurospora crassa.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00386_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00386_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00386_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00386_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00222_phobius.html#FOG00386">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e7d7cd" class="col">
+			FOG00387<br>EOG88KPSK<br><br>sce:absent<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>NAD(P?)-cytoplasmic malic enzyme. Enzyme does not share localization with FOG00386 despite being monophyletic.  "Malic enzyme has been isolated from Neurospora crassa which can bring about the reversible carboxylation of pyruvic acid. The enzyme is specific to L-malate and NADP and is activated by Mn++ and Mg++. The partially purified enzyme does not decarboxylate oxaloacetate but is competitively inhibited by it. This enzyme is synthesized only during the early stages of the growth cycle and is repressed by acetate"<br><br>
+			<br><b>Features</b><br>[c]<br><br>
+			<br><b>Parent</b><br>ortholog:FOG00381<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=4383262" target=_blank>Zink MW, <i>et al.</i> (1967 Sep)</a>. Regulation of the "malic" enzyme in Neurospora crassa.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=4402367" target=_blank>Zink MW, <i>et al.</i> (1972 May)</a>. Regulation of the two "malic" enzymes in Neurospora crassa.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00387_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00387_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00387_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00387_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00222_phobius.html#FOG00387">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fadff0" class="col">
+			FOG00388<br><br><br>sce:absent<br><br>Genes: 10
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>Cytoplasmic malic enzyme, ancestral budding yeast, NAD preferred but can also use NADP to lesser extent. Evidence of cofactor usage in yli and lst<br><br>
+			<br><b>Features</b><br>[c]<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00388_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00388_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00388_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00388_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00222_phobius.html#FOG00388">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f2c0c1" class="col">
+			FOG00389<br>EOG88KPSK<br><br>sce:absent<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>mitochondrial malic enzyme, YLI paralog, NAD and NADP cofactor<br><br>
+			<br><b>Features</b><br>[m];NAD(P)<br><br>
+			<br><b>Parent</b><br>ortholog:FOG00388<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23892983" target=_blank>Zhang H, <i>et al.</i> (2013 Dec)</a>. Regulatory properties of malic enzyme in the oleaginous yeast, Yarrowia lipolytica, and its non-involvement in lipid accumulation.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00389_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00389_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00389_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00389_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00222_phobius.html#FOG00389">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#cbd9eb" class="col">
+			FOG00390<br>EOG88KPSK<br><br>sce:absent<br><br>Genes: 14
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>mitochondrial malic enzyme assume NAD and NADP cofactor. C. tropicalis paper shows higher activity with NAD. Strong evidence of [m]<br><br>
+			<br><b>Features</b><br>[m];<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00390_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00390_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00390_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00390_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00222_phobius.html#FOG00390">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d0eacb" class="col">
+			FOG00391<br><br><br>sce:absent<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>MAE [c], HVA paralog, assume dual cofactor; unambigious based on fna sequence analysis<br><br>
+			<br><b>Features</b><br>[c];NAD(P)?<br><br>
+			<br><b>Parent</b><br>ortholog?:FOG00390<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00391_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00391_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00391_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00391_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00222_phobius.html#FOG00391">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e0cce5" class="col">
+			FOG00392<br>EOG88KPSK<br><br>sce:MAE1<br><br>Genes: 2
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>NADP-mitochondrial malic enzyme<br><br>
+			<br><b>Features</b><br>[m];NADP<br><br>
+			<br><b>Parent</b><br>ortholog:FOG00390<br><br>
+			<br><b>SGD Description</b><br>Mitochondrial malic enzyme; catalyzes the oxidative decarboxylation of malate to pyruvate, which is a key intermediate in sugar metabolism and a precursor for synthesis of several amino acids<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9603875" target=_blank>Boles E, <i>et al.</i> (1998 Jun)</a>. Identification and characterization of MAE1, the Saccharomyces cerevisiae structural gene encoding mitochondrial malic enzyme.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14576278" target=_blank>Sickmann A, <i>et al.</i> (2003 Nov 11)</a>. The proteome of Saccharomyces cerevisiae mitochondria.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00392_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00392_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00392_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00392_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00222_phobius.html#FOG00392">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fadcb8" class="col">
+			FOG00393<br>EOG88KPSK<br><br>sce:absent<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>NADP?-mitochondrial malic enzyme, vpo ohnolog, unknown cofactor but assume NADP<br><br>
+			<br><b>Features</b><br>[m];NADP?<br><br>
+			<br><b>Parent</b><br>ohnolog:FOG00390<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00393_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00393_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00393_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00393_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00222_phobius.html#FOG00393">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG00222.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

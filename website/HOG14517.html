@@ -1,0 +1,111 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG14511.html">HOG14511&emsp;&emsp;</a><br> 
+																	HOG14517&emsp;&emsp;<br> 
+																	<a href="HOG14520.html">HOG14520&emsp;&emsp;peroxiredoxin family. BCP/PrxQ subfamily</a><br><br> 
+																	<a href="../sequences/hog/HOG14517.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG14517_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG14517_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG14517_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG14517_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG18731<br>EOG82BVW9<br><br>sce:CBP3<br><br>Genes: 32
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Mitochondrial protein required for assembly of cytochrome bc1 complex; forms a complex with Cbp6p that binds to mt ribosomes near the polypeptide tunnel exit and promotes efficient translation of the COB mRNA; Cbp3p-Cbp6p complex also interacts with newly synthesized cytochrome b (Cobp) and Cbp4p to promote assembly of Cobp into the cytochrome bc1 complex; Cbp3p-Cbp6p complex is sequestered if assembly of Complex III is blocked, downregulating COB mRNA translation<br><br>
+			<br><b>PomBase Description</b><br>ubiquinol cytochrome-c reductase assembly protein Cbp3 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog of A. nidulans FGSC A4 : AN5813, A. oryzae RIB40 : AO090011000939, Aspergillus wentii : Aspwe1_0043753, Aspergillus sydowii : Aspsy1_0201714 and Aspergillus terreus NIH2624 : ATET_06862<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2544586" target=_blank>Wu M, <i>et al.</i> (1989 Jul 5)</a>. Identification and characterization of a new gene (CBP3) required for the expression of yeast coenzyme QH2-cytochrome c reductase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11522252" target=_blank>Shi G, <i>et al.</i> (2001 Aug 17)</a>. Identification of functional regions of Cbp3p, an enzyme-specific chaperone required for the assembly of ubiquinol-cytochrome c reductase in yeast mitochondria.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG18731_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG18731_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG18731_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG18731_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG14517_phobius.html#FOG18731">Phobius transmembrane predictions</a>
+										<br>7 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG14517.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

@@ -1,0 +1,240 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01569.html">HOG01569&emsp;&emsp;CTF8 family</a><br> 
+																	HOG01570&emsp;&emsp;<br> 
+																	<a href="HOG01571.html">HOG01571&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG01570.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01570_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01570_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG01570_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG04472<br>EOG8GXD47<br>EOG8T76KT<br><br>sce:RKM1;EFM1<br><br>Genes: 43
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>SET-domain lysine-N-methyltransferase; catalyzes the formation of dimethyllysine residues on the large ribosomal subunit proteins L23 (Rpl23Ap and Rpl23Bp) and monomethyllysine residues on L18 (Rps18Ap and Rps18Bp)|Lysine methyltransferase; involved in the monomethylation of eEF1A (Tef1p/Tef2p); SET-domain family member; predicted involvement in ribosome biogenesis; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm<br><br>
+			<br><b>PomBase Description</b><br>ribosomal lysine methyltransferase Set10<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16096273" target=_blank>Porras-Yakushi TR, <i>et al.</i> (2005 Oct 14)</a>. A novel SET domain methyltransferase modifies ribosomal protein Rpl23ab in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17327221" target=_blank>Porras-Yakushi TR, <i>et al.</i> (2007 Apr 27)</a>. Yeast ribosomal/cytochrome c SET domain methyltransferase subfamily: identification of Rpl23ab methylation sites and recognition motifs.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20510667" target=_blank>Lipson RS, <i>et al.</i> (2010 Aug 15)</a>. Two novel methyltransferases acting upon eukaryotic elongation factor 1A in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22522802" target=_blank>Couttas TA, <i>et al.</i> (2012 Apr)</a>. Methylation of translation-associated proteins in Saccharomyces cerevisiae: Identification of methylated lysines and their methyltransferases.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG04472_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04472_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04472_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG04472_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01570_phobius.html#FOG04472">Phobius transmembrane predictions</a>
+										<br>4 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG04473<br>EOG8T76KT<br><br>sce:RKM2<br><br>Genes: 30
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Ribosomal protein lysine methyltransferase; responsible for trimethylation of the lysine residue at position 3 of Rpl12Ap and Rpl12Bp<br><br>
+			<br><b>PomBase Description</b><br>ribosomal protein lysine methyltransferase Set11<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17005568" target=_blank>Porras-Yakushi TR, <i>et al.</i> (2006 Nov 24)</a>. A novel SET domain methyltransferase in yeast: Rkm2-dependent trimethylation of ribosomal protein L12ab at lysine 10.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18957409" target=_blank>Webb KJ, <i>et al.</i> (2008 Dec 19)</a>. Identification of two SET domain proteins required for methylation of lysine residues in yeast ribosomal protein Rpl42ab.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18195021" target=_blank>Sadaie M, <i>et al.</i> (2008 Mar 14)</a>. A conserved SET domain methyltransferase, Set11, modifies ribosomal protein Rpl12 in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18931302" target=_blank>Dixon SJ, <i>et al.</i> (2008 Oct 28)</a>. Significant conservation of synthetic lethal genetic interaction networks between distantly related eukaryotes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21760946" target=_blank>Takeda K, <i>et al.</i> (2011)</a>. Identification of genes affecting the toxicity of anti-cancer drug bortezomib by genome-wide screening in S. pombe.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26167880" target=_blank>Lipp JJ, <i>et al.</i> (2015 Aug)</a>. SR protein kinases promote splicing of nonconsensus introns.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG04473_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04473_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04473_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG04473_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01570_phobius.html#FOG04473">Phobius transmembrane predictions</a>
+										<br>8 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d7edd3" class="col">
+			FOG04474<br>EOG8T76KT<br><br>sce:absent<br><br>Genes: 5
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>AspGD Description</b><br>Ortholog of A. nidulans FGSC A4 : AN7340, AN10583, A. fumigatus Af293 : Afu3g06400, A. niger CBS 513.88 : An11g09940 and A. oryzae RIB40 : AO090020000722|Ortholog(s) have protein-lysine N-methyltransferase activity, role in peptidyl-lysine methylation and cytosol, nucleolus localization<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG04474_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04474_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04474_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG04474_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01570_phobius.html#FOG04474">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e5d4e9" class="col">
+			FOG04475<br>EOG8GXD47<br><br>sce:absent<br><br>Genes: 3
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>AspGD Description</b><br>Ortholog of Aspergillus niger ATCC 1015 : 120572-mRNA<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG04475_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04475_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04475_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG04475_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01570_phobius.html#FOG04475">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01570.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

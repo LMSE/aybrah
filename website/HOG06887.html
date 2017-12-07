@@ -1,0 +1,114 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG06882.html">HOG06882&emsp;&emsp;</a><br> 
+																	HOG06887&emsp;&emsp;<br> 
+																	<a href="HOG06890.html">HOG06890&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG06887.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG06887_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG06887_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG06887_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG06887_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG11100<br>EOG8Q2BXB<br>EOG8R229Z<br><br>sce:VHS1;SKS1<br><br>Genes: 35
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Cytoplasmic serine/threonine protein kinase; identified as a high-copy suppressor of the synthetic lethality of a sis2 sit4 double mutant, suggesting a role in G1/S phase progression; VHS1 has a paralog, SKS1, that arose from the whole genome duplication|Putative serine/threonine protein kinase; involved in the adaptation to low concentrations of glucose independent of the SNF3 regulated pathway; SKS1 has a paralog, VHS1, that arose from the whole genome duplication<br><br>
+			<br><b>PomBase Description</b><br>serine/threonine protein kinase Ran1/Pat1<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have protein serine/threonine kinase activity<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8948096" target=_blank>Yang Z, <i>et al.</i> (1996 Nov)</a>. The SKS1 protein kinase is a multicopy suppressor of the snf3 mutation of Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12518319" target=_blank>Muñoz I, <i>et al.</i> (2003 Jan 30)</a>. Identification of multicopy suppressors of cell cycle arrest at the G1-S transition in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17880424" target=_blank>Malavazi I, <i>et al.</i> (2007 Oct)</a>. Transcriptome analysis of the Aspergillus nidulans AtmA (ATM, Ataxia-Telangiectasia mutated) null mutant.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22814378" target=_blank>Van Damme P, <i>et al.</i> (2012 Jul 31)</a>. N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23505451" target=_blank>De Souza CP, <i>et al.</i> (2013)</a>. Functional analysis of the Aspergillus nidulans kinome.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG11100_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG11100_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG11100_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG11100_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG06887_phobius.html#FOG11100">Phobius transmembrane predictions</a>
+										<br>6 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG06887.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

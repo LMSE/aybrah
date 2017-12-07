@@ -1,0 +1,112 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01924.html">HOG01924&emsp;&emsp;</a><br> 
+																	HOG01925&emsp;&emsp;<br> 
+																	<a href="HOG01926.html">HOG01926&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG01925.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01925_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01925_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG01925_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG05253<br>EOG85X6D1<br><br>sce:absent<br><br>Genes: 27
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>AspGD Description</b><br>Ortholog of A. nidulans FGSC A4 : AN1962, A. fumigatus Af293 : Afu4g10820, Aspergillus wentii : Aspwe1_0145558, Aspergillus sydowii : Aspsy1_0142548 and Aspergillus terreus NIH2624 : ATET_03987<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11259598" target=_blank>Kadosh D, <i>et al.</i> (2001 Apr)</a>. Rfg1, a protein related to the Saccharomyces cerevisiae hypoxic regulator Rox1, controls filamentous growth and virulence in Candida albicans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11290707" target=_blank>Khalaf RA, <i>et al.</i> (2001 Apr)</a>. The DNA binding protein Rfg1 is a repressor of filamentation in Candida albicans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15814840" target=_blank>Kadosh D, <i>et al.</i> (2005 Jun)</a>. Induction of the Candida albicans filamentous growth program by relief of transcriptional repression: a genome-wide analysis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17880264" target=_blank>Zordan RE, <i>et al.</i> (2007 Oct)</a>. Interlocking transcriptional feedback loops control white-opaque switching in Candida albicans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20656914" target=_blank>Cleary IA, <i>et al.</i> (2010 Sep)</a>. Pseudohyphal regulation by the transcription factor Rfg1p in Candida albicans.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG05253_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05253_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05253_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG05253_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01925_phobius.html#FOG05253">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01925.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

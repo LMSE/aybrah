@@ -1,0 +1,419 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01227.html">HOG01227&emsp;&emsp;TCP-1 chaperonin family</a><br> 
+																	HOG01228&emsp;&emsp;<br> 
+																	<a href="HOG01229.html">HOG01229&emsp;&emsp;GST superfamily</a><br><br> 
+																	<a href="../sequences/hog/HOG01228.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01228_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01228_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG01228_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG03405<br>EOG88GTJQ<br><br>sce:RPT3<br><br>Genes: 33
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>ATPase of the 19S regulatory particle of the 26S proteasome; one of ATPases of the regulatory particle; involved in the degradation of ubiquitinated substrates; substrate of N-acetyltransferase B<br><br>
+			<br><b>PomBase Description</b><br>19S proteasome regulatory subunit Rpt3 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have role in positive regulation of RNA polymerase II transcriptional preinitiation complex assembly, proteasome regulatory particle assembly, ubiquitin-dependent protein catabolic process<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7803857" target=_blank>Campbell CL, <i>et al.</i> (1994 Aug)</a>. Mitochondrial morphological and functional defects in yeast caused by yme1 are suppressed by mutation of a 26S protease subunit homologue.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7754704" target=_blank>Schnall R, <i>et al.</i> (1994 Sep)</a>. Identification of a set of yeast genes coding for a novel family of putative ATPases with high similarity to constituents of the 26S protease complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12504901" target=_blank>Kimura Y, <i>et al.</i> (2003 Jan 15)</a>. N-Terminal modifications of the 19S regulatory particle subunits of the yeast proteasome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15870366" target=_blank>Sims AH, <i>et al.</i> (2005 May)</a>. Transcriptome analysis of recombinant protein secretion by Aspergillus nidulans and the unfolded-protein response in vivo.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22106047" target=_blank>Starita LM, <i>et al.</i> (2012 Jan)</a>. Sites of ubiquitin attachment in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22927375" target=_blank>Beck F, <i>et al.</i> (2012 Sep 11)</a>. Near-atomic resolution structural model of the yeast 26S proteasome.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03405_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03405_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03405_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03405_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01228_phobius.html#FOG03405">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG03406<br>EOG88GTJQ<br><br>sce:RPT1<br><br>Genes: 33
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>ATPase of the 19S regulatory particle of the 26S proteasome; one of six ATPases of the regulatory particle; involved in the degradation of ubiquitinated substrates; required for optimal CDC20 transcription; interacts with Rpn12p and Ubr1p; mutant has aneuploidy tolerance<br><br>
+			<br><b>PomBase Description</b><br>19S proteasome regulatory subunit Rpt1 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have role in positive regulation of RNA polymerase II transcriptional preinitiation complex assembly, positive regulation of protein catabolic process and proteasome regulatory particle assembly, more<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8247132" target=_blank>Ghislain M, <i>et al.</i> (1993 Nov 25)</a>. S. cerevisiae 26S protease mutants arrest cell division in G2/metaphase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7754704" target=_blank>Schnall R, <i>et al.</i> (1994 Sep)</a>. Identification of a set of yeast genes coding for a novel family of putative ATPases with high similarity to constituents of the 26S protease complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10688918" target=_blank>Xie Y, <i>et al.</i> (2000 Mar 14)</a>. Physical association of ubiquitin ligases and the 26S proteasome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11500370" target=_blank>Jäger S, <i>et al.</i> (2001 Aug 15)</a>. Cic1, an adaptor protein specifically linking the 26S proteasome to its substrate, the SCF component Cdc4.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12504901" target=_blank>Kimura Y, <i>et al.</i> (2003 Jan 15)</a>. N-Terminal modifications of the 19S regulatory particle subunits of the yeast proteasome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22927375" target=_blank>Beck F, <i>et al.</i> (2012 Sep 11)</a>. Near-atomic resolution structural model of the yeast 26S proteasome.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03406_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03406_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03406_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03406_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01228_phobius.html#FOG03406">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d7edd3" class="col">
+			FOG03407<br>EOG88GTJQ<br><br>sce:RPT6<br><br>Genes: 33
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>ATPase of the 19S regulatory particle of the 26S proteasome; one of six ATPases of the regulatory particle; involved in the degradation of ubiquitinated substrates; bound by ubiquitin-protein ligases Ubr1p and Ufd4p; localized mainly to the nucleus throughout the cell cycle; protein abundance increases in response to DNA replication stress<br><br>
+			<br><b>PomBase Description</b><br>19S proteasome regulatory subunit Rpt6 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have protein domain specific binding activity<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1614516" target=_blank>Swaffield JC, <i>et al.</i> (1992 Jun 25)</a>. Alterations in a yeast protein resembling HIV Tat-binding protein relieve requirement for an acidic activation domain in GAL4.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1388730" target=_blank>Goyer C, <i>et al.</i> (1992 Oct)</a>. Isolation of a yeast gene encoding a protein homologous to the human Tat-binding protein TBP-1.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8628401" target=_blank>Rubin DM, <i>et al.</i> (1996 Feb 15)</a>. Identification of the gal4 suppressor Sug1 as a subunit of the yeast 26S proteasome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9234674" target=_blank>Feuermann M, <i>et al.</i> (1997 Jul)</a>. The characterization of two new clusters of duplicated genes suggests a 'Lego' organization of the yeast Saccharomyces cerevisiae chromosomes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10688918" target=_blank>Xie Y, <i>et al.</i> (2000 Mar 14)</a>. Physical association of ubiquitin ligases and the 26S proteasome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12504901" target=_blank>Kimura Y, <i>et al.</i> (2003 Jan 15)</a>. N-Terminal modifications of the 19S regulatory particle subunits of the yeast proteasome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16284124" target=_blank>Guerrero C, <i>et al.</i> (2006 Feb)</a>. An integrated mass spectrometry-based proteomic approach: quantitative analysis of tandem affinity-purified in vivo cross-linked protein complexes (QTAX) to decipher the 26 S proteasome-interacting network.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22927375" target=_blank>Beck F, <i>et al.</i> (2012 Sep 11)</a>. Near-atomic resolution structural model of the yeast 26S proteasome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25042801" target=_blank>Hanssum A, <i>et al.</i> (2014 Aug 21)</a>. An inducible chaperone adapts proteasome assembly to stress.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03407_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03407_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03407_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03407_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01228_phobius.html#FOG03407">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e5d4e9" class="col">
+			FOG03408<br>EOG88GTJQ<br><br>sce:RPT2<br><br>Genes: 33
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>ATPase of the 19S regulatory particle of the 26S proteasome; one of six ATPases of the regulatory particle; involved in the degradation of ubiquitinated substrates; required for normal peptide hydrolysis by the core 20S particle; N-myristoylation of Rpt2p at Gly2 is involved in regulating the proper intracellular distribution of proteasome activity by controlling the nuclear localization of the 26S proteasome<br><br>
+			<br><b>PomBase Description</b><br>19S proteasome regulatory subunit Rpt2<br><br>
+			<br><b>AspGD Description</b><br>Protein similar to 26S ATP/ubiquitin-dependent proteinase chain S4<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7754704" target=_blank>Schnall R, <i>et al.</i> (1994 Sep)</a>. Identification of a set of yeast genes coding for a novel family of putative ATPases with high similarity to constituents of the 26S protease complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7721833" target=_blank>Lucero HA, <i>et al.</i> (1995 Apr 21)</a>. Cloning and expression of a yeast gene encoding a protein with ATPase activity and high identity to the subunit 4 of the human 26 S protease.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9325304" target=_blank>Wilkinson CR, <i>et al.</i> (1997 Oct 10)</a>. Mts4, a non-ATPase subunit of the 26 S protease in fission yeast is essential for mitosis and interacts directly with the ATPase subunit Mts2.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11084332" target=_blank>Tatebe H, <i>et al.</i> (2000 Nov 2)</a>. Cut8, essential for anaphase, controls localization of 26S proteasome, facilitating destruction of cyclin and Cut2.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11683390" target=_blank>Decottignies A, <i>et al.</i> (2001 Jul)</a>. In vivo localisation of fission yeast cyclin-dependent kinase cdc2p and cyclin B cdc13p during mitosis and meiosis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12006658" target=_blank>Dunand-Sauthier I, <i>et al.</i> (2002 May)</a>. Sum1, a component of the fission yeast eIF3 translation initiation complex, is rapidly relocalized during environmental stress and interacts with components of the 26S proteasome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12783882" target=_blank>Yen HC, <i>et al.</i> (2003 Aug 15)</a>. Rpn5 is a conserved proteasome subunit and required for proper proteasome localization and assembly.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12504901" target=_blank>Kimura Y, <i>et al.</i> (2003 Jan 15)</a>. N-Terminal modifications of the 19S regulatory particle subunits of the yeast proteasome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12553909" target=_blank>Yen HC, <i>et al.</i> (2003 Jan 24)</a>. Schizosaccharomyces pombe Int6 and Ras homologs regulate cell division and mitotic fidelity via the proteasome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12615927" target=_blank>Seeger M, <i>et al.</i> (2003 May 9)</a>. Interaction of the anaphase-promoting complex/cyclosome and proteasome protein complexes with multiubiquitin chain-binding proteins.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15533439" target=_blank>Stone M, <i>et al.</i> (2004 Nov 26)</a>. Uch2/Uch37 is the major deubiquitinating enzyme associated with the 26S proteasome in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16096059" target=_blank>Takeda K, <i>et al.</i> (2005 Aug 12)</a>. Regulation of nuclear proteasome by Rhp6/Ubc2 through ubiquitination and destruction of the sensor and anchor Cut8.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16149916" target=_blank>Jossé L, <i>et al.</i> (2006 Jan 1)</a>. Fission yeast Dss1 associates with the proteasome and is required for efficient ubiquitin-dependent proteolysis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18023413" target=_blank>Mannen T, <i>et al.</i> (2008 Jan 25)</a>. Dss1 associating with the proteasome functions in selective nuclear mRNA export in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21098295" target=_blank>Bohn S, <i>et al.</i> (2010 Dec 7)</a>. Structure of the 26S proteasome from Schizosaccharomyces pombe at subnanometer resolution.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20133687" target=_blank>Takeda K, <i>et al.</i> (2010 Feb 23)</a>. Synergistic roles of the proteasome and autophagy for mitochondrial maintenance and chronological lifespan in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20231270" target=_blank>Selvanathan SP, <i>et al.</i> (2010 May 7)</a>. Schizosaccharomyces pombe Dss1p is a DNA damage checkpoint protein that recruits Rad24p, Cdc25p, and Rae1p to DNA double-strand breaks.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20976105" target=_blank>Anderson HE, <i>et al.</i> (2010 Oct 18)</a>. Silencing mediated by the Schizosaccharomyces pombe HIRA complex is dependent upon the Hpc2-like protein, Hip4.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20668161" target=_blank>Cabrera R, <i>et al.</i> (2010 Sep 15)</a>. Proteasome nuclear import mediated by Arc3 can influence efficient DNA damage repair and mitosis in Schizosaccharomyces pombe.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20838651" target=_blank>Kouranti I, <i>et al.</i> (2010 Sep 7)</a>. A global census of fission yeast deubiquitinating enzyme localization and interaction networks reveals distinct compartmentalization profiles and overlapping functions in endocytosis and polarity.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21324894" target=_blank>Matsuo Y, <i>et al.</i> (2011 Apr 15)</a>. Nuclear protein quality is regulated by the ubiquitin-proteasome system through the activity of Ubc4 and San1 in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22144913" target=_blank>Duncan CD, <i>et al.</i> (2011 Dec)</a>. Widespread cotranslational formation of protein complexes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22384365" target=_blank>Wendland J, <i>et al.</i> (2011 Dec)</a>. Genome evolution in the eremothecium clade of the Saccharomyces complex revealed by comparative genomics.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21652630" target=_blank>Snaith HA, <i>et al.</i> (2011 Jul 1)</a>. Characterization of Mug33 reveals complementary roles for actin cable-dependent transport and exocyst regulators in fission yeast exocytosis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23209828" target=_blank>Penney M, <i>et al.</i> (2012)</a>. Fission yeast 26S proteasome mutants are multi-drug resistant due to stabilization of the Pap1 transcription factor.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22106047" target=_blank>Starita LM, <i>et al.</i> (2012 Jan)</a>. Sites of ubiquitin attachment in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22307589" target=_blank>Lasker K, <i>et al.</i> (2012 Jan 31)</a>. Molecular architecture of the 26S proteasome holocomplex determined by an integrative approach.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22927375" target=_blank>Beck F, <i>et al.</i> (2012 Sep 11)</a>. Near-atomic resolution structural model of the yeast 26S proteasome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23348717" target=_blank>Fujiwara H, <i>et al.</i> (2013 Jan)</a>. Essential role of Ubr11, but not Ubr1, as an N-end rule ubiquitin ligase in Schizosaccharomyces pombe.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24710126" target=_blank>Kitagawa T, <i>et al.</i> (2014 Apr 7)</a>. The 19S proteasome subunit Rpt3 regulates distribution of CENP-A by associating with centromeric chromatin.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24497846" target=_blank>Kriegenburg F, <i>et al.</i> (2014 Jan)</a>. A chaperone-assisted degradation pathway targets kinetochore proteins to ensure genome stability.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24741065" target=_blank>Otsubo Y, <i>et al.</i> (2014 Jun 15)</a>. S. pombe TORC1 activates the ubiquitin-proteasomal degradation of the meiotic regulator Mei2 in cooperation with Pat1 kinase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26412298" target=_blank>Beckley JR, <i>et al.</i> (2015 Dec)</a>. A Degenerate Cohort of Yeast Membrane Trafficking DUBs Mediates Cell Polarity and Survival.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28218250" target=_blank>Lee J, <i>et al.</i> (2017 Feb 20)</a>. Chromatin remodeller Fun30&lt;sup&gt;Fft3&lt;/sup&gt; induces nucleosome disassembly to facilitate RNA polymerase II elongation.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28765280" target=_blank>Kampmeyer C, <i>et al.</i> (2017 Sep 15)</a>. The exocyst subunit Sec3 is regulated by a protein quality control pathway.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03408_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03408_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03408_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03408_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01228_phobius.html#FOG03408">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fbe2c3" class="col">
+			FOG03409<br>EOG88GTJQ<br><br>sce:RPT5<br><br>Genes: 33
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>ATPase of the 19S regulatory particle of the 26S proteasome; one of six ATPases of the regulatory particle; involved in the degradation of ubiquitinated substrates; recruited to the GAL1-10 promoter region upon induction of transcription; similar to human TBP1<br><br>
+			<br><b>PomBase Description</b><br>19S proteasome regulatory subunit Rpt5 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have role in positive regulation of RNA polymerase II transcriptional preinitiation complex assembly, proteasome regulatory particle assembly, ubiquitin-dependent protein catabolic process<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7754704" target=_blank>Schnall R, <i>et al.</i> (1994 Sep)</a>. Identification of a set of yeast genes coding for a novel family of putative ATPases with high similarity to constituents of the 26S protease complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12504901" target=_blank>Kimura Y, <i>et al.</i> (2003 Jan 15)</a>. N-Terminal modifications of the 19S regulatory particle subunits of the yeast proteasome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16149916" target=_blank>Jossé L, <i>et al.</i> (2006 Jan 1)</a>. Fission yeast Dss1 associates with the proteasome and is required for efficient ubiquitin-dependent proteolysis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21098295" target=_blank>Bohn S, <i>et al.</i> (2010 Dec 7)</a>. Structure of the 26S proteasome from Schizosaccharomyces pombe at subnanometer resolution.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20133687" target=_blank>Takeda K, <i>et al.</i> (2010 Feb 23)</a>. Synergistic roles of the proteasome and autophagy for mitochondrial maintenance and chronological lifespan in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20976105" target=_blank>Anderson HE, <i>et al.</i> (2010 Oct 18)</a>. Silencing mediated by the Schizosaccharomyces pombe HIRA complex is dependent upon the Hpc2-like protein, Hip4.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20838651" target=_blank>Kouranti I, <i>et al.</i> (2010 Sep 7)</a>. A global census of fission yeast deubiquitinating enzyme localization and interaction networks reveals distinct compartmentalization profiles and overlapping functions in endocytosis and polarity.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22384365" target=_blank>Wendland J, <i>et al.</i> (2011 Dec)</a>. Genome evolution in the eremothecium clade of the Saccharomyces complex revealed by comparative genomics.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22119525" target=_blank>Singh NS, <i>et al.</i> (2011 Dec 6)</a>. SIN-inhibitory phosphatase complex promotes Cdc11p dephosphorylation and propagates SIN asymmetry in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22540037" target=_blank>Pancaldi V, <i>et al.</i> (2012 Apr)</a>. Predicting the fission yeast protein interaction network.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22307589" target=_blank>Lasker K, <i>et al.</i> (2012 Jan 31)</a>. Molecular architecture of the 26S proteasome holocomplex determined by an integrative approach.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22814378" target=_blank>Van Damme P, <i>et al.</i> (2012 Jul 31)</a>. N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22927375" target=_blank>Beck F, <i>et al.</i> (2012 Sep 11)</a>. Near-atomic resolution structural model of the yeast 26S proteasome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23297348" target=_blank>Chen JS, <i>et al.</i> (2013 May)</a>. Comprehensive proteomics analysis reveals new substrates and regulators of the fission yeast clp1/cdc14 phosphatase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25002536" target=_blank>Zilio N, <i>et al.</i> (2014 Sep 15)</a>. A novel histone deacetylase complex in the control of transcription and genome stability.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26152728" target=_blank>Mathiassen SG, <i>et al.</i> (2015 Aug 21)</a>. A Two-step Protein Quality Control Pathway for a Misfolded DJ-1 Variant in Fission Yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26412298" target=_blank>Beckley JR, <i>et al.</i> (2015 Dec)</a>. A Degenerate Cohort of Yeast Membrane Trafficking DUBs Mediates Cell Polarity and Survival.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25963819" target=_blank>Lucena R, <i>et al.</i> (2015 May 11)</a>. Nucleocytoplasmic transport in the midzone membrane domain controls yeast mitotic spindle disassembly.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28218250" target=_blank>Lee J, <i>et al.</i> (2017 Feb 20)</a>. Chromatin remodeller Fun30&lt;sup&gt;Fft3&lt;/sup&gt; induces nucleosome disassembly to facilitate RNA polymerase II elongation.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03409_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03409_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03409_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03409_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01228_phobius.html#FOG03409">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fdffcc" class="col">
+			FOG03410<br>EOG88GTJQ<br><br>sce:RPT4<br><br>Genes: 33
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>ATPase of the 19S regulatory particle of the 26S proteasome; one of six ATPases of the regulatory particle; involved in degradation of ubiquitinated substrates; contributes preferentially to ERAD; required for spindle pole body duplication; mainly nuclear localization<br><br>
+			<br><b>PomBase Description</b><br>19S proteasome regulatory subunit Rpt4 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have protein domain specific binding activity<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8955118" target=_blank>Russell SJ, <i>et al.</i> (1996 Dec 20)</a>. Isolation and characterization of SUG2. A novel ATPase family component of the yeast 26 S proteasome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9151663" target=_blank>McDonald HB, <i>et al.</i> (1997 May 5)</a>. A proteasome cap subunit required for spindle pole body duplication in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12504901" target=_blank>Kimura Y, <i>et al.</i> (2003 Jan 15)</a>. N-Terminal modifications of the 19S regulatory particle subunits of the yeast proteasome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21098295" target=_blank>Bohn S, <i>et al.</i> (2010 Dec 7)</a>. Structure of the 26S proteasome from Schizosaccharomyces pombe at subnanometer resolution.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20133687" target=_blank>Takeda K, <i>et al.</i> (2010 Feb 23)</a>. Synergistic roles of the proteasome and autophagy for mitochondrial maintenance and chronological lifespan in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20976105" target=_blank>Anderson HE, <i>et al.</i> (2010 Oct 18)</a>. Silencing mediated by the Schizosaccharomyces pombe HIRA complex is dependent upon the Hpc2-like protein, Hip4.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20838651" target=_blank>Kouranti I, <i>et al.</i> (2010 Sep 7)</a>. A global census of fission yeast deubiquitinating enzyme localization and interaction networks reveals distinct compartmentalization profiles and overlapping functions in endocytosis and polarity.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21504829" target=_blank>Stewart EV, <i>et al.</i> (2011 Apr 22)</a>. Yeast SREBP cleavage activation requires the Golgi Dsc E3 ligase complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21247416" target=_blank>Gatti L, <i>et al.</i> (2011 Jan 19)</a>. Ubiquitin-proteasome genes as targets for modulation of cisplatin sensitivity in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22307589" target=_blank>Lasker K, <i>et al.</i> (2012 Jan 31)</a>. Molecular architecture of the 26S proteasome holocomplex determined by an integrative approach.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22927375" target=_blank>Beck F, <i>et al.</i> (2012 Sep 11)</a>. Near-atomic resolution structural model of the yeast 26S proteasome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25002536" target=_blank>Zilio N, <i>et al.</i> (2014 Sep 15)</a>. A novel histone deacetylase complex in the control of transcription and genome stability.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26152728" target=_blank>Mathiassen SG, <i>et al.</i> (2015 Aug 21)</a>. A Two-step Protein Quality Control Pathway for a Misfolded DJ-1 Variant in Fission Yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26412298" target=_blank>Beckley JR, <i>et al.</i> (2015 Dec)</a>. A Degenerate Cohort of Yeast Membrane Trafficking DUBs Mediates Cell Polarity and Survival.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25963819" target=_blank>Lucena R, <i>et al.</i> (2015 May 11)</a>. Nucleocytoplasmic transport in the midzone membrane domain controls yeast mitotic spindle disassembly.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28410370" target=_blank>Dudin O, <i>et al.</i> (2017 Apr)</a>. A systematic screen for morphological abnormalities during fission yeast sexual reproduction identifies a mechanism of actin aster formation for cell fusion.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28218250" target=_blank>Lee J, <i>et al.</i> (2017 Feb 20)</a>. Chromatin remodeller Fun30&lt;sup&gt;Fft3&lt;/sup&gt; induces nucleosome disassembly to facilitate RNA polymerase II elongation.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03410_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03410_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03410_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03410_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01228_phobius.html#FOG03410">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01228.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

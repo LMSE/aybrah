@@ -1,0 +1,111 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG03957.html">HOG03957&emsp;&emsp;</a><br> 
+																	HOG03958&emsp;&emsp;<br> 
+																	<a href="HOG03959.html">HOG03959&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG03958.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG03958_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG03958_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG03958_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG03958_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG08111<br>EOG82NGFP<br><br>sce:RTP1<br><br>Genes: 32
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Protein required for the nuclear import and biogenesis of RNA pol II; conflicting evidence on whether null mutant is viable with elongated buds, or inviable; interacts with Rpb2, Rpb3, Nup116p, Nup100p and components of the R2TP complex (Rvb1p, Rvb2p, Pih1p); similar to human TMCO7 gene<br><br>
+			<br><b>AspGD Description</b><br>Ortholog of A. nidulans FGSC A4 : AN2456, A. fumigatus Af293 : Afu6g10360, A. oryzae RIB40 : AO090023000231, Aspergillus wentii : Aspwe1_0050777 and Aspergillus sydowii : Aspsy1_0141642<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2674684" target=_blank>Borkovich KA, <i>et al.</i> (1989 Sep)</a>. hsp82 is an essential protein that is required in higher concentrations for growth of cells at higher temperatures.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7645348" target=_blank>Erkine AM, <i>et al.</i> (1995 May)</a>. The upstream sequences of the HSP82 and HSC82 genes of Saccharomyces cerevisiae: regulatory elements and nucleosome positioning motifs.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23438601" target=_blank>Gómez-Navarro N, <i>et al.</i> (2013 May)</a>. Rtp1p is a karyopherin-like protein required for RNA polymerase II biogenesis.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG08111_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG08111_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG08111_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG08111_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG03958_phobius.html#FOG08111">Phobius transmembrane predictions</a>
+										<br>21 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG03958.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

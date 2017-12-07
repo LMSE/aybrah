@@ -1,0 +1,105 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>																	<a href="HOG10617.html">HOG10617&emsp;&emsp;</a><br> 																	HOG10618&emsp;&emsp;<br> 																	<a href="HOG10619.html">HOG10619&emsp;&emsp;</a><br><br> 																	<a href="../sequences/hog/HOG10618.fasta">FASTA</a><br> 																	<a href="../trees/by_hog/msa/HOG10618_msa.fasta">MAFFT sequence alignment<br> 																	<a href="../trees/by_hog/phyml/HOG10618_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 																	<a href="">Gblocks</a><br> 																	<a href="HOG10618_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG14832<br>EOG8DFN6X<br><br>sce:ECM23;SRD1<br><br>Genes: 2
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Non-essential protein of unconfirmed function; affects pre-rRNA processing, may act as a negative regulator of the transcription of genes involved in pseudohyphal growth; homologous to Srd1p|Protein involved in the processing of pre-rRNA to mature rRNA; contains a C2/C2 zinc finger motif; srd1 mutation suppresses defects caused by the rrp1-1 mutation<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2179050" target=_blank>Fabian GR, <i>et al.</i> (1990 Mar)</a>. srd1, a Saccharomyces cerevisiae suppressor of the temperature-sensitive pre-rRNA processing defect of rrp1-1.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8165142" target=_blank>Hess SM, <i>et al.</i> (1994 Apr 11)</a>. SRD1, a S. cerevisiae gene affecting pre-rRNA processing contains a C2/C2 zinc finger motif.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9335584" target=_blank>Lussier M, <i>et al.</i> (1997 Oct)</a>. Large scale identification of genes involved in cell surface biosynthesis and architecture in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11889490" target=_blank>Cañizares JV, <i>et al.</i> (2002 Apr)</a>. The SRD2 gene is involved in Saccharomyces cerevisiae morphogenesis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17101777" target=_blank>Lahav R, <i>et al.</i> (2007 Feb)</a>. Role of transcription factor Kar4 in regulating downstream events in the Saccharomyces cerevisiae pheromone response pathway.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG14832_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG14832_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG14832_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG14832_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG10618_phobius.html#FOG14832">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<!--link to gblock-->
+	<img src="../img/trees/HOG10618.png"
+	</div>
+	<div id="footer">Footer</div>
+</div>
+
+</body></html>

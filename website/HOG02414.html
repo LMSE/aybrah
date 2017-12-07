@@ -1,0 +1,164 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG02413.html">HOG02413&emsp;&emsp;</a><br> 
+																	HOG02414&emsp;&emsp;<br> 
+																	<a href="HOG02415.html">HOG02415&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG02414.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG02414_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG02414_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG02414_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG05998<br>EOG8STQM0<br><br>sce:TSR1<br><br>Genes: 33
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Protein required for processing of 20S pre-rRNA in the cytoplasm; associates with pre-40S ribosomal particles; inhibits the premature association of 60S subunits with assembling 40S subunits in the cytoplasm; similar to Bms1p; relocalizes from nucleus to cytoplasm upon DNA replication stress<br><br>
+			<br><b>PomBase Description</b><br>ribosome biogenesis protein Tsr1 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have nucleus localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8769646" target=_blank>Bai Y, <i>et al.</i> (1996 Aug 15)</a>. A Rad52 homolog is required for RAD51-independent mitotic recombination in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11565749" target=_blank>Gelperin D, <i>et al.</i> (2001 Sep)</a>. Bms1p, a novel GTP-binding protein, and the related Tsr1p are required for distinct steps of 40S ribosome biogenesis in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12628929" target=_blank>Schäfer T, <i>et al.</i> (2003 Mar 17)</a>. The path from nucleolar 90S to cytoplasmic 40S pre-ribosomes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15167894" target=_blank>Léger-Silvestre I, <i>et al.</i> (2004 Jun 16)</a>. The ribosomal protein Rps15p is required for nuclear exit of the 40S subunit precursors in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16159874" target=_blank>Léger-Silvestre I, <i>et al.</i> (2005 Nov 18)</a>. Specific Role for Yeast Homologs of the Diamond Blackfan Anemia-associated Rps19 Protein in Ribosome Synthesis.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG05998_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05998_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05998_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG05998_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG02414_phobius.html#FOG05998">Phobius transmembrane predictions</a>
+										<br>3 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG05999<br>EOG8STQM0<br><br>sce:BMS1<br><br>Genes: 33
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>GTPase required for ribosomal subunit synthesis and rRNA processing; required for synthesis of 40S ribosomal subunits and for processing the 35S pre-rRNA at sites A0, A1, and A2; interacts with Rcl1p, which stimulates its GTPase and U3 snoRNA binding activities; has similarity to Tsr1p<br><br>
+			<br><b>PomBase Description</b><br>GTP binding protein Bms1 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have mitotic spindle, nucleolus localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11565749" target=_blank>Gelperin D, <i>et al.</i> (2001 Sep)</a>. Bms1p, a novel GTP-binding protein, and the related Tsr1p are required for distinct steps of 40S ribosome biogenesis in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11565748" target=_blank>Wegierski T, <i>et al.</i> (2001 Sep)</a>. Bms1p, a G-domain-containing protein, associates with Rcl1p and is required for 18S rRNA biogenesis in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18257517" target=_blank>Wilson-Grady JT, <i>et al.</i> (2008 Mar)</a>. Phosphoproteome analysis of fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19547744" target=_blank>Beltrao P, <i>et al.</i> (2009 Jun 16)</a>. Evolution of phosphoregulation: comparison of phosphorylation patterns across yeast species.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21652630" target=_blank>Snaith HA, <i>et al.</i> (2011 Jul 1)</a>. Characterization of Mug33 reveals complementary roles for actin cable-dependent transport and exocyst regulators in fission yeast exocytosis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26404184" target=_blank>Nie M, <i>et al.</i> (2015 Sep 25)</a>. High Confidence Fission Yeast SUMO Conjugates Identified by Tandem Denaturing Affinity Purification.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG05999_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05999_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05999_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG05999_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG02414_phobius.html#FOG05999">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG02414.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

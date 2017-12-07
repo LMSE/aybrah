@@ -1,0 +1,113 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG02831.html">HOG02831&emsp;&emsp;glycosyl hydrolase 5 (cellulase A) family</a><br> 
+																	HOG02832&emsp;&emsp;<br> 
+																	<a href="HOG02833.html">HOG02833&emsp;&emsp;GPI19 family</a><br><br> 
+																	<a href="../sequences/hog/HOG02832.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG02832_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG02832_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG02832_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG02832_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG06579<br>EOG83R256<br>EOG8M90CW<br><br>sce:LRS4<br><br>Genes: 6
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Nucleolar protein that forms a complex with Csm1p; and then Mam1p at kinetochores during meiosis I to mediate accurate homolog segregation; required for condensin recruitment to the replication fork barrier site and rDNA repeat segregation<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10082585" target=_blank>Smith JS, <i>et al.</i> (1999 Apr)</a>. A genetic screen for ribosomal DNA silencing defects identifies multiple DNA replication and chromatin-modulating factors.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12689592" target=_blank>Rabitsch KP, <i>et al.</i> (2003 Apr)</a>. Kinetochore recruitment of two nucleolar proteins is required for homolog segregation in meiosis I.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12586695" target=_blank>Enyenihi AH, <i>et al.</i> (2003 Jan)</a>. Large-scale functional genomic analysis of sporulation and meiosis in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12717442" target=_blank>Clyne RK, <i>et al.</i> (2003 May)</a>. Polo-like kinase Cdc5 promotes chiasmata formation and cosegregation of sister centromeres at meiosis I.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15620645" target=_blank>Katis VL, <i>et al.</i> (2004 Dec 29)</a>. Spo13 facilitates monopolin recruitment to kinetochores and regulates maintenance of centromeric cohesion during yeast meiosis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15620644" target=_blank>Lee BH, <i>et al.</i> (2004 Dec 29)</a>. Spo13 maintains centromeric cohesion and kinetochore coorientation during meiosis I.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG06579_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG06579_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG06579_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG06579_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG02832_phobius.html#FOG06579">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG02832.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

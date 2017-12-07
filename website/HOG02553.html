@@ -1,0 +1,154 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG02552.html">HOG02552&emsp;&emsp;RAD52 family</a><br> 
+																	HOG02553&emsp;&emsp;<br> 
+																	<a href="HOG02554.html">HOG02554&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG02553.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG02553_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG02553_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG02553_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG06184<br>EOG8R22BH<br><br>sce:VPS74<br><br>Genes: 34
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Golgi phosphatidylinositol-4-kinase effector and PtdIns4P sensor; interacts with the cytosolic domains of cis and medial glycosyltransferases, and in the PtdIns4P-bound state mediates the targeting of these enzymes to the Golgi; interacts with the catalytic domain of Sac1p, the major cellular PtdIns4P phosphatase, to direct dephosphosphorylation of the Golgi pool of PtdIns4P; tetramerization required for function; ortholog of human GOLPH3/GPP34/GMx33<br><br>
+			<br><b>PomBase Description</b><br>Golgi phosphoprotein 3 family Vps74 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have cytosol, nucleus localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12134085" target=_blank>Bonangelino CJ, <i>et al.</i> (2002 Jul)</a>. Genomic screen for vacuolar protein sorting genes in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18410729" target=_blank>Schmitz KR, <i>et al.</i> (2008 Apr)</a>. Golgi localization of glycosyltransferases requires a Vps74p oligomer.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20026658" target=_blank>Wood CS, <i>et al.</i> (2009 Dec 28)</a>. PtdIns4P recognition by Vps74/GOLPH3 links PtdIns 4-kinase signaling to retrograde Golgi trafficking.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19837035" target=_blank>Dippold HC, <i>et al.</i> (2009 Oct 16)</a>. GOLPH3 bridges phosphatidylinositol-4- phosphate and actomyosin to stretch and shape the Golgi to promote budding.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22889169" target=_blank>Tu L, <i>et al.</i> (2012 Nov)</a>. A conserved N-terminal arginine-motif in GOLPH3-family proteins mediates binding to coatomer.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG06184_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG06184_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG06184_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG06184_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG02553_phobius.html#FOG06184">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG06185<br>EOG8R22BH<br><br>sce:absent<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG06185_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG06185_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG06185_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG06185_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG02553_phobius.html#FOG06185">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG02553.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

@@ -1,47 +1,134 @@
-<html><body>
+<html>
+
+<title>AyBRAH</title>
+
+<body>
 <style>
 #container {width:800px; margin:0 auto; background:#fff}
-#header {width:100%; height:60px; border-bottom:1px solid #c7c7c7; background:#333}
-#logo {float:left; width:40px;height:40px; margin:10px;background:#ccc}
-#top_info {float:right; width:40px; height:40px; margin:10px; background:#ccc}
-#navbar {height:20px clear:both;}
-#navbar ul {margin:0; padding:0; list-style-type:none;}
-#navbar ul li {padding:10px; float:left;}
-#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}
-#banner { background: #666; height:120px; padding:20px; clear:both;}
-#left_col {float:left; width:115px; padding:20px; height:200px; border:1px solid #333; color:black;}
-#right_col {float:right; width:600px; padding:20px; height:200px; border:1px solid #333; color:black;}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:50px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
 #footer { padding:20px; clear:both;}
 </style>
 
 <div id="container">
 	<div id="header">
-		<div id="logo">Logo</div>
-		<div id="top_info">Top Info</div>
+		<div id="logo">
+			<img src="img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="img/lmse.jpg" height="80"></div>
 		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
 			<ul>
 				<li><a href="URL">Link</a></li>
 				<li><a href="URL">Link</a></li>
 				<li><a href="URL">Link</a></li>
-		</div>
+		</div>-->
 	</div>
 	<div id="content_area">
-		<div id="banner">Banner</div>
+		<!--<div id="banner" class="row">Banner</div>-->
 		<!--ortholog information:start-->
-		<div id="left_col" style="background:#f4cacb"><!--YOG--></div>
-		<div id="right_col">Important families<br>
-				<a href='SOG00216.html'>ALD</a><br>
-				<a href='SOG00399.html'>NDI</a><br>
-				<a href='SOG00225.html'>PKL</a><br>
-				<a href='SOG00195.html'>PFK</a><br>
-				<a href='SOG00193.html'>HXK</a><br>
-				<a href='SOG00262.html'>IDP</a><br>
-				<a href='SOG00210.html'>ADH</a><br>
-				<a href='SOG00276.html'>OSM</a><br>
-				<a href='SOG00198.html'>TDH</a><br>
-				<a href='SOG00229.html'>ACS</a><br>
+		<div id="left_col" style="background:#f4cacb">Orthologs discussed in AYbRAH manuscript</div>
+		<!--<div id="right_col">Important families<br>-->
+			<center>
+				<br><br>
+				<table border="0">
+					<tr><td>Gene</td><td>Fungal Ortholog Group</td><td>Homolog Group</td></tr>
+					<tr><td>GPM1</td><td>FOG00292</td><td><a href="website/HOG00201.html">HOG00201</a></td></tr>
+					<tr><td>GPM2</td><td>FOG00293</td><td><a href="website/HOG00201.html">HOG00201</a></td></tr>
+					<tr><td>GPM4</td><td>FOG00294</td><td><a href="website/HOG00202.html">HOG00202</a></td></tr>
+					<tr><td>CIT1</td><td>FOG00609</td><td><a href="website/HOG00259.html">HOG00259</a></td></tr>
+					<tr><td>CIT3</td><td>FOG00611</td><td><a href="website/HOG00259.html">HOG00259</a></td></tr>
+					<tr><td>AOX1</td><td>FOG00502</td><td><a href="website/HOG00241.html">HOG00241</a></td></tr>
+					<tr><td>ARO10</td><td>FOG00317</td><td><a href="website/HOG00209.html">HOG00209</a></td></tr>
+					<tr><td>MLS1.2</td><td>FOG00971</td><td><a href="website/HOG00448.html">HOG00448</a></td></tr>
+					<tr><td>MIS1</td><td>FOG01679</td><td><a href="website/HOG00715.html">HOG00715</a></td></tr>
+					<tr><td>ARO9</td><td>FOG01092</td><td><a href="website/HOG00471.html">HOG00471</a></td></tr>
+					<tr><td>GPD2</td><td>FOG00559</td><td><a href="website/HOG00245.html">HOG00245</a></td></tr>
+					<tr><td>OSM2</td><td>FOG00646</td><td><a href="website/HOG00276.html">HOG00276</a></td></tr>
+					<tr><td>OSM1</td><td>FOG00647</td><td><a href="website/HOG00276.html">HOG00276</a></td></tr>
+					<tr><td>GAL10</td><td>FOG00301</td><td><a href="website/HOG00206.html">HOG00206</a></td></tr>
+					<tr><td>GAL10.2</td><td>FOG00302</td><td><a href="website/HOG00206.html">HOG00206</a></td></tr>
+					<tr><td>PFK1</td><td>FOG00279</td><td><a href="website/HOG00195.html">HOG00195</a></td></tr>
+					<tr><td>IDP1</td><td>FOG00618</td><td><a href="website/HOG00262.html">HOG00262</a></td></tr>
+					<tr><td>ADH3</td><td>FOG00328</td><td><a href="website/HOG00210.html">HOG00210</a></td></tr>
+					<tr><td>AKR</td><td>FOG00414</td><td><a href="website/HOG00232.html">HOG00232</a></td></tr>
+					<tr><td>ELO3</td><td>FOG01996</td><td><a href="website/HOG00857.html">HOG00857</a></td></tr>
+					<tr><td>UGA1.2</td><td>FOG00977</td><td><a href="website/HOG00450.html">HOG00450</a></td></tr>
+					<tr><td>LYS21.2</td><td>FOG01118</td><td><a href="website/HOG00483.html">HOG00483</a></td></tr>
+					<tr><td>HXK2</td><td>FOG00269</td><td><a href="website/HOG00193.html">HOG00193</a></td></tr>
+					<tr><td>HXK3</td><td>FOG00271</td><td><a href="website/HOG00193.html">HOG00193</a></td></tr>
+					<tr><td>DOG1</td><td>FOG00400</td><td><a href="website/HOG00227.html">HOG00227</a></td></tr>
+					<tr><td>ARO10.2</td><td>FOG00318</td><td><a href="website/HOG00209.html">HOG00209</a></td></tr>
+					<tr><td>MDH3</td><td>FOG00658</td><td><a href="website/HOG00280.html">HOG00280</a></td></tr>
+					<tr><td>THI3</td><td>FOG00316</td><td><a href="website/HOG00209.html">HOG00209</a></td></tr>
+					<tr><td>GDP1</td><td>FOG00290</td><td><a href="website/HOG00198.html">HOG00198</a></td></tr>
+					<tr><td>NUO</td><td>FOG00684-FOG00734</td><td></td></tr>
+					<tr><td>STO1</td><td>FOG00861</td><td><a href="website/HOG00406.html">HOG00406</a></td></tr>
+					<tr><td>NNT</td><td>FOG00859</td><td><a href="website/HOG00405.html">HOG00405</a></td></tr>
+					<tr><td>NDI0</td><td>FOG00837</td><td><a href="website/HOG00399.html">HOG00399</a></td></tr>
+					<tr><td>NDE0</td><td>FOG00838</td><td><a href="website/HOG00399.html">HOG00399</a></td></tr>
+					<tr><td>NDE1</td><td>FOG00839</td><td><a href="website/HOG00399.html">HOG00399</a></td></tr>
+					<tr><td>NDI1</td><td>FOG00846</td><td><a href="website/HOG00399.html">HOG00399</a></td></tr>
+					<tr><td>NDI2</td><td>FOG00842</td><td><a href="website/HOG00399.html">HOG00399</a></td></tr>
+					<tr><td>ACL1</td><td>FOG00612</td><td><a href="website/HOG00260.html">HOG00260</a></td></tr>
+					<tr><td>ACL2</td><td>FOG00613</td><td><a href="website/HOG00260.html">HOG00260</a></td></tr>
+					<tr><td>ACS1</td><td>FOG00404</td><td><a href="website/HOG00229.html">HOG00229</a></td></tr>
+					<tr><td>ACS2</td><td>FOG00405</td><td><a href="website/HOG00229.html">HOG00229</a></td></tr>
+					<tr><td>ACS3</td><td>FOG00406</td><td><a href="website/HOG00229.html">HOG00229</a></td></tr>
+					<tr><td>PHK1</td><td>FOG00394</td><td><a href="website/HOG00225.html">HOG00225</a></td></tr>
+					<tr><td>PHK2</td><td>FOG00395</td><td><a href="website/HOG00225.html">HOG00225</a></td></tr>
+					<tr><td>ALD2</td><td>FOG00347</td><td><a href="website/HOG00216.html">HOG00216</a></td></tr>
+					<tr><td>ALD2.2</td><td>FOG00348</td><td><a href="website/HOG00216.html">HOG00216</a></td></tr>
+					<tr><td>ALD2.3</td><td>FOG00349</td><td><a href="website/HOG00216.html">HOG00216</a></td></tr>
+					<tr><td>ALD2.4</td><td>FOG00350</td><td><a href="website/HOG00216.html">HOG00216</a></td></tr>
+					<tr><td>ALD5</td><td>FOG00359</td><td><a href="website/HOG00216.html">HOG00216</a></td></tr>
+					<tr><td>ALD5.2</td><td>FOG00360</td><td><a href="website/HOG00216.html">HOG00216</a></td></tr>
+					<tr><td>ALD6.1</td><td>FOG00361</td><td><a href="website/HOG00216.html">HOG00216</a></td></tr>
+					<tr><td>ALD6.2</td><td>FOG00362</td><td><a href="website/HOG00216.html">HOG00216</a></td></tr>
+					<tr><td>ALD6.3</td><td>FOG00363</td><td><a href="website/HOG00216.html">HOG00216</a></td></tr>
+				</table>
+				</center>
 		</div>
 		<!--ortholog information:end-->
+		<!--search assembly via query protein-->
+		<div id="left_col" style="background:#d3dfee">Search for AYbRAH orthologs via NCBI genome assembly accession and query protein sequences</div>
+		<div id="right_col">
+			<br>
+			Future function<br><br>
+			<form action="" id="usrform">
+				NCBI Genome Assembly: <input type="text" name="assembly"><br>
+				<textarea name="assembly_accession" form="usrform" rows="4" cols="50">Enter protein sequences in FASTA format</textarea>
+				<input type="submit">
+			</form>
+			<br><br>
+		</div>
+		<!--ortholog information:end-->
+		<!--search assembly via query protein-->
+		<div id="left_col" style="background:#d7edd3">Search for AYbRAH orthologs via query protein sequences</div>
+		<div id="right_col">
+			<br>
+			Future function<br><br>
+			<form action="" id="usrform2">
+				<textarea name="assembly_accession" form="usrform2" rows="4" cols="50">Enter protein sequences in FASTA format</textarea>
+				<input type="submit">
+			</form>
+		</div>
+		<!--ortholog information:end-->
+
+
+
 	</div>
-	<div id="footer">Footer</div>
+	<div id="footer"></div>
 </div></body></html>

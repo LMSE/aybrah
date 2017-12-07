@@ -1,0 +1,114 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG03881.html">HOG03881&emsp;&emsp;</a><br> 
+																	HOG03882&emsp;&emsp;<br> 
+																	<a href="HOG03883.html">HOG03883&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG03882.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG03882_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG03882_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG03882_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG03882_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG08010<br>EOG83R277<br><br>sce:SEI1<br><br>Genes: 5
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Seipin involved in lipid droplet morphology, number, and size; directly promotes initiation of lipid droplet formation on the ER, and ensures that droplets bud from the ER towards the cytosolic side of the membrane; related to the human BSCL2 which is associated with lipodystrophy<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12161108" target=_blank>Lombardía LJ, <i>et al.</i> (2002 Aug)</a>. Genome-wide analysis of yeast transcription upon calcium shortage.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12524434" target=_blank>Kim H, <i>et al.</i> (2003 Mar 21)</a>. Topology models for 37 Saccharomyces cerevisiae membrane proteins based on C-terminal reporter fusions and predictions.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16847258" target=_blank>Kim H, <i>et al.</i> (2006 Jul 25)</a>. A global topology map of the Saccharomyces cerevisiae membrane proteome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18093937" target=_blank>Szymanski KM, <i>et al.</i> (2007 Dec 26)</a>. The lipodystrophy protein seipin is found at endoplasmic reticulum lipid droplet junctions and is important for droplet morphology.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18250201" target=_blank>Fei W, <i>et al.</i> (2008 Feb 11)</a>. Fld1p, a functional homologue of human seipin, regulates the size of lipid droplets in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21829381" target=_blank>Fei W, <i>et al.</i> (2011 Jul)</a>. A role for phosphatidic acid in the formation of "supersized" lipid droplets.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25540432" target=_blank>Cartwright BR, <i>et al.</i> (2015 Feb 15)</a>. Seipin performs dissectible functions in promoting lipid droplet biogenesis and regulating droplet morphology.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG08010_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG08010_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG08010_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG08010_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG03882_phobius.html#FOG08010">Phobius transmembrane predictions</a>
+										<br>5 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG03882.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

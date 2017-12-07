@@ -1,0 +1,207 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01890.html">HOG01890&emsp;&emsp;</a><br> 
+																	HOG01891&emsp;&emsp;<br> 
+																	<a href="HOG01892.html">HOG01892&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG01891.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01891_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01891_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG01891_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG05184<br>EOG883BRN<br><br>sce:AIM1<br><br>Genes: 32
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Protein involved in mitochondrial function or organization; null mutant displays elevated frequency of mitochondrial genome loss<br><br>
+			<br><b>PomBase Description</b><br>mitochondrial transcriptional repressor protein BolA domain (predicted)<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22384365" target=_blank>Wendland J, <i>et al.</i> (2011 Dec)</a>. Genome evolution in the eremothecium clade of the Saccharomyces complex revealed by comparative genomics.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24897379" target=_blank>Jacques JF, <i>et al.</i> (2014)</a>. Fra2 is a co-regulator of Fep1 inhibition in response to iron starvation.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27532772" target=_blank>Uzarska MA, <i>et al.</i> (2016 Aug 17)</a>. Mitochondrial Bol1 and Bol3 function as assembly factors for specific iron-sulfur proteins.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG05184_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05184_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05184_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG05184_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01891_phobius.html#FOG05184">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG05185<br>EOG883BRN<br><br>sce:FRA2<br><br>Genes: 31
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Protein involved in negative regulation of iron regulon transcription; forms an iron independent complex with Fra2p, Grx3p, and Grx4p; null mutant fails to repress iron regulon and is sensitive to nickel<br><br>
+			<br><b>PomBase Description</b><br>transcriptional repressor protein BolA domain (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have role in negative regulation of transcription from RNA polymerase II promoter in response to iron and cytosol, nucleus localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21511999" target=_blank>Rhind N, <i>et al.</i> (2011 May 20)</a>. Comparative functional genomics of the fission yeasts.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23050226" target=_blank>Chen Z, <i>et al.</i> (2012 Oct)</a>. A genetic screen to discover pathways affecting cohesin function in Schizosaccharomyces pombe identifies chromatin effectors.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24897379" target=_blank>Jacques JF, <i>et al.</i> (2014)</a>. Fra2 is a co-regulator of Fep1 inhibition in response to iron starvation.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25806539" target=_blank>Encinar del Dedo J, <i>et al.</i> (2015 Mar)</a>. A cascade of iron-containing proteins governs the genetic iron starvation response to promote iron uptake and inhibit iron storage in fission yeast.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG05185_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05185_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05185_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG05185_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01891_phobius.html#FOG05185">Phobius transmembrane predictions</a>
+										<br>5 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d7edd3" class="col">
+			FOG05186<br>EOG883BRN<br><br>sce:absent<br><br>Genes: 30
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Putative protein of unknown function; similar to S. pombe uvi31 which is a putative DNA repair protein<br><br>
+			<br><b>PomBase Description</b><br>BolA domain UV induced protein Uvi31<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have cytosol, nucleus localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12521307" target=_blank>Kim MJ, <i>et al.</i> (2002 Dec 31)</a>. Regulation of septation and cytokinesis during resumption of cell division requires uvi31+, a UV-inducible gene of fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22384365" target=_blank>Wendland J, <i>et al.</i> (2011 Dec)</a>. Genome evolution in the eremothecium clade of the Saccharomyces complex revealed by comparative genomics.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24897379" target=_blank>Jacques JF, <i>et al.</i> (2014)</a>. Fra2 is a co-regulator of Fep1 inhibition in response to iron starvation.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27532772" target=_blank>Uzarska MA, <i>et al.</i> (2016 Aug 17)</a>. Mitochondrial Bol1 and Bol3 function as assembly factors for specific iron-sulfur proteins.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28410370" target=_blank>Dudin O, <i>et al.</i> (2017 Apr)</a>. A systematic screen for morphological abnormalities during fission yeast sexual reproduction identifies a mechanism of actin aster formation for cell fusion.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG05186_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05186_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05186_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG05186_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01891_phobius.html#FOG05186">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01891.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

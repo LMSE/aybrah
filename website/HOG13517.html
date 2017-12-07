@@ -1,0 +1,114 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG13513.html">HOG13513&emsp;&emsp;</a><br> 
+																	HOG13517&emsp;&emsp;<br> 
+																	<a href="HOG13521.html">HOG13521&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG13517.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG13517_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG13517_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG13517_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG13517_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG17730<br>EOG84TMTD<br><br>sce:SEC72<br><br>Genes: 24
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Non-essential subunit of Sec63 complex; with Sec61 complex, Kar2p/BiP and Lhs1p forms a channel competent for SRP-dependent and post-translational SRP-independent protein targeting and import into the ER; other members are Sec63p, Sec62p, and Sec66p<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2000150" target=_blank>Deshaies RJ, <i>et al.</i> (1991 Feb 28)</a>. Assembly of yeast Sec proteins involved in translocation into the endoplasmic reticulum into a membrane-bound multisubunit complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8455603" target=_blank>Belhumeur P, <i>et al.</i> (1993 Apr)</a>. GSP1 and GSP2, genetic suppressors of the prp20-1 mutant in Saccharomyces cerevisiae: GTP-binding proteins involved in the maintenance of nuclear organization.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8253836" target=_blank>Brodsky JL, <i>et al.</i> (1993 Dec)</a>. A Sec63p-BiP complex from yeast is required for protein translocation in a reconstituted proteoliposome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8441423" target=_blank>Bushman JL, <i>et al.</i> (1993 Mar)</a>. Evidence that GCD6 and GCD7, translational regulators of GCN4, are subunits of the guanine nucleotide exchange factor for eIF-2 in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8051213" target=_blank>Feldheim D, <i>et al.</i> (1994 Aug)</a>. Sec72p contributes to the selective recognition of signal peptides by the secretory polypeptide translocation complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7758110" target=_blank>Panzner S, <i>et al.</i> (1995 May 19)</a>. Posttranslational protein transport in yeast reconstituted with a purified complex of Sec proteins and Kar2p.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12518317" target=_blank>Willer M, <i>et al.</i> (2003 Jan 30)</a>. Identification of novel protein-protein interactions at the cytosolic surface of the Sec63 complex in the yeast ER membrane.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG17730_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG17730_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG17730_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG17730_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG13517_phobius.html#FOG17730">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG13517.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

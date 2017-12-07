@@ -1,0 +1,960 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01171.html">HOG01171&emsp;&emsp;ubiquitin-conjugating enzyme family</a><br> 
+																	HOG01172&emsp;&emsp;<br> 
+																	<a href="HOG01173.html">HOG01173&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG01172.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01172_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01172_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG01172_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG02943<br>EOG8BZKHP<br><br>sce:FRK1;KIN4<br><br>Genes: 37
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Protein kinase of unknown cellular role; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm; interacts with rRNA transcription and ribosome biogenesis factors and the long chain fatty acyl-CoA synthetase Faa3p; FRK1 has a paralog, KIN4, that arose from the whole genome duplication|Serine/threonine protein kinase; inhibits the mitotic exit network (MEN) when the spindle position checkpoint is activated; localized asymmetrically to mother cell cortex, spindle pole body and bud neck; KIN4 has a paralog, FRK1, that arose from the whole genome duplication<br><br>
+			<br><b>PomBase Description</b><br>serine/threonine protein kinase Ppk1 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have role in ascospore formation, cell septum assembly, conidium formation, hyphal growth, response to fungicide, response to salt stress, sporocarp development involved in sexual reproduction<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8465601" target=_blank>Kambouris NG, <i>et al.</i> (1993 Feb)</a>. Cloning and genetic analysis of the gene encoding a new protein kinase in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20489023" target=_blank>Breitkreutz A, <i>et al.</i> (2010 May 21)</a>. A global protein kinase and phosphatase interaction network in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23173672" target=_blank>Pan X, <i>et al.</i> (2012 Nov 23)</a>. Identification of novel genes involved in DNA damage response by screening a genome-wide Schizosaccharomyces pombe deletion library.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23143934" target=_blank>Tarhan C, <i>et al.</i> (2012 Oct 25)</a>. Does copper stress lead to spindle misposition-dependent cell cycle arrest?<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02943_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02943_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02943_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02943_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01172_phobius.html#FOG02943">Phobius transmembrane predictions</a>
+										<br>17 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG02944<br>EOG8BZKHP<br><br>sce:CMK2;CMK1<br><br>Genes: 36
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Calmodulin-dependent protein kinase; may play a role in stress response, many CA++/calmodulan dependent phosphorylation substrates demonstrated in vitro, amino acid sequence similar to mammalian Cam Kinase II; CMK2 has a paralog, CMK1, that arose from the whole genome duplication|Calmodulin-dependent protein kinase; may play a role in stress response, many Ca++/calmodulin dependent phosphorylation substrates demonstrated in vitro, amino acid sequence similar to mammalian Cam Kinase II; CMK1 has a paralog, CMK2, that arose from the whole genome duplication<br><br>
+			<br><b>AspGD Description</b><br>Ca2+/calmodulin-dependent protein kinase<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2835766" target=_blank>Bartelt DC, <i>et al.</i> (1988 May)</a>. Calmodulin-dependent multifunctional protein kinase in Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2061341" target=_blank>Ohya Y, <i>et al.</i> (1991 Jul 5)</a>. Two yeast genes encoding calmodulin-dependent protein kinases. Isolation, sequencing and bacterial expressions of CMK1 and CMK2.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2026147" target=_blank>Pausch MH, <i>et al.</i> (1991 Jun)</a>. Multiple Ca2+/calmodulin-dependent protein kinase genes in a unicellular eukaryote.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1563634" target=_blank>Kornstein LB, <i>et al.</i> (1992 Apr 1)</a>. Cloning and sequence determination of a cDNA encoding Aspergillus nidulans calmodulin-dependent multifunctional protein kinase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8898358" target=_blank>Dayton JS, <i>et al.</i> (1996 Oct)</a>. Ca(2+)/calmodulin-dependent kinase is essential for both growth and nuclear division in Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9013558" target=_blank>Dayton JS, <i>et al.</i> (1997 Feb 7)</a>. Expression of a constitutively active Ca2+/calmodulin-dependent kinase in Aspergillus nidulans spores prevents germination and entry into the cell cycle.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12455978" target=_blank>Joseph JD, <i>et al.</i> (2002 Feb)</a>. Calcium binding is required for calmodulin function in Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17287358" target=_blank>Chi A, <i>et al.</i> (2007 Feb 13)</a>. Analysis of phosphorylation sites on proteins from Saccharomyces cerevisiae by electron transfer dissociation (ETD) mass spectrometry.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19610202" target=_blank>Harris SD, <i>et al.</i> (2009 Mar)</a>. Morphology and development in Aspergillus nidulans: a complex puzzle.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23505451" target=_blank>De Souza CP, <i>et al.</i> (2013)</a>. Functional analysis of the Aspergillus nidulans kinome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24599037" target=_blank>De Souza CP, <i>et al.</i> (2014)</a>. Application of a new dual localization-affinity purification tag reveals novel aspects of protein kinase biology in Aspergillus nidulans.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02944_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02944_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02944_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02944_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01172_phobius.html#FOG02944">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d7edd3" class="col">
+			FOG02945<br>EOG8BZKHP<br><br>sce:MYO3;MYO5<br><br>Genes: 35
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>One of two type I myosins; localizes to actin cortical patches; deletion of MYO3 has little effect on growth, but myo3 myo5 double deletion causes severe defects in growth and actin cytoskeleton organization; MYO3 has a paralog, MYO5, that arose from the whole genome duplication|One of two type I myosin motors; contains proline-rich tail homology 2 (TH2) and SH3 domains; MYO5 deletion has little effect on growth, but myo3 myo5 double deletion causes severe defects in growth and actin cytoskeleton organization; MYO5 has a paralog, MYO3, that arose from the whole genome duplication<br><br>
+			<br><b>PomBase Description</b><br>myosin type I<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have microfilament motor activity<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7728870" target=_blank>Goodson HV, <i>et al.</i> (1995)</a>. Identification and molecular characterization of a yeast myosin I.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7860631" target=_blank>McGoldrick CA, <i>et al.</i> (1995 Feb)</a>. myoA of Aspergillus nidulans encodes an essential myosin I required for secretion and polarized growth.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8614799" target=_blank>Geli MI, <i>et al.</i> (1996 Apr 26)</a>. Role of type I myosins in receptor-mediated endocytosis in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8682864" target=_blank>Goodson HV, <i>et al.</i> (1996 Jun)</a>. Synthetic lethality screen identifies a novel yeast myosin I gene (MYO5): myosin I proteins are required for polarization of the actin cytoskeleton.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9388196" target=_blank>Wu C, <i>et al.</i> (1997 Dec 5)</a>. The phosphorylation site for Ste20p-like protein kinases is essential for the function of myosin-I in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9628892" target=_blank>Anderson BL, <i>et al.</i> (1998 Jun 15)</a>. The Src homology domain 3 (SH3) of a yeast type I myosin, Myo5p, binds to verprolin and is required for targeting to sites of actin polarization.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9603982" target=_blank>Yamashita RA, <i>et al.</i> (1998 Jun 5)</a>. Constitutive activation of endocytosis by mutation of myoA, the myosin I gene of Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9756952" target=_blank>Osherov N, <i>et al.</i> (1998 Oct 9)</a>. Structural requirements for in vivo myosin I function in Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10944111" target=_blank>Geli MI, <i>et al.</i> (2000 Aug 15)</a>. An intact SH3 domain is required for myosin I-induced actin polymerization.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10658211" target=_blank>Yamashita RA, <i>et al.</i> (2000 Feb)</a>. Localization of wild type and mutant class I myosin proteins in Aspergillus nidulans using GFP-fusion proteins.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10618165" target=_blank>Suelmann R, <i>et al.</i> (2000 Jan)</a>. Mitochondrial movement and morphology depend on an intact actin cytoskeleton in Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10648568" target=_blank>Evangelista M, <i>et al.</i> (2000 Jan 24)</a>. A role for myosin-I in actin assembly through interactions with Vrp1p, Bee1p, and the Arp2/3 complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10648569" target=_blank>Lechler T, <i>et al.</i> (2000 Jan 24)</a>. Direct involvement of yeast type I myosins in Cdc42-dependent actin polymerization.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10875281" target=_blank>Suelmann R, <i>et al.</i> (2000 May)</a>. Nuclear migration in fungi--different motors at work.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11076964" target=_blank>Lee WL, <i>et al.</i> (2000 Nov 13)</a>. Fission yeast myosin-I, Myo1p, stimulates actin assembly by Arp2/3 complex and shares functions with WASp.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11459943" target=_blank>Liu X, <i>et al.</i> (2001 Jul 31)</a>. Myosin I mutants with only 1% of wild-type actin-activated MgATPase activity retain essential in vivo function(s).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11260263" target=_blank>Toya M, <i>et al.</i> (2001 Mar)</a>. Identification and functional analysis of the gene for type I myosin in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12455956" target=_blank>Oberholzer U, <i>et al.</i> (2002 Apr)</a>. Myosin I is required for hypha formation in Candida albicans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11901111" target=_blank>Mochida J, <i>et al.</i> (2002 Mar)</a>. The novel adaptor protein, Mti1p, and Vrp1p, a homolog of Wiskott-Aldrich syndrome protein-interacting protein (WIP), may antagonistically regulate type I myosins in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12391157" target=_blank>Soulard A, <i>et al.</i> (2002 Nov)</a>. Saccharomyces cerevisiae Bzz1p is implicated with type I myosins in actin patch polarization and is able to recruit actin-polymerizing machinery in vitro.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12214236" target=_blank>Pelham RJ, <i>et al.</i> (2002 Sep 5)</a>. Actin dynamics in the contractile ring during cytokinesis in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12725728" target=_blank>Wesche S, <i>et al.</i> (2003 Apr 29)</a>. The UCS domain protein She4p binds to myosin motor domains and is essential for class I and class V myosin function.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12808026" target=_blank>Toi H, <i>et al.</i> (2003 Jun)</a>. She4p/Dim1p interacts with the motor domain of unconventional myosins in the budding yeast, Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12939254" target=_blank>Carnahan RH, <i>et al.</i> (2003 Sep 1)</a>. The PCH family protein, Cdc15p, recruits two F-actin nucleation pathways to coordinate cytokinetic actin ring formation in Schizosaccharomyces pombe.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15470256" target=_blank>Oberholzer U, <i>et al.</i> (2004 Oct)</a>. Functional characterization of myosin I tail regions in Candida albicans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15504913" target=_blank>Lord M, <i>et al.</i> (2004 Oct 25)</a>. UCS protein Rng3p activates actin filament gliding by fission yeast myosin-II.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16087707" target=_blank>Sirotkin V, <i>et al.</i> (2005 Aug 15)</a>. Interactions of WASp, myosin-I, and verprolin with Arp2/3 complex during actin patch assembly in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16051179" target=_blank>Takeda T, <i>et al.</i> (2005 Jul 26)</a>. Role of fission yeast myosin I in organization of sterol-rich membrane domains.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17202724" target=_blank>Itadani A, <i>et al.</i> (2006)</a>. Localization of type I myosin and F-actin to the leading edge region of the forespore membrane in Schizosaccharomyces pombe.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16600966" target=_blank>Musi V, <i>et al.</i> (2006 Apr)</a>. New approaches to high-throughput structure characterization of SH3 complexes: the example of Myosin-3 and Myosin-5 SH3 domains from S. cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16478726" target=_blank>Grosshans BL, <i>et al.</i> (2006 Apr 21)</a>. TEDS site phosphorylation of the yeast myosins I is required for ligand-induced but not for constitutive endocytosis of the G protein-coupled receptor Ste2p.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17522383" target=_blank>Barker SL, <i>et al.</i> (2007 Aug)</a>. Interaction of the endocytic scaffold protein Pan1 with the type I myosins contributes to the late stages of endocytosis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17287358" target=_blank>Chi A, <i>et al.</i> (2007 Feb 13)</a>. Analysis of phosphorylation sites on proteins from Saccharomyces cerevisiae by electron transfer dissociation (ETD) mass spectrometry.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17021934" target=_blank>Horio T, <i>et al.</i> (2007 Jan)</a>. Role of microtubules in tip growth of fungi.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17880424" target=_blank>Malavazi I, <i>et al.</i> (2007 Oct)</a>. Transcriptome analysis of the Aspergillus nidulans AtmA (ATM, Ataxia-Telangiectasia mutated) null mutant.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18346214" target=_blank>Codlin S, <i>et al.</i> (2008 Jun)</a>. btn1 affects endocytosis, polarization of sterol-rich membrane domains and polarized growth in Schizosaccharomyces pombe.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18684775" target=_blank>Kennedy PJ, <i>et al.</i> (2008 Nov)</a>. A genome-wide screen of genes involved in cadmium tolerance in Schizosaccharomyces pombe.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19672306" target=_blank>Calvo IA, <i>et al.</i> (2009 Aug 12)</a>. Genome-wide screen of genes required for caffeine tolerance in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19098712" target=_blank>Amorim MJ, <i>et al.</i> (2009 Feb)</a>. Rng3, a member of the UCS family of myosin co-chaperones, associates with myosin heavy chains cotranslationally.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19547744" target=_blank>Beltrao P, <i>et al.</i> (2009 Jun 16)</a>. Evolution of phosphoregulation: comparison of phosphorylation patterns across yeast species.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19610202" target=_blank>Harris SD, <i>et al.</i> (2009 Mar)</a>. Morphology and development in Aspergillus nidulans: a complex puzzle.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19264558" target=_blank>Deshpande GP, <i>et al.</i> (2009 May 1)</a>. Screening a genome-wide S. pombe deletion library identifies novel genes and pathways involved in genome stability maintenance.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19808887" target=_blank>Attanapola SL, <i>et al.</i> (2009 Nov 1)</a>. Ste20-kinase-dependent TEDS-site phosphorylation modulates the dynamic localisation and endocytic function of the fission yeast class I myosin, Myo1.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20587778" target=_blank>Sirotkin V, <i>et al.</i> (2010 Aug 15)</a>. Quantitative analysis of the mechanism of endocytic actin patch assembly and disassembly in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20705471" target=_blank>Clayton JE, <i>et al.</i> (2010 Aug 24)</a>. Differential regulation of unconventional fission yeast myosins via the actin track.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19805578" target=_blank>Mata J, <i>et al.</i> (2010 Feb)</a>. Genome-wide mapping of myosin protein-RNA networks suggests the existence of specialized protein production sites.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20603077" target=_blank>Roberts-Galbraith RH, <i>et al.</i> (2010 Jul 9)</a>. Dephosphorylation of F-BAR protein Cdc15 modulates its conformation and stimulates its scaffolding activity at the cell division site.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20838651" target=_blank>Kouranti I, <i>et al.</i> (2010 Sep 7)</a>. A global census of fission yeast deubiquitinating enzyme localization and interaction networks reveals distinct compartmentalization profiles and overlapping functions in endocytosis and polarity.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21850271" target=_blank>Ma Y, <i>et al.</i> (2011)</a>. Genome-wide screening for genes associated with FK506 sensitivity in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21620704" target=_blank>Basu R, <i>et al.</i> (2011 Jun 7)</a>. Characterization of dip1p reveals a switch in Arp2/3-dependent actin assembly for fission yeast endocytosis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21832151" target=_blank>Kashiwazaki J, <i>et al.</i> (2011 Oct)</a>. Endocytosis is essential for dynamic translocation of a syntaxin 1 orthologue during fission yeast meiosis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21885283" target=_blank>Arasada R, <i>et al.</i> (2011 Sep 13)</a>. Distinct roles for F-BAR proteins Cdc15p and Bzz1p in actin polymerization at sites of endocytosis in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23173672" target=_blank>Pan X, <i>et al.</i> (2012 Nov 23)</a>. Identification of novel genes involved in DNA damage response by screening a genome-wide Schizosaccharomyces pombe deletion library.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23950735" target=_blank>Sun LL, <i>et al.</i> (2013)</a>. Global analysis of fission yeast mating genes reveals new autophagy factors.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23738021" target=_blank>Zhou X, <i>et al.</i> (2013)</a>. A genome-wide screening of potential target genes to enhance the antifungal activity of micafungin in Schizosaccharomyces pombe.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23297348" target=_blank>Chen JS, <i>et al.</i> (2013 May)</a>. Comprehensive proteomics analysis reveals new substrates and regulators of the fission yeast clp1/cdc14 phosphatase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25422470" target=_blank>Scheffler K, <i>et al.</i> (2014 Dec 16)</a>. Oscillatory AAA+ ATPase Knk1 constitutes a novel morphogenetic pathway in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25040903" target=_blank>Encinar del Dedo J, <i>et al.</i> (2014 Oct)</a>. Eng2 is a component of a dynamic protein complex required for endocytic uptake in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25373780" target=_blank>Graml V, <i>et al.</i> (2014 Oct 27)</a>. A genomic Multiprocess survey of machineries that control and link cell shape, microtubule organization, and cell-cycle progression.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26412298" target=_blank>Beckley JR, <i>et al.</i> (2015 Dec)</a>. A Degenerate Cohort of Yeast Membrane Trafficking DUBs Mediates Cell Polarity and Survival.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25825517" target=_blank>Dudin O, <i>et al.</i> (2015 Mar 30)</a>. A formin-nucleated actin aster concentrates cell wall hydrolases for cell fusion in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26345368" target=_blank>Petrini E, <i>et al.</i> (2015 Oct 15)</a>. A new phosphate-starvation response in fission yeast requires the endocytic function of myosin I.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27918601" target=_blank>Malecki M, <i>et al.</i> (2016)</a>. Identifying genes required for respiratory growth of fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27053105" target=_blank>Burr R, <i>et al.</i> (2016 Jun 3)</a>. Mga2 Transcription Factor Regulates an Oxygen-responsive Lipid Homeostasis Pathway in Fission Yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27180904" target=_blank>Makushok T, <i>et al.</i> (2016 May 19)</a>. Sterol-Rich Membrane Domains Define Fission Yeast Cell Polarity.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02945_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02945_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02945_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02945_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01172_phobius.html#FOG02945">Phobius transmembrane predictions</a>
+										<br>3 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e5d4e9" class="col">
+			FOG02946<br>EOG8BZKHP<br><br>sce:KIN1;KIN2<br><br>Genes: 35
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Serine/threonine protein kinase involved in regulation of exocytosis; localizes to the cytoplasmic face of the plasma membrane; KIN1 has a paralog, KIN2, that arose from the whole genome duplication|Serine/threonine protein kinase involved in regulation of exocytosis; localizes to the cytoplasmic face of the plasma membrane; KIN2 has a paralog, KIN1, that arose from the whole genome duplication<br><br>
+			<br><b>PomBase Description</b><br>microtubule affinity-regulating kinase Kin1<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have role in ascospore formation, cell growth mode switching, monopolar to bipolar, conidiophore development, conidium formation and establishment or maintenance of actin cytoskeleton polarity, more<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2957690" target=_blank>Levin DE, <i>et al.</i> (1987 Sep)</a>. Two yeast genes that encode unusual protein kinases.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1652871" target=_blank>Lamb A, <i>et al.</i> (1991 Apr)</a>. The product of the KIN1 locus in Saccharomyces cerevisiae is a serine/threonine-specific protein kinase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8203145" target=_blank>Donovan M, <i>et al.</i> (1994 Jan)</a>. Characterization of the KIN2 gene product in Saccharomyces cerevisiae and comparison between the kinase activities of p145KIN1 and p145KIN2.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8020610" target=_blank>Tibbetts M, <i>et al.</i> (1994 Jul)</a>. KIN1 and KIN2 protein kinases localize to the cytoplasmic face of the yeast plasma membrane.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15563607" target=_blank>Elbert M, <i>et al.</i> (2005 Feb)</a>. The yeast par-1 homologs kin1 and kin2 show genetic and physical interactions with components of the exocytic machinery.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17287358" target=_blank>Chi A, <i>et al.</i> (2007 Feb 13)</a>. Analysis of phosphorylation sites on proteins from Saccharomyces cerevisiae by electron transfer dissociation (ETD) mass spectrometry.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02946_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02946_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02946_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02946_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01172_phobius.html#FOG02946">Phobius transmembrane predictions</a>
+										<br>3 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fbe2c3" class="col">
+			FOG02947<br>EOG8BZKHP<br><br>sce:SNF1<br><br>Genes: 34
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>AMP-activated serine/threonine protein kinase; found in a complex containing Snf4p and members of the Sip1p/Sip2p/Gal83p family; required for transcription of glucose-repressed genes, thermotolerance, sporulation, and peroxisome biogenesis; involved in regulation of the nucleocytoplasmic shuttling of Hxk2p; regulates filamentous growth in response to starvation; SUMOylation by Mms21p inhibits its function and targets Snf1p for destruction via the Slx5-Slx8 Ubiquitin ligase<br><br>
+			<br><b>PomBase Description</b><br>AMP-activated protein serine/threonine kinase alpha subunit Ssp2<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have AMP-activated protein kinase activity, ARF guanyl-nucleotide exchange factor activity<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=6366512" target=_blank>Celenza JL, <i>et al.</i> (1984 Jan)</a>. Cloning and genetic mapping of SNF1, a gene required for expression of glucose-repressible genes in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=6366513" target=_blank>Celenza JL, <i>et al.</i> (1984 Jan)</a>. Structure and expression of the SNF1 gene of Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=3526554" target=_blank>Celenza JL, <i>et al.</i> (1986 Sep 12)</a>. A yeast gene that is essential for release from glucose repression encodes a protein kinase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=3049551" target=_blank>Bisson LF, <i>et al.</i> (1988 Oct)</a>. High-affinity glucose transport in Saccharomyces cerevisiae is under general glucose repression control.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2481228" target=_blank>Celenza JL, <i>et al.</i> (1989 Nov)</a>. Molecular analysis of the SNF4 gene of Saccharomyces cerevisiae: evidence for physical association of the SNF4 protein with the SNF1 protein kinase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2557546" target=_blank>Celenza JL, <i>et al.</i> (1989 Nov)</a>. Mutational analysis of the Saccharomyces cerevisiae SNF1 protein kinase and evidence for functional interaction with the SNF4 protein.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2201908" target=_blank>Swanson MS, <i>et al.</i> (1990 Sep)</a>. SPT6, an essential gene that affects transcription in Saccharomyces cerevisiae, encodes a nuclear protein with an extremely acidic amino terminus.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1944227" target=_blank>Denis CL, <i>et al.</i> (1991 Oct)</a>. The CCR1 (SNF1) and SCH9 protein kinases act independently of cAMP-dependent protein kinase and the transcriptional activator ADR1 in controlling yeast ADH2 expression.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1468623" target=_blank>Estruch F, <i>et al.</i> (1992 Nov)</a>. N-terminal mutations modulate yeast SNF1 protein kinase function.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7813428" target=_blank>Yang X, <i>et al.</i> (1994 Dec 15)</a>. A family of proteins containing a conserved domain that mediates interaction with the yeast SNF1 protein kinase complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8289797" target=_blank>Ulery TL, <i>et al.</i> (1994 Feb)</a>. Glucose repression of yeast mitochondrial transcription: kinetics of derepression and role of nuclear genes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7905477" target=_blank>Mitchelhill KI, <i>et al.</i> (1994 Jan 28)</a>. Mammalian AMP-activated protein kinase shares structural and functional homology with the catalytic domain of yeast Snf1 protein kinase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8945576" target=_blank>Petter R, <i>et al.</i> (1996 Dec)</a>. Disruption of the SNF1 gene abolishes trehalose utilization in the pathogenic yeast Candida glabrata.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8628258" target=_blank>Lesage P, <i>et al.</i> (1996 May)</a>. Yeast SNF1 protein kinase interacts with SIP4, a C6 zinc cluster transcriptional activator: a new role for SNF1 in the glucose response.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9121458" target=_blank>Jiang R, <i>et al.</i> (1997 Apr)</a>. The Snf1 protein kinase and its activating subunit, Snf4, interact with distinct domains of the Sip1/Sip2/Gal83 component in the kinase complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9236777" target=_blank>Willins DA, <i>et al.</i> (1997 Jun)</a>. Mutations in the heavy chain of cytoplasmic dynein suppress the nudF nuclear migration mutation of Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11486005" target=_blank>McCartney RR, <i>et al.</i> (2001 Sep 28)</a>. Regulation of Snf1 kinase. Activation requires phosphorylation of threonine 210 by an upstream kinase as well as a distinct step mediated by the Snf4 subunit.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12748292" target=_blank>Nath N, <i>et al.</i> (2003 Jun)</a>. Yeast Pak1 kinase associates with and activates Snf1.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15121831" target=_blank>Charbon G, <i>et al.</i> (2004 May)</a>. Key role of Ser562/661 in Snf1-dependent regulation of Cat8p in Saccharomyces cerevisiae and Kluyveromyces lactis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16236260" target=_blank>Rudolph MJ, <i>et al.</i> (2005 Dec 2)</a>. Crystal structure of the protein kinase domain of yeast AMP-activated protein kinase Snf1.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15719021" target=_blank>Lo WS, <i>et al.</i> (2005 Mar 9)</a>. Histone H3 phosphorylation can promote TBP recruitment through distinct promoter-specific mechanisms.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16182287" target=_blank>Van Driessche B, <i>et al.</i> (2005 Oct 10)</a>. Glucose deprivation mediates interaction between CTDK-I and Snf1 in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16531232" target=_blank>Nayak V, <i>et al.</i> (2006 Mar)</a>. Structure and dimerization of the kinase domain from yeast Snf1, a member of the Snf1/AMPK protein family.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16847059" target=_blank>Elbing K, <i>et al.</i> (2006 Sep 8)</a>. Subunits of the Snf1 kinase heterotrimer show interdependence for association and activity.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17237508" target=_blank>Sarma NJ, <i>et al.</i> (2007 Mar)</a>. Glucose-responsive regulators of gene expression in Saccharomyces cerevisiae function at the nuclear periphery via a reverse recruitment mechanism.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17851534" target=_blank>Amodeo GA, <i>et al.</i> (2007 Sep 27)</a>. Crystal structure of the heterotrimer core of Saccharomyces cerevisiae AMPK homologue SNF1.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19474788" target=_blank>Chen L, <i>et al.</i> (2009 Jun 25)</a>. Structural insight into the autoinhibition mechanism of AMP-activated protein kinase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20823513" target=_blank>Rudolph MJ, <i>et al.</i> (2010 Sep 1)</a>. An inhibited conformation for the protein kinase domain of the Saccharomyces cerevisiae AMPK homolog Snf1.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22384365" target=_blank>Wendland J, <i>et al.</i> (2011 Dec)</a>. Genome evolution in the eremothecium clade of the Saccharomyces complex revealed by comparative genomics.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22019086" target=_blank>Mayer FV, <i>et al.</i> (2011 Nov 2)</a>. ADP regulates SNF1, the Saccharomyces cerevisiae homolog of AMP-activated protein kinase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22106047" target=_blank>Starita LM, <i>et al.</i> (2012 Jan)</a>. Sites of ubiquitin attachment in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23505451" target=_blank>De Souza CP, <i>et al.</i> (2013)</a>. Functional analysis of the Aspergillus nidulans kinome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23800192" target=_blank>Brown NA, <i>et al.</i> (2013 Jun 25)</a>. Functional characterisation of the non-essential protein kinases and phosphatases regulating Aspergillus nidulans hydrolytic enzyme production.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24108357" target=_blank>Simpson-Lavy KJ, <i>et al.</i> (2013 Oct 22)</a>. SUMOylation regulates the SNF1 protein kinase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24192833" target=_blank>Krohn NG, <i>et al.</i> (2014 Jan 10)</a>. The Aspergillus nidulans ATM kinase regulates mitochondrial function, glucose uptake and the carbon starvation response.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25116090" target=_blank>Ramsubramaniam N, <i>et al.</i> (2014 Nov)</a>. The phosphoproteome of Aspergillus nidulans reveals functional association with cellular processes involved in morphology and secretion.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26394309" target=_blank>Mizuno T, <i>et al.</i> (2015)</a>. The Saccharomyces cerevisiae AMPK, Snf1, Negatively Regulates the Hog1 MAPK Pathway in ER Stress Response.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26690721" target=_blank>de Assis LJ, <i>et al.</i> (2015)</a>. Aspergillus nidulans protein kinase A plays an important role in cellulase production.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26667037" target=_blank>Braun KA, <i>et al.</i> (2015 Dec 14)</a>. Snf1-Dependent Transcription Confers Glucose-Induced Decay upon the mRNA Product.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25428989" target=_blank>DeMille D, <i>et al.</i> (2015 Feb 1)</a>. PAS kinase is activated by direct SNF1-dependent phosphorylation and mediates inhibition of TORC1 through the phosphorylation and activation of Pbp1.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25869125" target=_blank>Jiao R, <i>et al.</i> (2015 Jun 19)</a>. The SNF1 Kinase Ubiquitin-associated Domain Restrains Its Activation, Activity, and the Yeast Life Span.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25730376" target=_blank>Ferrer-Dalmau J, <i>et al.</i> (2015 May 15)</a>. Protein kinase Snf1 is involved in the proper regulation of the unfolded protein response in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26309257" target=_blank>Nicastro R, <i>et al.</i> (2015 Oct 9)</a>. Snf1 Phosphorylates Adenylate Cyclase and Negatively Regulates Protein Kinase A-dependent Transcription in Saccharomyces cerevisiae.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02947_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02947_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02947_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02947_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01172_phobius.html#FOG02947">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fdffcc" class="col">
+			FOG02948<br>EOG8R4XKF<br><br>sce:SAT4<br><br>Genes: 33
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Ser/Thr protein kinase involved in salt tolerance; funtions in regulation of Trk1p-Trk2p potassium transporter; overexpression affects the Fe-S and lipoamide containing proteins in the mitochondrion; required for lipoylation of Lat1p, Kgd2p and Gcv3p; partially redundant with Hal5p; has similarity to Npr1p; localizes to the cytoplasm and mitochondrion<br><br>
+			<br><b>PomBase Description</b><br>serine/threonine protein kinase Hal4<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have role in cellular calcium ion homeostasis, cellular response to cation stress and cytosol localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1767593" target=_blank>Skala J, <i>et al.</i> (1991 Aug-Sep)</a>. The open reading frame YCR101 located on chromosome III from Saccharomyces cerevisiae is a putative protein kinase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10207057" target=_blank>Mulet JM, <i>et al.</i> (1999 May)</a>. A novel mechanism of ion homeostasis and salt tolerance in yeast: the Hal4 and Hal5 protein kinases modulate the Trk1-Trk2 potassium transporter.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15821139" target=_blank>Bimbó A, <i>et al.</i> (2005 Apr)</a>. Systematic deletion analysis of fission yeast protein kinases.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15870269" target=_blank>Wang LY, <i>et al.</i> (2005 May)</a>. Response of fission yeast to toxic cations involves cooperative action of the stress-activated protein kinase Spc1/Sty1 and the Hal4 protein kinase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16020782" target=_blank>Espeso EA, <i>et al.</i> (2005 Oct)</a>. Discrepancies between recombination frequencies and physical distances in Aspergillus nidulans: implications for gene identification.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16164595" target=_blank>Thornton G, <i>et al.</i> (2005 Oct)</a>. A novel pathway determining multidrug sensitivity in Schizosaccharomyces pombe.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20501954" target=_blank>Koyano T, <i>et al.</i> (2010)</a>. Search for kinases related to transition of growth polarity in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20438880" target=_blank>Findon H, <i>et al.</i> (2010 Jul)</a>. Analysis of a novel calcium auxotrophy in Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22291963" target=_blank>Tanae K, <i>et al.</i> (2012)</a>. Histone chaperone Asf1 plays an essential role in maintaining genomic stability in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23505451" target=_blank>De Souza CP, <i>et al.</i> (2013)</a>. Functional analysis of the Aspergillus nidulans kinome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25793410" target=_blank>Alao JP, <i>et al.</i> (2015)</a>. Suppression of sensitivity to drugs and antibiotics by high external cation concentrations in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26412298" target=_blank>Beckley JR, <i>et al.</i> (2015 Dec)</a>. A Degenerate Cohort of Yeast Membrane Trafficking DUBs Mediates Cell Polarity and Survival.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26119498" target=_blank>Mellado L, <i>et al.</i> (2015 Sep)</a>. A second component of the SltA-dependent cation tolerance pathway in Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27984725" target=_blank>Swaffer MP, <i>et al.</i> (2016 Dec 15)</a>. CDK Substrate Phosphorylation and Ordering the Cell Cycle.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28218250" target=_blank>Lee J, <i>et al.</i> (2017 Feb 20)</a>. Chromatin remodeller Fun30&lt;sup&gt;Fft3&lt;/sup&gt; induces nucleosome disassembly to facilitate RNA polymerase II elongation.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02948_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02948_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02948_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02948_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01172_phobius.html#FOG02948">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e7d7cd" class="col">
+			FOG02949<br>EOG8BZKHP<br><br>sce:IPL1<br><br>Genes: 32
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Aurora kinase of chromosomal passenger complex; mediates release of mono-oriented kinetochores from microtubules in meiosis I, and kinetochore release from SPB clusters at meiotic exit; helps maintain condensed chromosomes during anaphase; required for SPB cohesion and prevention of multipolar spindle formation; promotes telomerase release at G2/M; Iocalizes to nuclear foci that diffuse upon DNA replication stress; required for inhibition of karyopherin Pse1p upon SAC arrest<br><br>
+			<br><b>PomBase Description</b><br>aurora-B kinase Ark1<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have protein serine/threonine kinase activity<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8007975" target=_blank>Francisco L, <i>et al.</i> (1994 Jul)</a>. Type 1 protein phosphatase acts in opposition to IpL1 protein kinase in regulating yeast chromosome segregation.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10385519" target=_blank>Kim JH, <i>et al.</i> (1999 Jun 28)</a>. Sli15 associates with the ipl1 protein kinase to promote proper chromosome segregation in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10975519" target=_blank>Hsu JY, <i>et al.</i> (2000 Aug 4)</a>. Mitotic phosphorylation of histone H3 is governed by Ipl1/aurora kinase and Glc7/PP1 phosphatase in budding yeast and nematodes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11724818" target=_blank>Kang J, <i>et al.</i> (2001 Nov 26)</a>. Functional cooperation of Dam1, Ipl1, and the inner centromere protein (INCENP)-related protein Sli15 during chromosome segregation.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11853667" target=_blank>Tanaka TU, <i>et al.</i> (2002 Feb 8)</a>. Evidence that the Ipl1-Sli15 (Aurora kinase-INCENP) complex promotes chromosome bi-orientation by altering kinetochore-spindle pole connections.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12408861" target=_blank>Cheeseman IM, <i>et al.</i> (2002 Oct 18)</a>. Phospho-regulation of kinetochore-microtubule attachments by the Aurora kinase Ipl1p.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17287358" target=_blank>Chi A, <i>et al.</i> (2007 Feb 13)</a>. Analysis of phosphorylation sites on proteins from Saccharomyces cerevisiae by electron transfer dissociation (ETD) mass spectrometry.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23505451" target=_blank>De Souza CP, <i>et al.</i> (2013)</a>. Functional analysis of the Aspergillus nidulans kinome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23454383" target=_blank>Vieillemard A, <i>et al.</i> (2013 Mar 29)</a>. The Saccharomyces cerevisiae RhoGAP Rgd1 is phosphorylated by the Aurora B like kinase Ipl1.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24599037" target=_blank>De Souza CP, <i>et al.</i> (2014)</a>. Application of a new dual localization-affinity purification tag reveals novel aspects of protein kinase biology in Aspergillus nidulans.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02949_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02949_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02949_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02949_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01172_phobius.html#FOG02949">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fadff0" class="col">
+			FOG02950<br>EOG86T1HN<br>EOG8BZKHP<br>EOG8R4XKF<br><br>sce:HSL1<br><br>Genes: 32
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Nim1p-related protein kinase; regulates the morphogenesis and septin checkpoints; associates with the assembled septin filament; required along with Hsl7p for bud neck recruitment, phosphorylation, and degradation of Swe1p<br><br>
+			<br><b>PomBase Description</b><br>NIM1 family serine/threonine protein kinase Cdr1/Nim1|serine/threonine protein kinase Cdr2<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8647431" target=_blank>Ma XJ, <i>et al.</i> (1996 Jun 1)</a>. A search for proteins that interact genetically with histone H3 and H4 amino termini uncovers novel regulators of the Swe1 kinase in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14769857" target=_blank>Wightman R, <i>et al.</i> (2004 Feb 16)</a>. In Candida albicans, the Nim1 kinases Gin4 and Hsl1 negatively regulate pseudohypha formation and Gin4 also controls septin organization.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15659158" target=_blank>Umeyama T, <i>et al.</i> (2005 Jan)</a>. Candida albicans protein kinase CaHsl1p regulates cell elongation and virulence.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17287358" target=_blank>Chi A, <i>et al.</i> (2007 Feb 13)</a>. Analysis of phosphorylation sites on proteins from Saccharomyces cerevisiae by electron transfer dissociation (ETD) mass spectrometry.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02950_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02950_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02950_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02950_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01172_phobius.html#FOG02950">Phobius transmembrane predictions</a>
+										<br>2 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f2c0c1" class="col">
+			FOG02951<br>EOG8BZKHP<br><br>sce:CDC5<br><br>Genes: 31
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Polo-like kinase; controls targeting and activation of Rho1p at cell division site via Rho1p guanine nucleotide exchange factors; regulates Spc72p; also functions in adaptation to DNA damage during meiosis; regulates the shape of the nucleus and expansion of the nuclear envelope during mitosis; has similarity to Xenopus Plx1 and S. pombe Plo1p; possible Cdc28p substrate<br><br>
+			<br><b>PomBase Description</b><br>Polo kinase Plo1<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8321244" target=_blank>Kitada K, <i>et al.</i> (1993 Jul)</a>. A multicopy suppressor gene of the Saccharomyces cerevisiae G1 cell cycle mutant gene dbf4 encodes a protein kinase and is identified as CDC5.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11371343" target=_blank>Alexandru G, <i>et al.</i> (2001 May 18)</a>. Phosphorylation of the cohesin subunit Scc1 by Polo/Cdc5 kinase regulates sister chromatid separation in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11832211" target=_blank>Stegmeier F, <i>et al.</i> (2002 Jan 25)</a>. Separase, polo kinase, the kinetochore protein Slk19, and Spo12 function in a network that controls Cdc14 localization during early anaphase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12056824" target=_blank>Yoshida S, <i>et al.</i> (2002 Jun 14)</a>. Budding yeast Cdc5 phosphorylates Net1 and assists Cdc14 release from the nucleolus.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17287358" target=_blank>Chi A, <i>et al.</i> (2007 Feb 13)</a>. Analysis of phosphorylation sites on proteins from Saccharomyces cerevisiae by electron transfer dissociation (ETD) mass spectrometry.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02951_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02951_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02951_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02951_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01172_phobius.html#FOG02951">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#cbd9eb" class="col">
+			FOG02952<br>EOG8R4XKF<br><br>sce:CHK1<br><br>Genes: 27
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Serine/threonine kinase and DNA damage checkpoint effector; mediates cell cycle arrest via phosphorylation of Pds1p; phosphorylated by checkpoint signal transducer Mec1p; homolog of S. pombe and mammalian Chk1 checkpoint kinase<br><br>
+			<br><b>PomBase Description</b><br>Chk1 protein kinase<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have protein serine/threonine kinase activity<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10550056" target=_blank>Sanchez Y, <i>et al.</i> (1999 Nov 5)</a>. Control of the DNA damage checkpoint by chk1 and rad53 protein kinases through distinct mechanisms.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14998526" target=_blank>Goldman GH, <i>et al.</i> (2004 Apr)</a>. Aspergillus nidulans as a model system to characterize the DNA damage response in eukaryotes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18245360" target=_blank>Malavazi I, <i>et al.</i> (2008 Feb)</a>. Genetic interactions of the Aspergillus nidulans atmAATM homolog with different components of the DNA damage response pathway.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23505451" target=_blank>De Souza CP, <i>et al.</i> (2013)</a>. Functional analysis of the Aspergillus nidulans kinome.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02952_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02952_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02952_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02952_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01172_phobius.html#FOG02952">Phobius transmembrane predictions</a>
+										<br>4 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d0eacb" class="col">
+			FOG02953<br>EOG8BZKHP<br><br>sce:DUN1<br><br>Genes: 26
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Cell-cycle checkpoint serine-threonine kinase; required for DNA damage-induced transcription of certain target genes, phosphorylation of Rad55p and Sml1p, and transient G2/M arrest after DNA damage; Mec1p and Dun1p function in same pathway to regulate both dNTP pools and telomere length; also regulates postreplicative DNA repair<br><br>
+			<br><b>AspGD Description</b><br>Putative serine/threonine-protein kinase; induced by caspofungin<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8261511" target=_blank>Zhou Z, <i>et al.</i> (1993 Dec 17)</a>. DUN1 encodes a protein kinase that controls the DNA damage response in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11953437" target=_blank>Hammet A, <i>et al.</i> (2002 Jun 21)</a>. Posttranscriptional regulation of the RAD5 DNA repair gene by the Dun1 kinase and the Pan2-Pan3 poly(A)-nuclease complex contributes to survival of replication blocks.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11904430" target=_blank>Zhao X, <i>et al.</i> (2002 Mar 19)</a>. The Dun1 checkpoint kinase phosphorylates and regulates the ribonucleotide reductase inhibitor Sml1.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14998526" target=_blank>Goldman GH, <i>et al.</i> (2004 Apr)</a>. Aspergillus nidulans as a model system to characterize the DNA damage response in eukaryotes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17287358" target=_blank>Chi A, <i>et al.</i> (2007 Feb 13)</a>. Analysis of phosphorylation sites on proteins from Saccharomyces cerevisiae by electron transfer dissociation (ETD) mass spectrometry.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18245360" target=_blank>Malavazi I, <i>et al.</i> (2008 Feb)</a>. Genetic interactions of the Aspergillus nidulans atmAATM homolog with different components of the DNA damage response pathway.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22384365" target=_blank>Wendland J, <i>et al.</i> (2011 Dec)</a>. Genome evolution in the eremothecium clade of the Saccharomyces complex revealed by comparative genomics.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23505451" target=_blank>De Souza CP, <i>et al.</i> (2013)</a>. Functional analysis of the Aspergillus nidulans kinome.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02953_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02953_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02953_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02953_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01172_phobius.html#FOG02953">Phobius transmembrane predictions</a>
+										<br>18 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e0cce5" class="col">
+			FOG02954<br>EOG8BZKHP<br>EOG8XWDDG<br><br>sce:TDA1<br><br>Genes: 24
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Protein kinase of unknown cellular role; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm and nucleus; null mutant is sensitive to expression of the top1-T722A allele; not an essential gene; relocalizes from nucleus to cytoplasm upon DNA replication stress<br><br>
+			<br><b>PomBase Description</b><br>calcium/calmodulin-dependent protein kinase Cmk1<br><br>
+			<br><b>AspGD Description</b><br>Ca2+/calmodulin-dependent protein kinase<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10988293" target=_blank>Joseph JD, <i>et al.</i> (2000 Dec 8)</a>. Identification and characterization of two Ca2+/CaM-dependent protein kinases required for normal nuclear division in Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10617667" target=_blank>Rasmussen CD, <i>et al.</i> (2000 Jan 7)</a>. Cloning of a calmodulin kinase I homologue from Schizosaccharomyces pombe.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11062466" target=_blank>Zhu H, <i>et al.</i> (2000 Nov)</a>. Analysis of yeast protein kinases using protein chips.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12455978" target=_blank>Joseph JD, <i>et al.</i> (2002 Feb)</a>. Calcium binding is required for calmodulin function in Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15665377" target=_blank>Gruhler A, <i>et al.</i> (2005 Mar)</a>. Quantitative phosphoproteomics applied to the yeast pheromone signaling pathway.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17287358" target=_blank>Chi A, <i>et al.</i> (2007 Feb 13)</a>. Analysis of phosphorylation sites on proteins from Saccharomyces cerevisiae by electron transfer dissociation (ETD) mass spectrometry.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19610202" target=_blank>Harris SD, <i>et al.</i> (2009 Mar)</a>. Morphology and development in Aspergillus nidulans: a complex puzzle.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20501954" target=_blank>Koyano T, <i>et al.</i> (2010)</a>. Search for kinases related to transition of growth polarity in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21460040" target=_blank>Fasolo J, <i>et al.</i> (2011 Apr 1)</a>. Diverse protein kinase interactions identified by protein microarrays reveal novel connections between cellular processes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21504829" target=_blank>Stewart EV, <i>et al.</i> (2011 Apr 22)</a>. Yeast SREBP cleavage activation requires the Golgi Dsc E3 ligase complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21173034" target=_blank>Reid RJ, <i>et al.</i> (2011 Mar)</a>. Selective ploidy ablation, a high-throughput plasmid transfer protocol, identifies new genes affecting topoisomerase I-induced DNA damage.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22291963" target=_blank>Tanae K, <i>et al.</i> (2012)</a>. Histone chaperone Asf1 plays an essential role in maintaining genomic stability in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22840777" target=_blank>Kawashima SA, <i>et al.</i> (2012 Jul 27)</a>. Analyzing fission yeast multidrug resistance mechanisms to develop a genetically tractable model system for chemical biology.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22814378" target=_blank>Van Damme P, <i>et al.</i> (2012 Jul 31)</a>. N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23505451" target=_blank>De Souza CP, <i>et al.</i> (2013)</a>. Functional analysis of the Aspergillus nidulans kinome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25081204" target=_blank>Cisneros-Barroso E, <i>et al.</i> (2014 Sep)</a>. Negative feedback regulation of calcineurin-dependent Prz1 transcription factor by the CaMKK-CaMK1 axis in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28218250" target=_blank>Lee J, <i>et al.</i> (2017 Feb 20)</a>. Chromatin remodeller Fun30&lt;sup&gt;Fft3&lt;/sup&gt; induces nucleosome disassembly to facilitate RNA polymerase II elongation.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02954_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02954_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02954_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02954_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01172_phobius.html#FOG02954">Phobius transmembrane predictions</a>
+										<br>13 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fadcb8" class="col">
+			FOG02955<br>EOG8BZKHP<br><br>sce:GIN4;KCC4<br><br>Genes: 23
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Protein kinase involved in bud growth and assembly of the septin ring; proposed to have kinase-dependent and kinase-independent activities; undergoes autophosphorylation; similar to Hsl1p; GIN4 has a paralog, KCC4, that arose from the whole genome duplication|Protein kinase of the bud neck involved in the septin checkpoint; associates with septin proteins, negatively regulates Swe1p by phosphorylation, shows structural homology to bud neck kinases Gin4p and Hsl1p; KCC4 has a paralog, GIN4, that arose from the whole genome duplication<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9813093" target=_blank>Longtine MS, <i>et al.</i> (1998 Nov 2)</a>. Role of the yeast Gin4p protein kinase in septin assembly and the relationship between septin assembly and septin function.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9925642" target=_blank>Barral Y, <i>et al.</i> (1999 Jan 15)</a>. Nim1-related kinases coordinate cell cycle progression with the organization of the peripheral cytoskeleton in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11165249" target=_blank>Okuzaki D, <i>et al.</i> (2001 Feb 2)</a>. Kcc4 associates with septin proteins of Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12058072" target=_blank>Mortensen EM, <i>et al.</i> (2002 Jun)</a>. Cell cycle-dependent assembly of a Gin4-septin complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12773812" target=_blank>Okuzaki D, <i>et al.</i> (2003 Apr)</a>. The Saccharomyces cerevisiae bud-neck proteins Kcc4 and Gin4 have distinct but partially-overlapping cellular functions.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14769857" target=_blank>Wightman R, <i>et al.</i> (2004 Feb 16)</a>. In Candida albicans, the Nim1 kinases Gin4 and Hsl1 negatively regulate pseudohypha formation and Gin4 also controls septin organization.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17287358" target=_blank>Chi A, <i>et al.</i> (2007 Feb 13)</a>. Analysis of phosphorylation sites on proteins from Saccharomyces cerevisiae by electron transfer dissociation (ETD) mass spectrometry.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17504812" target=_blank>Li CR, <i>et al.</i> (2007 Jun 1)</a>. Candida albicans hyphal morphogenesis occurs in Sec3p-independent and Sec3p-dependent phases separated by septin ring formation.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17765684" target=_blank>Sinha I, <i>et al.</i> (2007 Sep)</a>. Cyclin-dependent kinases control septin phosphorylation in Candida albicans hyphal development.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18086883" target=_blank>Calvert ME, <i>et al.</i> (2008 Feb)</a>. Phosphorylation by casein kinase 2 regulates Nap1 localization and function.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22366454" target=_blank>Li CR, <i>et al.</i> (2012 May 15)</a>. CDK regulates septin organization through cell-cycle-dependent phosphorylation of the Nim1-related kinase Gin4.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02955_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02955_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02955_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02955_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01172_phobius.html#FOG02955">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fdffc3" class="col">
+			FOG02956<br>EOG8R4XKF<br><br>sce:absent<br><br>Genes: 13
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02956_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02956_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02956_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02956_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01172_phobius.html#FOG02956">Phobius transmembrane predictions</a>
+										<br>7 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e3d0c3" class="col">
+			FOG02957<br>EOG8BZKHP<br><br>sce:absent<br><br>Genes: 3
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>AspGD Description</b><br>Ortholog(s) have role in G2/M transition of mitotic cell cycle and asexual sporulation resulting in formation of a cellular spore, more<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15556859" target=_blank>De Souza CP, <i>et al.</i> (2004 Nov 23)</a>. Partial nuclear pore complex disassembly during closed mitosis in Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15659171" target=_blank>Bachewich C, <i>et al.</i> (2005 Jan)</a>. The polo-like kinase PLKA is required for initiation and progression through mitosis in the filamentous fungus Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15917811" target=_blank>Petersen J, <i>et al.</i> (2005 May 26)</a>. Polo kinase links the stress pathway to cell cycle control and tip growth in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21091496" target=_blank>Seiler S, <i>et al.</i> (2010 Dec)</a>. Conserved components, but distinct mechanisms for the placement and assembly of the cell division machinery in unicellular and filamentous ascomycetes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22140227" target=_blank>Mogilevsky K, <i>et al.</i> (2012 Feb)</a>. The Polo-like kinase PLKA in Aspergillus nidulans is not essential but plays important roles during vegetative growth and development.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23505451" target=_blank>De Souza CP, <i>et al.</i> (2013)</a>. Functional analysis of the Aspergillus nidulans kinome.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02957_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02957_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02957_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02957_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01172_phobius.html#FOG02957">Phobius transmembrane predictions</a>
+										<br>2 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f9d9ed" class="col">
+			FOG02958<br>EOG8BZKHP<br><br>sce:absent<br><br>Genes: 4
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>PomBase Description</b><br>serine/threonine protein kinase Ppk25 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Has domain(s) with predicted ATP binding, protein kinase activity, protein serine/threonine kinase activity, transferase activity, transferring phosphorus-containing groups activity and role in protein phosphorylation|Protein of unknown function<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14596912" target=_blank>Drewes G, <i>et al.</i> (2003 Nov 6)</a>. The protein kinase kin1, the fission yeast orthologue of mammalian MARK/PAR-1, localises to new cell ends after mitosis and is important for bipolar growth.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15821139" target=_blank>Bimbó A, <i>et al.</i> (2005 Apr)</a>. Systematic deletion analysis of fission yeast protein kinases.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23394829" target=_blank>Gupta S, <i>et al.</i> (2013 Feb 18)</a>. Identification of SIN pathway targets reveals mechanisms of crosstalk between NDR kinase pathways.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24957674" target=_blank>Anver S, <i>et al.</i> (2014 Aug)</a>. Yeast X-chromosome-associated protein 5 (Xap5) functions with H2A.Z to suppress aberrant transcripts.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25483073" target=_blank>Mojardín L, <i>et al.</i> (2015)</a>. Chromosome segregation and organization are targets of 5'-Fluorouracil in eukaryotic cells.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG02958_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02958_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG02958_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG02958_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01172_phobius.html#FOG02958">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01172.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

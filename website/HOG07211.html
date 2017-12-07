@@ -1,0 +1,111 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG07210.html">HOG07210&emsp;&emsp;</a><br> 
+																	HOG07211&emsp;&emsp;<br> 
+																	<a href="HOG07214.html">HOG07214&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG07211.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG07211_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG07211_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG07211_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG07211_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG11424<br>EOG8Q576R<br><br>sce:CIK1;VIK1<br><br>Genes: 6
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Kinesin-associated protein; required for both karyogamy and mitotic spindle organization, interacts stably and specifically with Kar3p and may function to target this kinesin to a specific cellular role; locus encodes a long and short transcript with differing functions; CIK1 has a paralog, VIK1, that arose from the whole genome duplication|Protein that forms a kinesin-14 heterodimeric motor with Kar3p; localizes Kar3p at mitotic spindle poles; has a structure similar to a kinesin motor domain but lacks an ATP-binding site and is catalytically inactive; binds microtubules; required for sister chromatid cohesion; VIK1 has a paralog, CIK1, that arose from the whole genome duplication<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1644287" target=_blank>Page BD, <i>et al.</i> (1992 Aug)</a>. CIK1: a developmentally regulated spindle pole body-associated protein important for microtubule functions in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10087265" target=_blank>Manning BD, <i>et al.</i> (1999 Mar 22)</a>. Differential regulation of the Kar3p kinesin-related protein by two associated proteins, Cik1p and Vik1p.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11729143" target=_blank>Shanks RM, <i>et al.</i> (2001 Nov)</a>. The Kar3-interacting protein Cik1p plays a critical role in passage through meiosis I in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23043140" target=_blank>Duan D, <i>et al.</i> (2012 Nov 23)</a>. Neck rotation and neck mimic docking in the noncatalytic Kar3-associated protein Vik1.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG11424_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG11424_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG11424_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG11424_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG07211_phobius.html#FOG11424">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG07211.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

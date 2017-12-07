@@ -1,0 +1,214 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01934.html">HOG01934&emsp;&emsp;</a><br> 
+																	HOG01935&emsp;&emsp;<br> 
+																	<a href="HOG01936.html">HOG01936&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG01935.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01935_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01935_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG01935_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG05276<br>EOG834TRV<br>EOG85HQCF<br><br>sce:IRC20<br><br>Genes: 33
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>E3 ubiquitin ligase and putative helicase; involved in synthesis-dependent strand annealing-mediated homologous recombination; ensures precise end-joining along with Srs2p in the Yku70p/Yku80p/Lig4p-dependent nonhomologous end joining (NHEJ) pathway; localizes to both the mitochondrion and the nucleus; contains a Snf2/Swi2 family ATPase/helicase and a RING finger domain; interacts with Cdc48p and Smt3p; null mutant displays increased levels of spontaneous Rad52p foci<br><br>
+			<br><b>PomBase Description</b><br>ATP-dependent DNA helicase/ ubiquitin-protein ligase E3 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have nucleus localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10077188" target=_blank>Shiratori A, <i>et al.</i> (1999 Feb)</a>. Systematic identification, classification, and characterization of the open reading frames which encode novel helicase-related proteins in Saccharomyces cerevisiae by gene disruption and Northern analysis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18085829" target=_blank>Alvaro D, <i>et al.</i> (2007 Dec)</a>. Genome-wide analysis of Rad52 foci reveals diverse mechanisms impacting recombination.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22814378" target=_blank>Van Damme P, <i>et al.</i> (2012 Jul 31)</a>. N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG05276_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05276_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05276_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG05276_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01935_phobius.html#FOG05276">Phobius transmembrane predictions</a>
+										<br>8 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG05277<br>EOG85HQCF<br><br>sce:PEX10<br><br>Genes: 30
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Peroxisomal membrane E3 ubiquitin ligase; required for for Ubc4p-dependent Pex5p ubiquitination and peroxisomal matrix protein import; contains zinc-binding RING domain; mutations in human homolog cause various peroxisomal disorders<br><br>
+			<br><b>PomBase Description</b><br>peroxisomal ubiquitin-protein ligase E3 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have ubiquitin-protein transferase activity, role in protein import into peroxisome matrix, protein polyubiquitination and peroxisomal importomer complex, peroxisomal membrane localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16978390" target=_blank>Kiel JA, <i>et al.</i> (2006 Oct)</a>. PEX genes in fungal genomes: common, rare or redundant.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20537132" target=_blank>Han TX, <i>et al.</i> (2010)</a>. Global fitness profiling of fission yeast deletion strains by barcode sequencing.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21504829" target=_blank>Stewart EV, <i>et al.</i> (2011 Apr 22)</a>. Yeast SREBP cleavage activation requires the Golgi Dsc E3 ligase complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22814378" target=_blank>Van Damme P, <i>et al.</i> (2012 Jul 31)</a>. N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24957674" target=_blank>Anver S, <i>et al.</i> (2014 Aug)</a>. Yeast X-chromosome-associated protein 5 (Xap5) functions with H2A.Z to suppress aberrant transcripts.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27558664" target=_blank>Guo L, <i>et al.</i> (2016 Oct 13)</a>. Global Fitness Profiling Identifies Arsenic and Cadmium Tolerance Mechanisms in Fission Yeast.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG05277_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05277_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05277_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG05277_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01935_phobius.html#FOG05277">Phobius transmembrane predictions</a>
+										<br>29 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d7edd3" class="col">
+			FOG05278<br>EOG85HQCF<br><br>sce:absent<br><br>Genes: 3
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>PomBase Description</b><br>SUMO-targeted ubiquitin-protein ligase E3 Slx8<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17762865" target=_blank>Prudden J, <i>et al.</i> (2007 Sep 19)</a>. SUMO-targeted ubiquitin ligases in genome stability.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17762864" target=_blank>Sun H, <i>et al.</i> (2007 Sep 19)</a>. Conserved function of RNF4 family proteins in eukaryotes: targeting a ubiquitin ligase to SUMOylated proteins.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21444718" target=_blank>Prudden J, <i>et al.</i> (2011 Jun)</a>. DNA repair and global sumoylation are regulated by distinct Ubc9 noncovalent complexes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21408210" target=_blank>Heideker J, <i>et al.</i> (2011 Mar)</a>. SUMO-targeted ubiquitin ligase, Rad60, and Nse2 SUMO ligase suppress spontaneous Top1-mediated DNA damage and genome instability.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22730331" target=_blank>Nie M, <i>et al.</i> (2012 Aug 24)</a>. Dual recruitment of Cdc48 (p97)-Ufd1-Npl4 ubiquitin-selective segregase by small ubiquitin-like modifier protein (SUMO) and ubiquitin in SUMO-targeted ubiquitin ligase-mediated genome stability functions.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24265825" target=_blank>Køhler JB, <i>et al.</i> (2013)</a>. Concerted action of the ubiquitin-fusion degradation protein 1 (Ufd1) and Sumo-targeted ubiquitin ligases (STUbLs) in the DNA-damage response.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23936535" target=_blank>Steinacher R, <i>et al.</i> (2013)</a>. Slx8 removes Pli1-dependent protein-SUMO conjugates including SUMOylated topoisomerase I to promote genome stability.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23695164" target=_blank>Das J, <i>et al.</i> (2013 May 21)</a>. Cross-species protein interactome mapping reveals species-specific wiring of stress response pathways.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26537787" target=_blank>Køhler JB, <i>et al.</i> (2015 Nov 5)</a>. Targeting of SUMO substrates to a Cdc48-Ufd1-Npl4 segregase and STUbL pathway in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26221037" target=_blank>Nie M, <i>et al.</i> (2015 Sep 11)</a>. Pli1(PIAS1) SUMO ligase protected by the nuclear pore-associated SUMO protease Ulp1SENP1/2.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27398807" target=_blank>Nie M, <i>et al.</i> (2016 Jul)</a>. Functional Crosstalk between the PP2A and SUMO Pathways Revealed by Analysis of STUbL Suppressor, razor 1-1.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28552615" target=_blank>Wei Y, <i>et al.</i> (2017 Jun 1)</a>. SUMO-Targeted DNA Translocase Rrp2 Protects the Genome from Top2-Induced DNA Damage.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG05278_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05278_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05278_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG05278_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01935_phobius.html#FOG05278">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01935.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

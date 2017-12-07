@@ -1,0 +1,422 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01188.html">HOG01188&emsp;&emsp;SED1 family</a><br> 
+																	HOG01189&emsp;&emsp;<br> 
+																	<a href="HOG01190.html">HOG01190&emsp;&emsp;ING family</a><br><br> 
+																	<a href="../sequences/hog/HOG01189.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01189_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01189_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG01189_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG03121<br>EOG8P8D15<br><br>sce:HOC1<br><br>Genes: 30
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Alpha-1,6-mannosyltransferase; involved in cell wall mannan biosynthesis; subunit of a Golgi-localized complex that also contains Anp1p, Mnn9p, Mnn11p, and Mnn10p; identified as a suppressor of a cell lysis sensitive pkc1-371 allele<br><br>
+			<br><b>AspGD Description</b><br>Putative alpha-1,6-mannosyltransferase; expression enhanced by maltose<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9434768" target=_blank>Hashimoto H, <i>et al.</i> (1997 Dec 29)</a>. Novel membrane protein complexes for protein glycosylation in the yeast Golgi apparatus.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9055074" target=_blank>Neiman AM, <i>et al.</i> (1997 Mar)</a>. Saccharomyces cerevisiae HOC1, a suppressor of pkc1, encodes a putative glycosyltransferase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9430634" target=_blank>Jungmann J, <i>et al.</i> (1998 Jan 15)</a>. Multi-protein complexes in the cis Golgi of Saccharomyces cerevisiae with alpha-1,6-mannosyltransferase activity.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18703157" target=_blank>Miskei M, <i>et al.</i> (2009 Mar)</a>. Annotation of stress-response proteins in the aspergilli.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03121_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03121_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03121_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03121_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01189_phobius.html#FOG03121">Phobius transmembrane predictions</a>
+										<br>9 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG03122<br>EOG8P8D15<br><br>sce:OCH1<br><br>Genes: 27
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Mannosyltransferase of the cis-Golgi apparatus; initiates the polymannose outer chain elongation of N-linked oligosaccharides of glycoproteins<br><br>
+			<br><b>PomBase Description</b><br>alpha-1,6-mannosyltransferase Och1<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1523886" target=_blank>Nagasu T, <i>et al.</i> (1992 Jul)</a>. Isolation of new temperature-sensitive mutants of Saccharomyces cerevisiae deficient in mannose outer chain elongation.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1628616" target=_blank>Nakayama K, <i>et al.</i> (1992 Jul)</a>. OCH1 encodes a novel membrane bound mannosyltransferase: outer chain elongation of asparagine-linked oligosaccharides.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8253757" target=_blank>Nakanishi-Shindo Y, <i>et al.</i> (1993 Dec 15)</a>. Structure of the N-linked oligosaccharides that show the complete loss of alpha-1,6-polymannose outer chain from och1, och1 mnn1, and och1 mnn1 alg3 mutants of Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7649302" target=_blank>Lehle L, <i>et al.</i> (1995 Aug 14)</a>. Glycoprotein biosynthesis in Saccharomyces cerevisiae: ngd29, an N-glycosylation mutant allelic to och1 having a defect in the initiation of outer chain formation.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8601597" target=_blank>Harris SL, <i>et al.</i> (1996 Mar)</a>. Localization of a yeast early Golgi mannosyltransferase, Och1p, involves retrograde transport.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11036637" target=_blank>Horecka J, <i>et al.</i> (2000)</a>. Use of imidazoleglycerolphosphate dehydratase (His3) as a biological reporter in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10880465" target=_blank>Cullen PJ, <i>et al.</i> (2000 Jul)</a>. Defects in protein glycosylation cause SHO1-dependent activation of a STE12 signaling pathway in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11231017" target=_blank>Yoko-o T, <i>et al.</i> (2001 Jan 26)</a>. Schizosaccharomyces pombe och1(+) encodes alpha-1,6-mannosyltransferase that is involved in outer chain elongation of N-linked oligosaccharides.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11854400" target=_blank>Li S, <i>et al.</i> (2002 Feb)</a>. The eukaryotic two-component histidine kinase Sln1p regulates OCH1 via the transcription factor, Skn7p.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11754484" target=_blank>Cui Z, <i>et al.</i> (2002 Jan 15)</a>. Cdc4 is involved in the transcriptional control of OCH1, a gene encoding alpha-1,6-mannosyltransferase in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14676282" target=_blank>Karhinen L, <i>et al.</i> (2004 Jan 15)</a>. Activity of recycling Golgi mannosyltransferases in the yeast endoplasmic reticulum.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15229219" target=_blank>Bruinsma P, <i>et al.</i> (2004 Sep 17)</a>. Retrograde transport of the mannosyltransferase Och1p to the early Golgi requires a component of the COG transport complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16263704" target=_blank>Bates S, <i>et al.</i> (2006 Jan 6)</a>. Outer chain N-glycans are required for cell wall integrity and virulence of Candida albicans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16710478" target=_blank>Netea MG, <i>et al.</i> (2006 Jun)</a>. Immune sensing of Candida albicans requires cooperative recognition of mannans and glucans by lectin and Toll-like receptors.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17042779" target=_blank>Kitajima T, <i>et al.</i> (2006 Nov)</a>. Saccharomyces cerevisiae alpha1,6-mannosyltransferase has a catalytic potential to transfer a second mannose molecule.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16855023" target=_blank>Rida PC, <i>et al.</i> (2006 Oct)</a>. Yeast-to-hyphal transition triggers formin-dependent Golgi localization to the growing tip in Candida albicans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18644880" target=_blank>Fradin C, <i>et al.</i> (2008 Oct)</a>. Beta-1,2 oligomannose adhesin epitopes are widely distributed over the different families of Candida albicans cell wall mannoproteins and are associated through both N- and O-glycosylation processes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19222370" target=_blank>van de Veerdonk FL, <i>et al.</i> (2009 Apr 1)</a>. Bypassing pathogen-induced inflammasome activation for the regulation of interleukin-1beta production by the fungal pathogen Candida albicans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19202278" target=_blank>Ohashi T, <i>et al.</i> (2009 Feb)</a>. The och1 mutant of Schizosaccharomyces pombe produces galactosylated core structures of N-linked oligosaccharides.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19844703" target=_blank>Ohashi T, <i>et al.</i> (2010 Mar)</a>. N- and O-linked oligosaccharides completely lack galactose residues in the gms1och1 mutant of Schizosaccharomyces pombe.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20854854" target=_blank>Ohashi T, <i>et al.</i> (2010 Nov)</a>. Production of heterologous glycoproteins by a glycosylation-defective alg3och1 mutant of Schizosaccharomyces pombe.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21979948" target=_blank>Chantret I, <i>et al.</i> (2011 Dec 2)</a>. Endoplasmic reticulum-associated degradation (ERAD) and free oligosaccharide generation in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21254968" target=_blank>Sheth CC, <i>et al.</i> (2011 Jul)</a>. Glycosylation status of the C. albicans cell wall affects the efficiency of neutrophil phagocytosis and killing but not cytokine signaling.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21622726" target=_blank>Hirayama H, <i>et al.</i> (2011 Oct)</a>. Metabolism of free oligosaccharides is facilitated in the och1Δ mutant of Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22988247" target=_blank>Ohashi T, <i>et al.</i> (2012 Nov 9)</a>. Identification of novel α1,3-galactosyltransferase and elimination of α-galactose-containing glycans by disruption of multiple α-galactosyltransferase genes in Schizosaccharomyces pombe.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23608318" target=_blank>Shahana S, <i>et al.</i> (2013 Jul)</a>. Reporters for the analysis of N-glycosylation in Candida albicans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=27168121" target=_blank>Chen JS, <i>et al.</i> (2016 Sep)</a>. Discovery of genes involved in mitosis, cell division, cell wall integrity and chromosome segregation through construction of Schizosaccharomyces pombe deletion strains.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03122_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03122_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03122_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03122_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01189_phobius.html#FOG03122">Phobius transmembrane predictions</a>
+										<br>17 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d7edd3" class="col">
+			FOG03123<br>EOG8P8D15<br><br>sce:absent<br><br>Genes: 10
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03123_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03123_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03123_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03123_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01189_phobius.html#FOG03123">Phobius transmembrane predictions</a>
+										<br>2 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e5d4e9" class="col">
+			FOG03124<br>EOG8P8D15<br><br>sce:absent<br><br>Genes: 6
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>AspGD Description</b><br>Putative alpha-1,6-Mannosyltransferase; induced by caspofungin|Ortholog of A. nidulans FGSC A4 : AN2626, AN1620, A. fumigatus Af293 : Afu8g02040/och3, A. niger CBS 513.88 : An03g01090/hocA and A. oryzae RIB40 : AO090010000615<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03124_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03124_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03124_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03124_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01189_phobius.html#FOG03124">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fbe2c3" class="col">
+			FOG03125<br>EOG8P8D15<br><br>sce:absent<br><br>Genes: 4
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>AspGD Description</b><br>Ortholog of A. fumigatus Af293 : Afu6g14040/och2, A. oryzae RIB40 : AO090003001503, Neosartorya fischeri NRRL 181 : NFIA_059930 and Aspergillus niger ATCC 1015 : 189528-mRNA<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03125_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03125_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03125_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03125_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01189_phobius.html#FOG03125">Phobius transmembrane predictions</a>
+										<br>3 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fdffcc" class="col">
+			FOG03126<br>EOG8P8D15<br><br>sce:absent<br><br>Genes: 3
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03126_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03126_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03126_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03126_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01189_phobius.html#FOG03126">Phobius transmembrane predictions</a>
+										<br>2 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e7d7cd" class="col">
+			FOG03127<br>EOG8P8D15<br><br>sce:absent<br><br>Genes: 2
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>AspGD Description</b><br>Protein of unknown function|Ortholog of A. nidulans FGSC A4 : AN7534, A. fumigatus Af293 : Afu1g01380/och4, A. niger CBS 513.88 : An14g07140, Aspergillus versicolor : Aspve1_0085820 and Aspergillus clavatus NRRL 1 : ACLA_033030<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03127_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03127_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03127_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03127_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01189_phobius.html#FOG03127">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fadff0" class="col">
+			FOG03128<br>EOG8P8D15<br><br>sce:absent<br><br>Genes: 5
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>AspGD Description</b><br>Ortholog of A. nidulans FGSC A4 : AN7534, A. fumigatus Af293 : Afu1g01380/och4, A. niger CBS 513.88 : An12g07020, Aspergillus versicolor : Aspve1_0085820 and Aspergillus clavatus NRRL 1 : ACLA_033030<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03128_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03128_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03128_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03128_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01189_phobius.html#FOG03128">Phobius transmembrane predictions</a>
+										<br>2 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01189.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

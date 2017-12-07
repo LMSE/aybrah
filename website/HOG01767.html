@@ -1,0 +1,115 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01766.html">HOG01766&emsp;&emsp;HPC2 family</a><br> 
+																	HOG01767&emsp;&emsp;<br> 
+																	<a href="HOG01768.html">HOG01768&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG01767.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01767_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01767_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG01767_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG04909<br>EOG8GMSFV<br><br>sce:IWR1<br><br>Genes: 24
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>RNA polymerase II transport factor, conserved from yeast to humans; also has a role in transporting RNA polymerase III into the nucleus; interacts with most of the RNAP II subunits; nucleo-cytoplasmic shuttling protein; deletion causes hypersensitivity to K1 killer toxin; protein increases in abundance and relocalizes from nucleus to cytoplasm upon DNA replication stress<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12663529" target=_blank>Pagé N, <i>et al.</i> (2003 Mar)</a>. A Saccharomyces cerevisiae genome-wide mutant screen for altered sensitivity to K1 killer toxin.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16554755" target=_blank>Krogan NJ, <i>et al.</i> (2006 Mar 30)</a>. Global landscape of protein complexes in the yeast Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17101987" target=_blank>Miura F, <i>et al.</i> (2006 Nov 21)</a>. A large-scale full-length cDNA analysis to explore the budding yeast transcriptome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17244705" target=_blank>Juneau K, <i>et al.</i> (2007 Jan 30)</a>. High-density yeast-tiling array reveals previously undiscovered introns and extensive regulation of meiotic splicing.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19679657" target=_blank>Peiró-Chova L, <i>et al.</i> (2009 Oct 16)</a>. The yeast RNA polymerase II-associated factor Iwr1p is involved in the basal and regulated transcription of specific genes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20010803" target=_blank>Kanno T, <i>et al.</i> (2010 Jan)</a>. RNA-directed DNA methylation and plant development require an IWR1-type transcription factor.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21504834" target=_blank>Czeko E, <i>et al.</i> (2011 Apr 22)</a>. Iwr1 directs RNA polymerase II nuclear import.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22814378" target=_blank>Van Damme P, <i>et al.</i> (2012 Jul 31)</a>. N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG04909_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04909_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04909_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG04909_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01767_phobius.html#FOG04909">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01767.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

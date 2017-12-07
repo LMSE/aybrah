@@ -1,0 +1,707 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG00135.html">HOG00135&emsp;&emsp;bacterial ribosomal protein bS21 family</a><br> 
+																	HOG00136&emsp;&emsp;<br> 
+																	<a href="HOG00137.html">HOG00137&emsp;&emsp;mitochondrion-specific ribosomal protein mS29 family</a><br><br> 
+																	<a href="../sequences/hog/HOG00136.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG00136_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG00136_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG00136_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG00136_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG00180<br>EOG8RN8T6<br>RSM22<br>sce:RSM22<br><br>Genes: 31
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>RSM22 Mitochondrial small ribosome protein subunit<br><br>
+			<br><b>SGD Description</b><br>Mitochondrial ribosomal protein of the small subunit; also predicted to be an S-adenosylmethionine-dependent RNA methyltransferase<br><br>
+			<br><b>AspGD Description</b><br>Has domain(s) with predicted methyltransferase activity and role in translation<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11278769" target=_blank>Saveanu C, <i>et al.</i> (2001 May 11)</a>. Identification of 12 new yeast mitochondrial ribosomal proteins including 6 that have no prokaryotic homologues.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12392552" target=_blank>Gan X, <i>et al.</i> (2002 Nov)</a>. Tag-mediated isolation of yeast mitochondrial ribosome and mass spectrometric identification of its new components.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16823961" target=_blank>Reinders J, <i>et al.</i> (2006 Jul)</a>. Toward the complete yeast mitochondrial proteome: multidimensional separation techniques for mitochondrial proteomics.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19351663" target=_blank>Petrossian TC, <i>et al.</i> (2009 Jul)</a>. Multiple Motif Scanning to identify methyltransferases from the yeast proteome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22689777" target=_blank>Park Y, <i>et al.</i> (2012 Jun 15)</a>. How networks change with time.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24651469" target=_blank>Szczepińska T, <i>et al.</i> (2014 Mar)</a>. Probabilistic approach to predicting substrate specificity of methyltransferases.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28154081" target=_blank>Desai N, <i>et al.</i> (2017 Feb 3)</a>. The structure of the yeast mitochondrial ribosome.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00180_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00180_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00180_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00180_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00136_phobius.html#FOG00180">Phobius transmembrane predictions</a>
+										<br>3 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG00181<br>EOG834TQ8<br>EOG8RN8T6<br><br>sce:TRX1;TRX2;TRX3<br><br>Genes: 65
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>Cytoplasmic thioredoxin isoenzyme; part of thioredoxin system which protects cells against oxidative and reductive stress; forms LMA1 complex with Pbi2p; acts as a cofactor for Tsa1p; required for ER-Golgi transport and vacuole inheritance; with Trx2p, facilitates mitochondrial import of small Tims Tim9p, Tim10p, Tim13p by maintaining them in reduced form; abundance increases iunder DNA replication stress; TRX1 has a paralog, TRX2, that arose from the whole genome duplication|Cytoplasmic thioredoxin isoenzyme; part of thioredoxin system which protects cells against oxidative and reductive stress; forms LMA1 complex with Pbi2p; acts as a cofactor for Tsa1p; required for ER-Golgi transport and vacuole inheritance; with Trx1p, facilitates mitochondrial import of small Tims Tim9p, Tim10p, Tim13p by maintaining them in reduced form; abundance increases under DNA replication stress; TRX2 has a paralog, TRX1, that arose from the whole genome duplication|Mitochondrial thioredoxin; highly conserved oxidoreductase required to maintain the redox homeostasis of the cell, forms the mitochondrial thioredoxin system with Trr2p, redox state is maintained by both Trr2p and Glr1p<br><br>
+			<br><b>SGD Description</b><br>Cytoplasmic thioredoxin isoenzyme; part of thioredoxin system which protects cells against oxidative and reductive stress; forms LMA1 complex with Pbi2p; acts as a cofactor for Tsa1p; required for ER-Golgi transport and vacuole inheritance; with Trx2p, facilitates mitochondrial import of small Tims Tim9p, Tim10p, Tim13p by maintaining them in reduced form; abundance increases iunder DNA replication stress; TRX1 has a paralog, TRX2, that arose from the whole genome duplication|Cytoplasmic thioredoxin isoenzyme; part of thioredoxin system which protects cells against oxidative and reductive stress; forms LMA1 complex with Pbi2p; acts as a cofactor for Tsa1p; required for ER-Golgi transport and vacuole inheritance; with Trx1p, facilitates mitochondrial import of small Tims Tim9p, Tim10p, Tim13p by maintaining them in reduced form; abundance increases under DNA replication stress; TRX2 has a paralog, TRX1, that arose from the whole genome duplication|Mitochondrial thioredoxin; highly conserved oxidoreductase required to maintain the redox homeostasis of the cell, forms the mitochondrial thioredoxin system with Trr2p, redox state is maintained by both Trr2p and Glr1p<br><br>
+			<br><b>PomBase Description</b><br>cytosolic thioredoxin Trx1|mitochondrial thioredoxin Trx2<br><br>
+			<br><b>AspGD Description</b><br>Thioredoxin|Putative thioredoxin|Ortholog(s) have IgE binding, protein disulfide oxidoreductase activity, role in cell redox homeostasis and mitochondrion localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=4945270" target=_blank>Hall DE, <i>et al.</i> (1971 Nov 11)</a>. Yeast thioredoxin. Amino-acid sequence around the active-center disulfide of thioredoxin I and II.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=3060034" target=_blank>Schwenn JD, <i>et al.</i> (1988)</a>. Yeast PAPS reductase: properties and requirements of the purified enzyme.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1988444" target=_blank>Gan ZR, <i>et al.</i> (1991 Jan 25)</a>. Yeast thioredoxin genes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2026619" target=_blank>Muller EG, <i>et al.</i> (1991 May 15)</a>. Thioredoxin deficiency in yeast prolongs S phase and shortens the G1 interval of the cell cycle.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1561834" target=_blank>Muller EG, <i>et al.</i> (1992 Feb)</a>. Thioredoxin genes in Saccharomyces cerevisiae: map positions of TRX1 and TRX2.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7961686" target=_blank>Chae HZ, <i>et al.</i> (1994 Nov 4)</a>. Thioredoxin-dependent peroxide reductase from yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8603912" target=_blank>Xu Z, <i>et al.</i> (1996 Mar)</a>. Thioredoxin is required for vacuole inheritance in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9015301" target=_blank>Xu Z, <i>et al.</i> (1997 Jan 27)</a>. A heterodimer of thioredoxin and I(B)2 cooperates with Sec18p (NSF) to promote yeast vacuole inheritance.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9657146" target=_blank>Xu Z, <i>et al.</i> (1998 Jun 26)</a>. LMA1 binds to vacuoles at Sec18p (NSF), transfers upon ATP hydrolysis to a t-SNARE (Vam3p) complex, and is released during fusion.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9988687" target=_blank>Lee J, <i>et al.</i> (1999 Feb 19)</a>. A new antioxidant with alkyl hydroperoxide defense properties in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10037727" target=_blank>Pedrajas JR, <i>et al.</i> (1999 Mar 5)</a>. Identification and functional characterization of a novel mitochondrial thioredoxin system in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11018134" target=_blank>Carmel-Harel O, <i>et al.</i> (2000)</a>. Roles of the glutathione- and thioredoxin-dependent reduction systems in the Escherichia coli and saccharomyces cerevisiae responses to oxidative stress.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10681558" target=_blank>Park SG, <i>et al.</i> (2000 Feb 25)</a>. Distinct physiological functions of thiol peroxidase isoenzymes in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11013218" target=_blank>Delaunay A, <i>et al.</i> (2000 Oct 2)</a>. H2O2 sensing through oxidation of the Yap1 transcription factor.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11169096" target=_blank>Grant CM, <i>et al.</i> (2001 Feb)</a>. Role of the glutathione/glutaredoxin and thioredoxin systems in yeast growth and response to stress conditions.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12410842" target=_blank>Trotter EW, <i>et al.</i> (2002 Nov)</a>. Thioredoxins are required for protection against a reductive stress in the yeast Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12437921" target=_blank>Delaunay A, <i>et al.</i> (2002 Nov 15)</a>. A thiol peroxidase is an H2O2 receptor and redox-transducer in gene activation.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12914955" target=_blank>Elazar Z, <i>et al.</i> (2003 Aug 18)</a>. Involvement of LMA1 and GATE-16 family members in intracellular membrane dynamics.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17044062" target=_blank>Bao R, <i>et al.</i> (2007 Jan 1)</a>. Crystal structure of the yeast cytoplasmic thioredoxin Trx2.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17932921" target=_blank>Pinheiro AS, <i>et al.</i> (2008 Feb 1)</a>. NMR solution structure of the reduced form of thioredoxin 1 from Sacharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19362171" target=_blank>Bao R, <i>et al.</i> (2009 Aug)</a>. Structural and kinetic analysis of Saccharomyces cerevisiae thioredoxin Trx1: implications for the catalytic mechanism of GSSG reduced by the thioredoxin system.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22984289" target=_blank>Vögtle FN, <i>et al.</i> (2012 Dec)</a>. Intermembrane space proteome of yeast mitochondria.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22106047" target=_blank>Starita LM, <i>et al.</i> (2012 Jan)</a>. Sites of ubiquitin attachment in Saccharomyces cerevisiae.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00181_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00181_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00181_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00181_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00136_phobius.html#FOG00181">Phobius transmembrane predictions</a>
+										<br>4 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d7edd3" class="col">
+			FOG00182<br>EOG834TQ8<br><br>sce:PDI1<br><br>Genes: 33
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>Protein disulfide isomerase; multifunctional protein of ER lumen, essential for formation of disulfide bonds in secretory and cell-surface proteins, unscrambles non-native disulfide bonds; key regulator of Ero1p; forms complex with Mnl1p that has exomannosidase activity, processing unfolded protein-bound Man8GlcNAc2 oligosaccharides to Man7GlcNAc2, promoting degradation in unfolded protein response; PDI1 has a paralog, EUG1, that arose from the whole genome duplication<br><br>
+			<br><b>SGD Description</b><br>Protein disulfide isomerase; multifunctional protein of ER lumen, essential for formation of disulfide bonds in secretory and cell-surface proteins, unscrambles non-native disulfide bonds; key regulator of Ero1p; forms complex with Mnl1p that has exomannosidase activity, processing unfolded protein-bound Man8GlcNAc2 oligosaccharides to Man7GlcNAc2, promoting degradation in unfolded protein response; PDI1 has a paralog, EUG1, that arose from the whole genome duplication<br><br>
+			<br><b>PomBase Description</b><br>protein disulfide isomerase (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Protein disulfide isomerase; expression enhanced by maltose; expression induced by tunicamycin and DTT<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1761527" target=_blank>Tachikawa H, <i>et al.</i> (1991 Aug)</a>. Molecular structure of a yeast gene, PDI1, encoding protein disulfide isomerase that is essential for cell growth.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1761235" target=_blank>Farquhar R, <i>et al.</i> (1991 Dec 1)</a>. Protein disulfide isomerase is essential for viability in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1761554" target=_blank>Günther R, <i>et al.</i> (1991 Dec 25)</a>. The Saccharomyces cerevisiae TRG1 gene is essential for growth and encodes a lumenal endoplasmic reticulum glycoprotein involved in the maturation of vacuolar carboxypeptidase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=2063627" target=_blank>Scherens B, <i>et al.</i> (1991 Feb)</a>. Determination of the sequence of the yeast YCL313 gene localized on chromosome III. Homology with the protein disulfide isomerase (PDI gene product) of other organisms.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1840696" target=_blank>LaMantia M, <i>et al.</i> (1991 May 15)</a>. Glycosylation site binding protein and protein disulfide isomerase are identical and essential for cell viability in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9021130" target=_blank>Ngiam C, <i>et al.</i> (1997 Feb)</a>. Isolation and characterisation of a gene encoding protein disulphide isomerase, pdiA, from Aspergillus niger.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15449589" target=_blank>Sims AH, <i>et al.</i> (2004 Aug)</a>. Combining transcriptome data with genomic and cDNA sequence alignments to make confident functional assignments for Aspergillus nidulans genes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15870366" target=_blank>Sims AH, <i>et al.</i> (2005 May)</a>. Transcriptome analysis of recombinant protein secretion by Aspergillus nidulans and the unfolded-protein response in vivo.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16002399" target=_blank>Kimura T, <i>et al.</i> (2005 Sep 9)</a>. Interactions among yeast protein-disulfide isomerase proteins and endoplasmic reticulum chaperone proteins influence their activities.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16413482" target=_blank>Tian G, <i>et al.</i> (2006 Jan 13)</a>. The crystal structure of yeast protein disulfide isomerase suggests cooperativity between its active sites.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19124653" target=_blank>Clerc S, <i>et al.</i> (2009 Jan 12)</a>. Htm1 protein generates the N-glycan signal for glycoprotein degradation in the endoplasmic reticulum.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21091509" target=_blank>Colabardini AC, <i>et al.</i> (2010 Dec)</a>. Involvement of the Aspergillus nidulans protein kinase C with farnesol tolerance is related to the unfolded protein response.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22119525" target=_blank>Singh NS, <i>et al.</i> (2011 Dec 6)</a>. SIN-inhibitory phosphatase complex promotes Cdc11p dephosphorylation and propagates SIN asymmetry in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21700223" target=_blank>Gauss R, <i>et al.</i> (2011 Jun 24)</a>. A complex of Pdi1p and the mannosidase Htm1p initiates clearance of unfolded glycoproteins from the endoplasmic reticulum.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23766336" target=_blank>Coradetti ST, <i>et al.</i> (2013 Aug)</a>. Analysis of a conserved cellulase transcriptional regulator reveals inducer-independent production of cellulolytic enzymes in Neurospora crassa.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23154970" target=_blank>Szilágyi M, <i>et al.</i> (2013 Jan)</a>. Transcriptome changes initiated by carbon starvation in Aspergillus nidulans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24634168" target=_blank>Bernal M, <i>et al.</i> (2014 Jun)</a>. Proteome-wide search for PP2A substrates in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25963819" target=_blank>Lucena R, <i>et al.</i> (2015 May 11)</a>. Nucleocytoplasmic transport in the midzone membrane domain controls yeast mitotic spindle disassembly.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00182_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00182_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00182_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00182_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00136_phobius.html#FOG00182">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e5d4e9" class="col">
+			FOG00183<br>EOG834TQ8<br><br>sce:EUG1<br><br>Genes: 3
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>Protein disulfide isomerase of the endoplasmic reticulum lumen<br><br>
+			<br><b>SGD Description</b><br>Protein disulfide isomerase of the endoplasmic reticulum lumen; EUG1 has a paralog, PDI1, that arose from the whole genome duplication; function overlaps with that of Pdi1p; may interact with nascent polypeptides in the ER<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1406650" target=_blank>Tachibana C, <i>et al.</i> (1992 Oct)</a>. The yeast EUG1 gene encodes an endoplasmic reticulum protein that is functionally related to protein disulfide isomerase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11485577" target=_blank>Nørgaard P, <i>et al.</i> (2001 Aug 15)</a>. Mutation of yeast Eug1p CXXS active sites to CXXC results in a dramatic increase in protein disulphide isomerase activity.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16002399" target=_blank>Kimura T, <i>et al.</i> (2005 Sep 9)</a>. Interactions among yeast protein-disulfide isomerase proteins and endoplasmic reticulum chaperone proteins influence their activities.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00183_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00183_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00183_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00183_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00136_phobius.html#FOG00183">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fbe2c3" class="col">
+			FOG00184<br>EOG834TQ8<br><br>sce:MPD1<br><br>Genes: 30
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>Member of the protein disulfide isomerase (PDI) family; interacts with and inhibits the chaperone activity of Cne1p; MPD1 overexpression in a pdi1 null mutant suppresses defects in Pdi1p functions such as carboxypeptidase Y maturation<br><br>
+			<br><b>SGD Description</b><br>Member of the protein disulfide isomerase (PDI) family; interacts with and inhibits the chaperone activity of Cne1p; MPD1 overexpression in a pdi1 null mutant suppresses defects in Pdi1p functions such as carboxypeptidase Y maturation<br><br>
+			<br><b>PomBase Description</b><br>thioredoxin family protein Mpd1 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Protein disulfide isomerase; contains a single N-terminal thioredoxin domain; C-terminal ER retention signal (HDEL); expression enhanced by maltose; expression induced by tunicamycin and DTT<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7649260" target=_blank>Tachikawa H, <i>et al.</i> (1995 Aug 7)</a>. Isolation and characterization of a yeast gene, MPD1, the overexpression of which suppresses inviability caused by protein disulfide isomerase depletion.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8896271" target=_blank>Chéret G, <i>et al.</i> (1996 Sep)</a>. DNA sequence analysis of the VPH1-SNF2 region on chromosome XV of Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10672446" target=_blank>Wang H, <i>et al.</i> (2000 Jan)</a>. Molecular characterization of a PDI-related gene prpA in Aspergillus niger var. awamori.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15449589" target=_blank>Sims AH, <i>et al.</i> (2004 Aug)</a>. Combining transcriptome data with genomic and cDNA sequence alignments to make confident functional assignments for Aspergillus nidulans genes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15870366" target=_blank>Sims AH, <i>et al.</i> (2005 May)</a>. Transcriptome analysis of recombinant protein secretion by Aspergillus nidulans and the unfolded-protein response in vivo.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16002399" target=_blank>Kimura T, <i>et al.</i> (2005 Sep 9)</a>. Interactions among yeast protein-disulfide isomerase proteins and endoplasmic reticulum chaperone proteins influence their activities.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21091509" target=_blank>Colabardini AC, <i>et al.</i> (2010 Dec)</a>. Involvement of the Aspergillus nidulans protein kinase C with farnesol tolerance is related to the unfolded protein response.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22730331" target=_blank>Nie M, <i>et al.</i> (2012 Aug 24)</a>. Dual recruitment of Cdc48 (p97)-Ufd1-Npl4 ubiquitin-selective segregase by small ubiquitin-like modifier protein (SUMO) and ubiquitin in SUMO-targeted ubiquitin ligase-mediated genome stability functions.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28218250" target=_blank>Lee J, <i>et al.</i> (2017 Feb 20)</a>. Chromatin remodeller Fun30&lt;sup&gt;Fft3&lt;/sup&gt; induces nucleosome disassembly to facilitate RNA polymerase II elongation.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00184_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00184_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00184_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00184_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00136_phobius.html#FOG00184">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fdffcc" class="col">
+			FOG00185<br>EOG834TQ8<br><br>sce:MPD2<br><br>Genes: 5
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>Member of the protein disulfide isomerase (PDI) family<br><br>
+			<br><b>SGD Description</b><br>Member of the protein disulfide isomerase (PDI) family; exhibits chaperone activity; overexpression suppresses the lethality of a pdi1 deletion but does not complement all Pdi1p functions; undergoes oxidation by Ero1p<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9367834" target=_blank>Tachikawa H, <i>et al.</i> (1997 Oct 29)</a>. Overproduction of Mpd2p suppresses the lethality of protein disulfide isomerase depletion in a CXXC sequence dependent manner.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10549279" target=_blank>Frand AR, <i>et al.</i> (1999 Oct)</a>. Ero1p oxidizes protein disulfide isomerase in a pathway for disulfide bond formation in the endoplasmic reticulum.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22384365" target=_blank>Wendland J, <i>et al.</i> (2011 Dec)</a>. Genome evolution in the eremothecium clade of the Saccharomyces complex revealed by comparative genomics.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00185_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00185_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00185_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00185_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00136_phobius.html#FOG00185">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e7d7cd" class="col">
+			FOG00186<br>EOG8RN8T6<br><br>sce:absent<br><br>Genes: 27
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>protein disulfide isomerase<br><br>
+			<br><b>PomBase Description</b><br>protein disulfide isomerase<br><br>
+			<br><b>AspGD Description</b><br>Protein disulfide isomerase; suggested to facilitate the folding of nascent polypeptides; expression enhanced by maltose; expression induced by tunicamycin and DTT<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15449589" target=_blank>Sims AH, <i>et al.</i> (2004 Aug)</a>. Combining transcriptome data with genomic and cDNA sequence alignments to make confident functional assignments for Aspergillus nidulans genes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15870366" target=_blank>Sims AH, <i>et al.</i> (2005 May)</a>. Transcriptome analysis of recombinant protein secretion by Aspergillus nidulans and the unfolded-protein response in vivo.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16850188" target=_blank>Kim SJ, <i>et al.</i> (2006 Sep)</a>. Cloning, characterization and regulation of a protein disulfide isomerase from the fission yeast Schizosaccharomyces pombe.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20013338" target=_blank>Mukaiyama H, <i>et al.</i> (2010 Apr)</a>. Overexpression of protein disulfide isomerases enhances secretion of recombinant human transferrin in Schizosaccharomyces pombe.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22119525" target=_blank>Singh NS, <i>et al.</i> (2011 Dec 6)</a>. SIN-inhibitory phosphatase complex promotes Cdc11p dephosphorylation and propagates SIN asymmetry in fission yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22540037" target=_blank>Pancaldi V, <i>et al.</i> (2012 Apr)</a>. Predicting the fission yeast protein interaction network.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25452419" target=_blank>Sideri T, <i>et al.</i> (2014 Dec 1)</a>. Parallel profiling of fission yeast deletion mutants for proliferation and for lifespan during long-term quiescence.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28410370" target=_blank>Dudin O, <i>et al.</i> (2017 Apr)</a>. A systematic screen for morphological abnormalities during fission yeast sexual reproduction identifies a mechanism of actin aster formation for cell fusion.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00186_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00186_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00186_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00186_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00136_phobius.html#FOG00186">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fadff0" class="col">
+			FOG00189<br>EOG8RN8T6<br><br>sce:absent<br><br>Genes: 10
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>ER associated protein disulfide isomerase Pdi3<br><br>
+			<br><b>PomBase Description</b><br>ER associated protein disulfide isomerase Pdi3<br><br>
+			<br><b>AspGD Description</b><br>Putative thioredoxin domain protein; expression enhanced by maltose<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19547744" target=_blank>Beltrao P, <i>et al.</i> (2009 Jun 16)</a>. Evolution of phosphoregulation: comparison of phosphorylation patterns across yeast species.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20013338" target=_blank>Mukaiyama H, <i>et al.</i> (2010 Apr)</a>. Overexpression of protein disulfide isomerases enhances secretion of recombinant human transferrin in Schizosaccharomyces pombe.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20204527" target=_blank>Lee EH, <i>et al.</i> (2010 Dec)</a>. A second protein disulfide isomerase plays a protective role against nitrosative and nutritional stresses in Schizosaccharomyces pombe.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=26412298" target=_blank>Beckley JR, <i>et al.</i> (2015 Dec)</a>. A Degenerate Cohort of Yeast Membrane Trafficking DUBs Mediates Cell Polarity and Survival.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28410370" target=_blank>Dudin O, <i>et al.</i> (2017 Apr)</a>. A systematic screen for morphological abnormalities during fission yeast sexual reproduction identifies a mechanism of actin aster formation for cell fusion.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=28218250" target=_blank>Lee J, <i>et al.</i> (2017 Feb 20)</a>. Chromatin remodeller Fun30&lt;sup&gt;Fft3&lt;/sup&gt; induces nucleosome disassembly to facilitate RNA polymerase II elongation.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00189_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00189_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00189_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00189_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00136_phobius.html#FOG00189">Phobius transmembrane predictions</a>
+										<br>9 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f2c0c1" class="col">
+			FOG00187<br>EOG834TQ8<br><br>sce:EPS1<br><br>Genes: 24
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Parent</b><br>paralog?:FOG00189<br><br>
+			<br><b>SGD Description</b><br>ER protein with chaperone and co-chaperone activity; involved in retention of resident ER proteins; has a role in recognizing proteins targeted for ER-associated degradation (ERAD), member of the protein disulfide isomerase family<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=776230" target=_blank>Guiard B, <i>et al.</i> (1976)</a>. Complete amino acid sequence of the heme-binding core in bakers' yeast cytochrome b2 (L-(+)-lactate dehydrogenase).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10545109" target=_blank>Wang Q, <i>et al.</i> (1999 Nov 1)</a>. Eps1, a novel PDI-related protein involved in ER quality control in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12881414" target=_blank>Wang Q, <i>et al.</i> (2003 Aug 1)</a>. Substrate recognition in ER-associated degradation mediated by Eps1, a member of the protein disulfide isomerase family.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15848158" target=_blank>He J, <i>et al.</i> (2005 Apr 25)</a>. Effect of EPS1 gene deletion in Saccharomyces cerevisiae on the secretion of foreign proteins which have disulfide bridges.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16002399" target=_blank>Kimura T, <i>et al.</i> (2005 Sep 9)</a>. Interactions among yeast protein-disulfide isomerase proteins and endoplasmic reticulum chaperone proteins influence their activities.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00187_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00187_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00187_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00187_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00136_phobius.html#FOG00187">Phobius transmembrane predictions</a>
+										<br>22 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#cbd9eb" class="col">
+			FOG00188<br>EOG8RN8T6<br><br>sce:absent<br><br>Genes: 19
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>thioredoxin-like I protein Txl1<br><br>
+			<br><b>PomBase Description</b><br>thioredoxin-like I protein Txl1<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have protein disulfide oxidoreductase activity, role in protein denaturation involved in proteasomal ubiquitin-dependent protein catabolic process and cytosol, nuclear periphery localization<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00188_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00188_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00188_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00188_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00136_phobius.html#FOG00188">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d0eacb" class="col">
+			FOG00190<br>EOG834TQ8<br><br>sce:absent<br><br>Genes: 2
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00190_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00190_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00190_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00190_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00136_phobius.html#FOG00190">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e0cce5" class="col">
+			FOG00191<br>EOG834TQ8<br><br>sce:absent<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>Uncharacterized paralog<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00191_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00191_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00191_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00191_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00136_phobius.html#FOG00191">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fadcb8" class="col">
+			FOG00192<br>EOG8RN8T6<br><br>sce:absent<br><br>Genes: 4
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>Protein description</b><br>protein disulfide isomerase (predicted)<br><br>
+			<br><b>PomBase Description</b><br>protein disulfide isomerase (predicted)<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=20531409" target=_blank>Amorim MJ, <i>et al.</i> (2010 Jun 8)</a>. Global coordination of transcriptional control and mRNA decay during cellular differentiation.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21511999" target=_blank>Rhind N, <i>et al.</i> (2011 May 20)</a>. Comparative functional genomics of the fission yeasts.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23173672" target=_blank>Pan X, <i>et al.</i> (2012 Nov 23)</a>. Identification of novel genes involved in DNA damage response by screening a genome-wide Schizosaccharomyces pombe deletion library.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG00192_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00192_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG00192_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG00192_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG00136_phobius.html#FOG00192">Phobius transmembrane predictions</a>
+										<br>2 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG00136.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

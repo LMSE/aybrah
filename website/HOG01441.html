@@ -1,0 +1,263 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01440.html">HOG01440&emsp;&emsp;</a><br> 
+																	HOG01441&emsp;&emsp;<br> 
+																	<a href="HOG01442.html">HOG01442&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG01441.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01441_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01441_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG01441_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG04165<br>EOG844J3D<br><br>sce:absent<br><br>Genes: 17
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16227594" target=_blank>Martínez P, <i>et al.</i> (2005 Nov)</a>. Divergence of Stp1 and Stp2 transcription factors in Candida albicans places virulence factors required for proper nutrient acquisition under amino acid control.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18547391" target=_blank>Dabas N, <i>et al.</i> (2008 Aug)</a>. A transcription factor regulatory cascade controls secreted aspartic protease expression in Candida albicans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22110651" target=_blank>Davis MM, <i>et al.</i> (2011)</a>. Wild-type Drosophila melanogaster as a model host to analyze nitrogen source dependent virulence of Candida albicans.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG04165_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04165_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04165_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG04165_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01441_phobius.html#FOG04165">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG04166<br>EOG844J3D<br><br>sce:STP2<br><br>Genes: 14
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Transcription factor; activated by proteolytic processing in response to signals from the SPS sensor system for external amino acids; activates transcription of amino acid permease genes; STP2 has a paralog, STP1, that arose from the whole genome duplication<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9171100" target=_blank>Böhm S, <i>et al.</i> (1997 Jun 15)</a>. Variations of the C2H2 zinc finger motif in the yeast genome and classification of yeast zinc finger proteins.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10648791" target=_blank>de Boer M, <i>et al.</i> (2000 Feb 15)</a>. Stp1p, Stp2p and Abf1p are involved in regulation of expression of the amino acid transporter gene BAP3 of Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11212916" target=_blank>Nielsen PS, <i>et al.</i> (2001 Jan)</a>. Transcriptional regulation of the Saccharomyces cerevisiae amino acid permease gene BAP2.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12502738" target=_blank>Andréasson C, <i>et al.</i> (2002 Dec 15)</a>. Receptor-mediated endoproteolytic activation of two transcription factors in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15197729" target=_blank>Eckert-Boulet N, <i>et al.</i> (2004 Jun)</a>. Transcriptional profiling of extracellular amino acid sensing in Saccharomyces cerevisiae and the role of Stp1p and Stp2p.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15314160" target=_blank>Andréasson C, <i>et al.</i> (2004 Sep)</a>. The N-terminal regulatory domain of Stp1p is modular and, fused to an artificial transcription factor, confers full Ssy1p-Ptr3p-Ssy5p sensor control.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16227594" target=_blank>Martínez P, <i>et al.</i> (2005 Nov)</a>. Divergence of Stp1 and Stp2 transcription factors in Candida albicans places virulence factors required for proper nutrient acquisition under amino acid control.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16735580" target=_blank>Boban M, <i>et al.</i> (2006 Jun 5)</a>. Asi1 is an inner nuclear membrane protein that restricts promoter access of two latent transcription factors.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17085444" target=_blank>Zargari A, <i>et al.</i> (2007 Jan 5)</a>. Inner nuclear membrane proteins Asi1, Asi2, and Asi3 function in concert to maintain the latent properties of transcription factors Stp1 and Stp2.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22110651" target=_blank>Davis MM, <i>et al.</i> (2011)</a>. Wild-type Drosophila melanogaster as a model host to analyze nitrogen source dependent virulence of Candida albicans.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=21586647" target=_blank>Vylkova S, <i>et al.</i> (2011)</a>. The fungal pathogen Candida albicans autoinduces hyphal morphogenesis by raising extracellular pH.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22365851" target=_blank>Shapiro RS, <i>et al.</i> (2012 Mar 20)</a>. Pho85, Pcl1, and Hms1 signaling governs Candida albicans morphogenesis induced by high temperature or Hsp90 compromise.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=23873867" target=_blank>Langford ML, <i>et al.</i> (2013 Sep)</a>. Candida albicans Czf1 and Efg1 coordinate the response to farnesol during quorum sensing, white-opaque thermal dimorphism, and cell death.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG04166_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04166_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04166_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG04166_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01441_phobius.html#FOG04166">Phobius transmembrane predictions</a>
+										<br>8 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d7edd3" class="col">
+			FOG04167<br>EOG844J3D<br><br>sce:STP1<br><br>Genes: 7
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Transcription factor; contains a N-terminal regulatory motif (RI) that acts as a cytoplasmic retention determinant and as an Asi dependent degron in the nucleus; undergoes proteolytic processing by SPS (Ssy1p-Ptr3p-Ssy5p)-sensor component Ssy5p in response to extracellular amino acids; activates transcription of amino acid permease genes and may have a role in tRNA processing; STP1 has a paralog, STP2, that arose from the whole genome duplication<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=3072476" target=_blank>Wang SS, <i>et al.</i> (1988 Dec)</a>. Isolation of a yeast gene involved in species-specific pre-tRNA processing.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1803818" target=_blank>Tullin S, <i>et al.</i> (1991 Dec)</a>. A high-affinity uptake system for branched-chain amino acids in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=1588961" target=_blank>Wang SS, <i>et al.</i> (1992 Jun)</a>. STP1, a gene involved in pre-tRNA processing, encodes a nuclear protein containing zinc finger motifs.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9171100" target=_blank>Böhm S, <i>et al.</i> (1997 Jun 15)</a>. Variations of the C2H2 zinc finger motif in the yeast genome and classification of yeast zinc finger proteins.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9065387" target=_blank>Jorgensen MU, <i>et al.</i> (1997 Mar)</a>. STP1, a gene involved in pre-tRNA processing in yeast, is important for amino-acid uptake and transcription of the permease gene BAP2.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10648791" target=_blank>de Boer M, <i>et al.</i> (2000 Feb 15)</a>. Stp1p, Stp2p and Abf1p are involved in regulation of expression of the amino acid transporter gene BAP3 of Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11212916" target=_blank>Nielsen PS, <i>et al.</i> (2001 Jan)</a>. Transcriptional regulation of the Saccharomyces cerevisiae amino acid permease gene BAP2.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12502738" target=_blank>Andréasson C, <i>et al.</i> (2002 Dec 15)</a>. Receptor-mediated endoproteolytic activation of two transcription factors in yeast.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12748633" target=_blank>Kellis M, <i>et al.</i> (2003 May 15)</a>. Sequencing and comparison of yeast species to identify genes and regulatory elements.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15126393" target=_blank>Abdel-Sater F, <i>et al.</i> (2004 Apr)</a>. The external amino acid signaling pathway promotes activation of Stp1 and Uga35/Dal81 transcription factors for induction of the AGP1 gene in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15197729" target=_blank>Eckert-Boulet N, <i>et al.</i> (2004 Jun)</a>. Transcriptional profiling of extracellular amino acid sensing in Saccharomyces cerevisiae and the role of Stp1p and Stp2p.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15509782" target=_blank>Abdel-Sater F, <i>et al.</i> (2004 Nov)</a>. Amino acid signaling in yeast: casein kinase I and the Ssy5 endoprotease are key determinants of endoproteolytic activation of the membrane-bound Stp1 transcription factor.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15314160" target=_blank>Andréasson C, <i>et al.</i> (2004 Sep)</a>. The N-terminal regulatory domain of Stp1p is modular and, fused to an artificial transcription factor, confers full Ssy1p-Ptr3p-Ssy5p sensor control.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16400180" target=_blank>Eckert-Boulet N, <i>et al.</i> (2006 Jan)</a>. Deletion of RTS1, encoding a regulatory subunit of protein phosphatase 2A, results in constitutive amino acid signaling via increased Stp1p processing.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16778074" target=_blank>Andréasson C, <i>et al.</i> (2006 Jun 15)</a>. Regulation of transcription factor latency by receptor-activated proteolysis.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16735580" target=_blank>Boban M, <i>et al.</i> (2006 Jun 5)</a>. Asi1 is an inner nuclear membrane protein that restricts promoter access of two latent transcription factors.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16977312" target=_blank>Menant A, <i>et al.</i> (2006 Oct 4)</a>. Substrate-mediated remodeling of methionine transport by multiple ubiquitin-dependent mechanisms in yeast cells.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17603098" target=_blank>Boban M, <i>et al.</i> (2007 Aug)</a>. Dal81 enhances Stp1- and Stp2-dependent transcription necessitating negative modulation by inner nuclear membrane protein Asi1 in Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=17085444" target=_blank>Zargari A, <i>et al.</i> (2007 Jan 5)</a>. Inner nuclear membrane proteins Asi1, Asi2, and Asi3 function in concert to maintain the latent properties of transcription factors Stp1 and Stp2.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG04167_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04167_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04167_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG04167_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01441_phobius.html#FOG04167">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e5d4e9" class="col">
+			FOG04168<br>EOG844J3D<br><br>sce:absent<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG04168_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04168_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04168_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG04168_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01441_phobius.html#FOG04168">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01441.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

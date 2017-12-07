@@ -1,0 +1,112 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG02264.html">HOG02264&emsp;&emsp;</a><br> 
+																	HOG02265&emsp;&emsp;<br> 
+																	<a href="HOG02266.html">HOG02266&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG02265.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG02265_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG02265_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG02265_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG05791<br>EOG8D7WS2<br>EOG8VQ87P<br><br>sce:KNH1;KRE9<br><br>Genes: 41
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Protein with similarity to Kre9p; Kre9p is involved in cell wall beta 1,6-glucan synthesis; overproduction suppresses growth defects of a kre9 null mutant; required for propionic acid resistance|Glycoprotein involved in cell wall beta-glucan assembly; null mutation leads to severe growth defects, aberrant multibudded morphology, and mating defects<br><br>
+			<br><b>PomBase Description</b><br>KRE9 family cell wall 1,6-beta-glucan biosynthesis protein (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have role in (1->6)-beta-D-glucan biosynthetic process, cellular response to toxic substance, filamentous growth of a population of unicellular organisms in response to biotic stimulus and extracellular region localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8413233" target=_blank>Brown JL, <i>et al.</i> (1993 Oct)</a>. The yeast KRE9 gene encodes an O glycoprotein involved in cell surface beta-glucan assembly.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8810042" target=_blank>Dijkgraaf GJ, <i>et al.</i> (1996 Jun 15)</a>. The KNH1 gene of Saccharomyces cerevisiae is a functional homolog of KRE9.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9748432" target=_blank>Nagahashi S, <i>et al.</i> (1998 Oct)</a>. Isolation of Candida glabrata homologs of the Saccharomyces cerevisiae KRE9 and KNH1 genes and their involvement in cell wall beta-1,6-glucan synthesis.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG05791_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05791_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05791_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG05791_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG02265_phobius.html#FOG05791">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG02265.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

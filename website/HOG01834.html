@@ -1,0 +1,113 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01833.html">HOG01833&emsp;&emsp;</a><br> 
+																	HOG01834&emsp;&emsp;<br> 
+																	<a href="HOG01835.html">HOG01835&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG01834.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01834_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01834_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG01834_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG05051<br>EOG8BVQBQ<br><br>sce:DEP1<br><br>Genes: 31
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Component of the Rpd3L histone deacetylase complex; required for diauxic shift-induced histone H2B deposition onto rDNA genes; transcriptional modulator involved in regulation of structural phospholipid biosynthesis genes and metabolically unrelated genes, as well as maintenance of telomeres, mating efficiency, and sporulation<br><br>
+			<br><b>AspGD Description</b><br>Ortholog of A. nidulans FGSC A4 : AN1453, A. fumigatus Af293 : Afu8g04410, Aspergillus wentii : Aspwe1_0117354, Aspergillus sydowii : Aspsy1_0143599 and Aspergillus terreus NIH2624 : ATET_00054<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8144453" target=_blank>Barton AB, <i>et al.</i> (1994 Apr)</a>. Molecular cloning of chromosome I DNA from Saccharomyces cerevisiae: analysis of the genes in the FUN38-MAK16-SPO7 region.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=8056324" target=_blank>Lamping E, <i>et al.</i> (1994 May)</a>. Isolation and characterization of a mutant of Saccharomyces cerevisiae with pleiotropic deficiencies in transcriptional activation and repression.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12844361" target=_blank>Brachat S, <i>et al.</i> (2003)</a>. Reinvestigation of the Saccharomyces cerevisiae genome annotation by comparison to the genome of a related fungus: Ashbya gossypii.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16314178" target=_blank>Carrozza MJ, <i>et al.</i> (2005 Nov 10)</a>. Stable incorporation of sequence specific repressors Ash1 and Ume6 into the Rpd3L complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16286008" target=_blank>Keogh MC, <i>et al.</i> (2005 Nov 18)</a>. Cotranscriptional set2 methylation of histone H3 lysine 36 recruits a repressive Rpd3 complex.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG05051_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05051_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG05051_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG05051_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01834_phobius.html#FOG05051">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01834.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

@@ -1,0 +1,114 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG15292.html">HOG15292&emsp;&emsp;epsin family</a><br> 
+																	HOG15294&emsp;&emsp;<br> 
+																	<a href="HOG15296.html">HOG15296&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG15294.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG15294_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG15294_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG15294_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG15294_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG19508<br>EOG808KSC<br><br>sce:EFM3<br><br>Genes: 33
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>S-adenosylmethionine-dependent methyltransferase; seven-beta-strand lysine methyltransferase which trimethylates translation elongation factor EF2 (Eft1p and Eft2p) at lysine 509; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm; ortholog of human gene FAM86A<br><br>
+			<br><b>PomBase Description</b><br>methyltransferase for elongation factor EF2 Efm3 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have protein-lysine N-methyltransferase activity, role in peptidyl-lysine trimethylation and cytoplasm localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=19053082" target=_blank>Shimizu M, <i>et al.</i> (2009 Jan)</a>. Proteomic analysis of Aspergillus nidulans cultured under hypoxic conditions.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22814378" target=_blank>Van Damme P, <i>et al.</i> (2012 Jul 31)</a>. N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25086354" target=_blank>Zhang L, <i>et al.</i> (2014 Aug 22)</a>. Elongation factor methyltransferase 3--a novel eukaryotic lysine methyltransferase.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25231979" target=_blank>Davydova E, <i>et al.</i> (2014 Oct 31)</a>. Identification and characterization of a novel evolutionarily conserved lysine-specific methyltransferase targeting eukaryotic translation elongation factor 2 (eEF2).<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=25231983" target=_blank>Dzialo MC, <i>et al.</i> (2014 Oct 31)</a>. Translational roles of elongation factor 2 protein lysine methylation.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG19508_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG19508_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG19508_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG19508_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG15294_phobius.html#FOG19508">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG15294.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

@@ -1,0 +1,112 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01399.html">HOG01399&emsp;&emsp;</a><br> 
+																	HOG01400&emsp;&emsp;<br> 
+																	<a href="HOG01401.html">HOG01401&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG01400.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01400_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01400_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG01400_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG04035<br>EOG8DBS0H<br><br>sce:MCM21<br><br>Genes: 20
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Component of the kinetochore sub-complex COMA; COMA (Ctf19p, Okp1p, Mcm21p, Ame1p) bridges kinetochore subunits in contact with centromeric DNA with subunits bound to microtubules during kinetochore assembly; involved in minichromosome maintenance; modified by sumoylation; orthologous to human centromere constitutive-associated network (CCAN) subunit CENP-O and fission yeast mal2<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9987135" target=_blank>Poddar A, <i>et al.</i> (1999 Jan)</a>. MCM21 and MCM22, two novel genes of the yeast Saccharomyces cerevisiae are required for chromosome transmission.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10323865" target=_blank>Ortiz J, <i>et al.</i> (1999 May 1)</a>. A putative protein complex consisting of Ctf19, Mcm21, and Okp1 represents a missing link in the budding yeast kinetochore.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12408861" target=_blank>Cheeseman IM, <i>et al.</i> (2002 Oct 18)</a>. Phospho-regulation of kinetochore-microtubule attachments by the Aurora kinase Ipl1p.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14633972" target=_blank>De Wulf P, <i>et al.</i> (2003 Dec 1)</a>. Hierarchical assembly of the budding yeast kinetochore from multiple subcomplexes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22322944" target=_blank>Schmitzberger F, <i>et al.</i> (2012 Mar 1)</a>. RWD domain: a recurring module in kinetochore architecture shown by a Ctf19-Mcm21 complex structure.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG04035_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04035_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG04035_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG04035_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01400_phobius.html#FOG04035">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01400.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

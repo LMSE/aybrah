@@ -1,0 +1,113 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG09308.html">HOG09308&emsp;&emsp;</a><br> 
+																	HOG09315&emsp;&emsp;<br> 
+																	<a href="HOG09316.html">HOG09316&emsp;&emsp;</a><br><br> 
+																	<a href="../sequences/hog/HOG09315.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG09315_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG09315_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="../trees/by_hog/gb/HOG09315_msa.fasta-gb.htm">Gblocks</a><br> 
+																	<a href="HOG09315_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG13528<br>EOG8HT79Z<br><br>sce:SNF8<br><br>Genes: 33
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Component of the ESCRT-II complex; ESCRT-II is involved in ubiquitin-dependent sorting of proteins into the endosome; appears to be functionally related to SNF7; involved in glucose derepression<br><br>
+			<br><b>PomBase Description</b><br>ESCRT II complex subunit Dot2<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have role in karyogamy involved in conjugation with cellular fusion and negative regulation of transcription from RNA polymerase II promoter by glucose, more<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=7785322" target=_blank>Yeghiayan P, <i>et al.</i> (1995 Mar)</a>. Molecular analysis of the SNF8 gene of Saccharomyces cerevisiae.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12194858" target=_blank>Babst M, <i>et al.</i> (2002 Aug)</a>. Endosome-associated complex, ESCRT-II, recruits transport machinery for protein sorting at the multivesicular body.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15469844" target=_blank>Teo H, <i>et al.</i> (2004 Oct)</a>. ESCRT-II, an endosome-associated complex required for protein sorting: crystal structure and interactions with ESCRT-III and membranes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15329733" target=_blank>Hierro A, <i>et al.</i> (2004 Sep 9)</a>. Structure of the ESCRT-II endosomal trafficking complex.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG13528_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG13528_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG13528_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG13528_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG09315_phobius.html#FOG13528">Phobius transmembrane predictions</a>
+										<br>1 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG09315.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>

@@ -1,0 +1,304 @@
+<html>
+
+
+
+
+<body>
+<style>
+#container {width:800px; margin:0 auto; background:#fff}
+#header {width:100%; height:150px; border-bottom:1px solid #c7c7c7; background:white}
+#logo {float:left; width:35%;height:80px; margin:0px;background:white}
+/*#top_info {float:right; width:40px; height:80px; margin:10px; background:#ccc}*/
+#top_info {float:right; width:20%;height:80px; margin:0px; background:white;text-align: right}
+#navbar {display: inline-block; width:45%; ;height:80px; text-align: left;vertical-align: middle;display: table-cell;font-size: 22;font-family: Helvetica}
+/*#navbar {height:20px clear:both;}*/
+/*#navbar ul {margin:0; padding:0; list-style-type:none;}*/
+/*#navbar ul li {padding:10px; float:left;}*/
+/*#navbar ul li a {font-size:12px; float:left; padding: 0 0 0 20px;}*/
+#banner { background: #bdbdbd; height:200px; padding:20px; clear:both;}
+#left_col {float:left; width:115px; padding:20px;  border:1px solid #333; color:black;}
+#right_col {float:left; width:600px; padding:20px;  border:1px solid #333; color:black;}
+#footer { padding:20px; clear:both;}
+
+table td,
+table th {
+	text-align: center;
+}
+
+
+
+
+
+</style>
+
+<div id="container">
+	<div id="header">
+		<div id="logo">
+			<img src="../img/aybrah_logo_small.png" height="80"></div>
+		<div id="top_info">
+			<img src="../img/lmse.jpg" height="80"></div>
+		<div id="navbar">
+			Analyzing Yeasts by Reconstructing Ancestry of Homologs
+		</div>
+		<!--<div id="navbar">
+			<ul>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+				<li><a href="URL">Link</a></li>
+		</div>-->
+	</div>
+	<div id="content_area">
+		<div id="banner" class="row"><a href="../index.html">Home</a><br><br>
+																	<a href="HOG01236.html">HOG01236&emsp;&emsp;</a><br> 
+																	HOG01237&emsp;&emsp;<br> 
+																	<a href="HOG01238.html">HOG01238&emsp;&emsp;AAA ATPase family</a><br><br> 
+																	<a href="../sequences/hog/HOG01237.fasta">FASTA</a><br> 
+																	<a href="../trees/by_hog/msa/HOG01237_msa.fasta">MAFFT sequence alignment<br> 
+																	<a href="../trees/by_hog/phyml/HOG01237_msa.phy_phyml_boot_trees.txt">Phyml trees<br> 
+																	<a href="">Gblocks</a><br> 
+																	<a href="HOG01237_phobius.html">Phobius predictions</a></div>
+
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#f4cacb" class="col">
+			FOG03448<br>EOG8X69WD<br><br>sce:TIM13<br><br>Genes: 32
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Mitochondrial intermembrane space protein; forms a complex with Tim8p that delivers a subset of hydrophobic proteins to the TIM22 complex for insertion into the inner membrane<br><br>
+			<br><b>PomBase Description</b><br>TIM22 inner membrane protein import complex subunit Tim13 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have protein transporter activity, role in protein import into mitochondrial inner membrane and cytosol, mitochondrial intermembrane space protein transporter complex, nucleus localization<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10469659" target=_blank>Leuenberger D, <i>et al.</i> (1999 Sep 1)</a>. Different import pathways through the mitochondrial intermembrane space for inner membrane proteins.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11101512" target=_blank>Paschen SA, <i>et al.</i> (2000 Dec 1)</a>. The role of the TIM8-13 complex in the import of Tim23 into mitochondria.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10995434" target=_blank>Davis AJ, <i>et al.</i> (2000 Sep 18)</a>. Two intermembrane space TIM complexes interact with different domains of Tim23p during its import into mitochondria.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11509656" target=_blank>Murphy MP, <i>et al.</i> (2001 Sep)</a>. The essential function of the small Tim proteins in the TIM22 import pathway does not depend on formation of the soluble 70-kilodalton complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12221072" target=_blank>Curran SP, <i>et al.</i> (2002 Sep 16)</a>. The role of the Tim8p-Tim13p complex in a conserved import pathway for mitochondrial polytopic inner membrane proteins.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12941692" target=_blank>Lutz T, <i>et al.</i> (2003 Sep 1)</a>. Import of small Tim proteins into the mitochondrial intermembrane space.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03448_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03448_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03448_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03448_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01237_phobius.html#FOG03448">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d3dfee" class="col">
+			FOG03449<br>EOG8X69WD<br><br>sce:TIM9<br><br>Genes: 29
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Essential protein of the mitochondrial intermembrane space; forms a complex with Tim10p (TIM10 complex) that delivers hydrophobic proteins to the TIM22 complex for insertion into the inner membrane<br><br>
+			<br><b>PomBase Description</b><br>Tim9-Tim10 complex subunit Tim9 (predicted)<br><br>
+			<br><b>AspGD Description</b><br>Ortholog(s) have protein transporter activity, unfolded protein binding activity and role in protein import into mitochondrial inner membrane, protein import into mitochondrial outer membrane, regulation of growth rate<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9822593" target=_blank>Koehler CM, <i>et al.</i> (1998 Nov 16)</a>. Tim9p, an essential partner subunit of Tim10p for the import of mitochondrial carrier proteins.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=9889188" target=_blank>Adam A, <i>et al.</i> (1999 Jan 15)</a>. Tim9, a new component of the TIM22.54 translocase in mitochondria.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10369662" target=_blank>Endres M, <i>et al.</i> (1999 Jun 15)</a>. Transport of the ADP/ATP carrier of mitochondria from the TOM complex to the TIM22.54 complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10995434" target=_blank>Davis AJ, <i>et al.</i> (2000 Sep 18)</a>. Two intermembrane space TIM complexes interact with different domains of Tim23p during its import into mitochondria.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11483513" target=_blank>Luciano P, <i>et al.</i> (2001 Aug 1)</a>. Functional reconstitution of the import of the yeast ADP/ATP carrier mediated by the TIM10 complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11509656" target=_blank>Murphy MP, <i>et al.</i> (2001 Sep)</a>. The essential function of the small Tim proteins in the TIM22 import pathway does not depend on formation of the soluble 70-kilodalton complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11867522" target=_blank>Curran SP, <i>et al.</i> (2002 Mar 1)</a>. The Tim9p-Tim10p complex binds to the transmembrane domains of the ADP/ATP carrier.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12391147" target=_blank>Truscott KN, <i>et al.</i> (2002 Nov)</a>. Mitochondrial import of the ADP/ATP carrier: the essential TIM complex of the intermembrane space is required for precursor release from the TOM complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12138093" target=_blank>Vial S, <i>et al.</i> (2002 Sep 27)</a>. Assembly of Tim9 and Tim10 into a functional chaperone.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12656987" target=_blank>Leuenberger D, <i>et al.</i> (2003 Mar)</a>. The role of Tim9p in the assembly of the TIM22 import complexes.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14973126" target=_blank>Lu H, <i>et al.</i> (2004 Apr 30)</a>. The structural basis of the TIM10 chaperone assembly.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=14978039" target=_blank>Wiedemann N, <i>et al.</i> (2004 Apr 30)</a>. Biogenesis of the protein import channel Tom40 of the mitochondrial outer membrane: intermembrane space components are involved in an early stage of the assembly pathway.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=15937140" target=_blank>Chibana H, <i>et al.</i> (2005 Aug)</a>. Sequence finishing and gene mapping for Candida albicans chromosome 7 and syntenic analysis against the Saccharomyces cerevisiae genome.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=16039669" target=_blank>Vergnolle MA, <i>et al.</i> (2005 Aug 26)</a>. Distinct domains of small Tims involved in subunit interaction and substrate recognition.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22814378" target=_blank>Van Damme P, <i>et al.</i> (2012 Jul 31)</a>. N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03449_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03449_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03449_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03449_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01237_phobius.html#FOG03449">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#d7edd3" class="col">
+			FOG03450<br>EOG8X69WD<br><br>sce:TIM8<br><br>Genes: 22
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>SGD Description</b><br>Mitochondrial intermembrane space protein; forms a complex with Tim13p that delivers a subset of hydrophobic proteins to the TIM22 complex for inner membrane insertion; homolog of human TIMM8A, implicated in Mohr-Tranebjaerg syndrome<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10397776" target=_blank>Kurz M, <i>et al.</i> (1999 Jul)</a>. Biogenesis of Tim proteins of the mitochondrial carrier import pathway: differential targeting mechanisms and crossing over with the main import pathway.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10469659" target=_blank>Leuenberger D, <i>et al.</i> (1999 Sep 1)</a>. Different import pathways through the mitochondrial intermembrane space for inner membrane proteins.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11101512" target=_blank>Paschen SA, <i>et al.</i> (2000 Dec 1)</a>. The role of the TIM8-13 complex in the import of Tim23 into mitochondria.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=10995434" target=_blank>Davis AJ, <i>et al.</i> (2000 Sep 18)</a>. Two intermembrane space TIM complexes interact with different domains of Tim23p during its import into mitochondria.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=11509656" target=_blank>Murphy MP, <i>et al.</i> (2001 Sep)</a>. The essential function of the small Tim proteins in the TIM22 import pathway does not depend on formation of the soluble 70-kilodalton complex.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=12221072" target=_blank>Curran SP, <i>et al.</i> (2002 Sep 16)</a>. The role of the Tim8p-Tim13p complex in a conserved import pathway for mitochondrial polytopic inner membrane proteins.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=22384365" target=_blank>Wendland J, <i>et al.</i> (2011 Dec)</a>. Genome evolution in the eremothecium clade of the Saccharomyces complex revealed by comparative genomics.<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03450_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03450_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03450_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03450_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01237_phobius.html#FOG03450">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#e5d4e9" class="col">
+			FOG03451<br>EOG8X69WD<br><br>sce:absent<br><br>Genes: 2
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+			&nbsp;<br><br><br><br><br><br>&nbsp;
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03451_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03451_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03451_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03451_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01237_phobius.html#FOG03451">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+
+		<!--ortholog information:start-->
+		<div id="left_col" style="background:#fbe2c3" class="col">
+			FOG03452<br>EOG8X69WD<br><br>sce:absent<br><br>Genes: 1
+			<br class="clear" />
+		</div>
+		<div id="right_col" class="col">
+						<br><b>PomBase Description</b><br>TIM22 inner membrane protein import complex subunit Tim8 (predicted)<br><br>
+			<br><b>References</b><br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=18488015" target=_blank>Wilhelm BT, <i>et al.</i> (2008 Jun 26)</a>. Dynamic repertoire of a eukaryotic transcriptome surveyed at single-nucleotide resolution.<br><br>
+			<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=24763107" target=_blank>Carpy A, <i>et al.</i> (2014 Aug)</a>. Absolute proteome and phosphoproteome dynamics during the cell cycle of Schizosaccharomyces pombe (Fission Yeast).<br><br>
+			<center>
+			<table width=100%>
+				<thead>
+					<tr>
+						<th colspan=3>Mitochondrial localization predictions</th>
+					</tr>
+				</theader>
+				<tbody>
+					<tr>
+						<td><a href="https://urgi.versailles.inra.fr/predotar/" target="_blank">Predotar</a></td>
+						<td><a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank">TargetP</a></td>
+						<td><a href="https://ihg.gsf.de/ihg/mitoprot.html" target="_blank">MitoProt</a></td></tr>
+					<tr>
+						<td><img src="../img/localization_hist_graphs/FOG03452_predotar.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03452_targetp.png" width=190></td>
+						<td><img src="../img/localization_hist_graphs/FOG03452_mitoprot.png" width=190></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="../hog_analysis/raw_localization/FOG03452_local_raw.txt">Raw data</a>
+							<hr></td>
+					</tr>
+					<tr>
+						<td colspan=3><a href="HOG01237_phobius.html#FOG03452">Phobius transmembrane predictions</a>
+										<br>0 genes with posterior transmembrane prediction > 50%</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			</center>
+			<br class="clear" />
+		</div>
+		<!--ortholog information:end-->
+	<img src="../img/trees/HOG01237.png"
+	</div>
+	<div id="footer"></div>
+</div>
+
+</body></html>
