@@ -1,2 +1,2 @@
 # AYbRAH
-Annotating yeasts by reconstructing ancestry of homologs
+Analyzing yeasts by reconstructing ancestry of homologs
