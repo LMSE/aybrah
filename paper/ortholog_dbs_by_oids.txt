@@ -8,4 +8,4 @@ eggNOG	spo|ang|yli|ppa|mgu|pic|kla|lth|zro|vpo|sce
 PANTHER	spo|ncr|yli|sce
 STRING	mgu|pic|kla|sce|vpo|spo|tre|ang|yli|ppa
 YGOB	vpo|sce|zro|kla|lth
-CGOB	dha|mgu|spa|pic
+CGOB	dha|mgu|spa|pic|sce
