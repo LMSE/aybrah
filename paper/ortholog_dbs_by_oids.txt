@@ -1,4 +1,4 @@
-# As of August 7th, 2018
+# As of August 7th, 2018	
 Ortholog Database	Organism Codes
 HOGENOM	dha|pic|kla|lth|zro|sce|spo|ncr|ang|yli|ppa
 KO	mgu|dha|pic|spa|kla|lth|zro|sce|vpo|spo|ncr|tre|ang|yli|ppa
@@ -7,3 +7,5 @@ OrthoDB	mgu|dha|pic|spa|kla|lth|zro|sce|vpo|spo|ncr|tre|ang|yli|ppa
 eggNOG	spo|ang|yli|ppa|mgu|pic|kla|lth|zro|vpo|sce
 PANTHER	spo|ncr|yli|sce
 STRING	mgu|pic|kla|sce|vpo|spo|tre|ang|yli|ppa
+YGOB	vpo|sce|zro|kla|lth
+CGOB	dha|mgu|spa|pic
