@@ -34,6 +34,10 @@
 #footer { padding:20px; clear:both;}
 </style>
 
+
+
+
+
 <div id="container">
 	<div id="header">
 		<div id="logo">
@@ -52,8 +56,43 @@
 	</div>
 	<div id="content_area">
 		<!--<div id="banner" class="row">Banner</div>-->
+
+		<!--search assembly via query protein-->
+		<div id="left_col" style="background:#f4cacb">Search AYbRAH</div>
+		<div id="right_col">
+			<form name="f" action="http://lmse.utoronto.ca/aybrah/hl.php" method="post">
+				<b>Lookup String:</b> <input type="text" value="" size="15" name=text>
+				<input type="submit" value="Search" name=search>
+			</form>
+			<b>Examples:</b><br>
+			HOmolog group: HOG00624<br>
+			Fungal Ortholog Group: FOG01535<br>
+			UniProt Accession: A3LWU7<br>
+			Gene name: PHO3.2<br>
+			ORF: PICST_47650<br>
+			RefSeq: XP_001385368.1<br>
+			EMBL: ABN67339.1<br>
+			<br>
+
+		</div>
+		<!--ortholog information:end-->
+		<!--search assembly via query protein-->
+		<!--<div id="left_col" style="background:#d7edd3">Search for AYbRAH orthologs via query protein sequences</div>
+		<div id="right_col">
+			<br>
+			Future function<br><br>
+			<form action="" id="usrform2">
+				<textarea name="assembly_accession" form="usrform2" rows="4" cols="50">Enter protein sequences in FASTA format</textarea>
+				<input type="submit">
+			</form>
+		</div>-->
+		<!--ortholog information:end-->
+
+
+
+
 		<!--ortholog information:start-->
-		<div id="left_col" style="background:#f4cacb">Orthologs discussed in AYbRAH manuscript</div>
+		<div id="left_col" style="background:#d3dfee">Orthologs discussed in AYbRAH manuscript</div>
 		<!--<div id="right_col">Important families<br>-->
 			<center>
 				<br><br>
@@ -116,29 +155,11 @@
 				</center>
 		</div>
 		<!--ortholog information:end-->
-		<!--search assembly via query protein-->
-		<div id="left_col" style="background:#d3dfee">Search for AYbRAH orthologs via NCBI genome assembly accession and query protein sequences</div>
-		<div id="right_col">
-			<br>
-			Future function<br><br>
-			<form name="f" action="http://lmse.utoronto.ca/aybrah/hl.php" method="post">
-				<b>Lookup String:</b> <input type="text" value="" size="15" name=text><BR><BR><BR>
-				<input type="submit" value="Search" name=search>
-			</form>
-			<br><br>
-		</div>
-		<!--ortholog information:end-->
-		<!--search assembly via query protein-->
-		<!--<div id="left_col" style="background:#d7edd3">Search for AYbRAH orthologs via query protein sequences</div>
-		<div id="right_col">
-			<br>
-			Future function<br><br>
-			<form action="" id="usrform2">
-				<textarea name="assembly_accession" form="usrform2" rows="4" cols="50">Enter protein sequences in FASTA format</textarea>
-				<input type="submit">
-			</form>
-		</div>-->
-		<!--ortholog information:end-->
+
+
+
+
+
 
 
 
