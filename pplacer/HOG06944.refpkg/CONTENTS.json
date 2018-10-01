@@ -1,0 +1,25 @@
+{
+    "files": {
+        "aln_fasta": "HOG06944_msa.fasta", 
+        "phylo_model": "phylo_modelWUrUTt.json", 
+        "tree": "HOG06944_consensus.newick", 
+        "tree_stats": "HOG06944_msa.phy_phyml_stats.txt"
+    }, 
+    "rollback": null, 
+    "log": [
+        "Stripped refpkg (removed 0 files)", 
+        "Loaded initial files into empty refpkg"
+    ], 
+    "metadata": {
+        "create_date": "2017-12-03 02:22:45", 
+        "format_version": "1.1", 
+        "locus": "HOG06944"
+    }, 
+    "rollforward": null, 
+    "md5": {
+        "aln_fasta": "eb36ccbac40f63b8968782b8fa4ab70a", 
+        "phylo_model": "b0f4052b237184b1c91e70b52387da2f", 
+        "tree": "924a847f69a21833670d7d86a05a3720", 
+        "tree_stats": "10d27057775760f9236dd87e199f37dc"
+    }
+}

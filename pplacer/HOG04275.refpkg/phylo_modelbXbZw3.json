@@ -1,0 +1,11 @@
+{
+    "subs_model": "LG", 
+    "program": "PhyML 20120412", 
+    "ras_model": "gamma", 
+    "empirical_frequencies": false, 
+    "datatype": "AA", 
+    "gamma": {
+        "alpha": 1.0, 
+        "n_cats": 4
+    }
+}
