@@ -1,32 +1,37 @@
 
 
+"""
+
+BETA
+
+"""
+
 import pandas as pd
 import json
 import datetime
+from Bio import SeqIO
 
-
-def write(data_json,comment='',digit=2):
-    version_new='.'.join([v if i !=digit else str(int(v)+1) for i,v in enumerate(data_json['meta']['version'].split('.'))])
-    #data_json['meta']['version']=version_new
-    data_json['meta']['comment']=comment
-    with open('aybrah_'+version_new+'.json', 'w') as outfile:  
+def write(data_json):
+    with open('../aybrah_'+version_new+'.json', 'w') as outfile:  
         json.dump(data_json, outfile,sort_keys=True,indent=4)
+    open('../version.txt','w').write(version_new)
 
 
 
 
-version='0.1.7'
-comment_update='curation for pan-genome reconstruction'
+
+comment_update='gap-filling from genome-scale modelling of biomass precursors'
+
+version=open('../version.txt','r').read()
+digit=2
+version_new='.'.join([v if i !=digit else str(int(v)+1) for i,v in enumerate(version.split('.'))])
 
 
-
-aybrah=pd.read_excel('aybrah_'+version+'_production.xlsx',sheet_name='aybrah').fillna('').set_index('FOG')
-
-aybrah_oid=pd.read_excel('aybrah_'+version+'_production.xlsx',sheet_name='organisms').fillna('').set_index('oid')
+aybrah=pd.read_excel('../aybrah.xlsx',sheet_name='aybrah').fillna('').set_index('FOG')
+aybrah_oid=pd.read_excel('../aybrah.xlsx',sheet_name='organisms').fillna('').set_index('oid')
 
 
 oids=aybrah_oid.index.tolist()
-
 fogs=aybrah.index.tolist()
 
 
@@ -70,17 +75,15 @@ while len(fogs) > 0:
 
 
 
-data['organisms']={col:aybrah_oid[col][oid] for oid in oids for col in aybrah_oid.columns}
+data['organisms']={oid:{col:aybrah_oid[col][oid] for col in aybrah_oid.columns} for oid in oids }
 
 data['meta']={}
 
-
-data['meta']['version']=version
+data['meta']['version']=version_new
 data['meta']['modified']=str(datetime.datetime.now())
 data['meta']['comment']=comment_update
 
-
-write(data,comment_update,digit=2)
+write(data)
 
 
 ##############################################################################################################################
@@ -94,7 +97,7 @@ def get_seqids_by_oid(oid):
 	return ';'.join(sorted([seqid for seqid in seqids if seqid.split('|')[0]==oid]))
 
 
-aybrah = json.load(open('aybrah_'+version+'.json'), object_pairs_hook=OrderedDict)
+aybrah = json.load(open('../aybrah_'+version_new+'.json'), object_pairs_hook=OrderedDict)
 
 
 
@@ -107,7 +110,7 @@ headers=['FOG','HOG','Parent']+list(oids)
 
 
 
-open('aybrah_'+version+'.tsv','w').write('\t'.join(headers)+'\n')
+open('../aybrah_'+version_new+'.tsv','w').write('\t'.join(headers)+'\n')
 
 for hog in hogs:
 	print hog
@@ -129,7 +132,7 @@ for hog in hogs:
 			parent=''
 		new_row=[   ';'.join(sorted([seqid for seqid in seqids if seqid.split('|')[0]==oid])) if len(get_seqids_by_oid(oid))>0 else ''   for oid in oids]
 		new_row=[fog,hog,parent]+new_row
-		open('aybrah_'+version+'.tsv','a').write('\t'.join(new_row)+'\n')
+		open('../aybrah_'+version_new+'.tsv','a').write('\t'.join(new_row)+'\n')
 
 
 
@@ -140,6 +143,8 @@ import xml.etree.ElementTree as ET
 from xml.dom import minidom
 
 
+
+# process_seqids(ortholog_fog,seqids)
 
 def process_seqids(ortholog,seqids):
 	seqids_orthologs=filter(None,[seqid for seqid in seqids if ';' not in seqid])
@@ -178,7 +183,7 @@ def get_descendants(index):
 
 
 
-aybrah = json.load(open('aybrah_'+version+'.json'), object_pairs_hook=OrderedDict)
+aybrah = json.load(open('../aybrah_'+version_new+'.json'), object_pairs_hook=OrderedDict)
 
 
 oids=zip(*sorted([(aybrah['organisms'][oid]['order'],oid) for oid in aybrah['organisms'].keys()]))[1]
@@ -187,7 +192,7 @@ oids=zip(*sorted([(aybrah['organisms'][oid]['order'],oid) for oid in aybrah['org
 
 
 
-taxon=pd.read_csv('updated_taxons.txt',sep='\t').fillna('')
+#taxon=pd.read_csv('updated_taxons.txt',sep='\t').fillna('')
 
 """
 find . -name "YeastProteome*"
@@ -207,37 +212,52 @@ root.set('xsi:schemaLocation',"http://orthoXML.org/2011/ http://www.orthoxml.org
 
 
 # contains all the sequence information from MycoCosm and Uniprot
-YP=pd.read_csv('/Volumes/5TB/Organized/github/aybrah_old/YeastProteome.txt',sep='\t',header=None)
+#YP=pd.read_csv('/Volumes/5TB/Organized/github/aybrah_old/YeastProteome.txt',sep='\t',header=None)
+#YP=pd.read_csv('/Volumes/SD250GB/Organized/github/aybrah_old/YeastProteome.txt',sep='\t',header=None)
+
+records=SeqIO.parse('../yeast_proteome_aybrah.faa','fasta')
 
 
-aybrah_tsv=pd.read_csv('aybrah_'+version+'.tsv',sep='\t').fillna('')
+
+yeast_proteome={oid:[]for oid in oids}
+
+for record in records:
+	seqid=record.id
+	oid=seqid.split('|')[0]
+	yeast_proteome[oid].append(seqid)
+
+
+
+
+aybrah_tsv=pd.read_csv('../aybrah_'+version_new+'.tsv',sep='\t').fillna('')
 
 
 # counter for sequences
 i=0
 
 # create lookup file to convert between seqid and id for orthoxml
-f=open('lookup_xml_genes.txt','w')
+f=open('../lookup_xml_genes.txt','w')
 f.write('')
 f.close()
 
 print('add species')
 
-for index,row in taxon.iterrows():
-	oid=taxon['oid'][index]
+for oid,row in aybrah_oid.iterrows():
+	#oid=taxon['oid'][index]
 	species = ET.SubElement(root, 'species')
-	species.set('name',taxon['name'][index])
-	species.set('NCBITaxId',str(int(taxon['NCBITaxId'][index])))
+	species.set('name',aybrah_oid['name'][oid])
+	species.set('NCBITaxId',str(int(aybrah_oid['NCBITaxId'][oid])))
 	database=ET.SubElement(species,'database')
-	url_genome=taxon['geneLink'][index]
+	url_genome=aybrah_oid['geneLink'][oid]
 	database.set('geneLink',url_genome)
 	if 'jgi' in url_genome:
 		database.set('name','MycoCosm')
-		database.set('version',str(taxon['version'][index]))
+		database.set('version',str(aybrah_oid['version'][oid]))
 	else:
 		database.set('name','Uniprot')
 	genes=ET.SubElement(species,'genes')
-	seqids=YP[YP[0].str.contains(oid+'\|')][0].tolist()
+	#seqids=YP[YP[0].str.contains(oid+'\|')][0].tolist()
+	seqids=yeast_proteome[oid]
 	seqids_aybrah=[s for s in ';'.join(aybrah_tsv[oid].tolist()).split(';') if 'AYbRAH' in s]
 	seqids=seqids+seqids_aybrah
 	for seqid in seqids:
@@ -245,13 +265,13 @@ for index,row in taxon.iterrows():
 		i=i+1
 		gene.set('id',str(i))
 		gene.set('geneId',seqid.split('|')[1])
-		f=open('lookup_xml_genes.txt','a')
+		f=open('../lookup_xml_genes.txt','a')
 		f.write('\t'.join([seqid.split('|')[1],str(i)])+'\n')
 		f.close()
 
 
 
-lookup=pd.read_csv('lookup_xml_genes.txt',sep='\t',header=None).set_index(0)
+lookup=pd.read_csv('../lookup_xml_genes.txt',sep='\t',header=None).set_index(0)
 
 
 
@@ -318,7 +338,7 @@ for hog in hogs:
 
 
 xmlstr = minidom.parseString(ET.tostring(root)).toprettyxml(indent="\t")
-with open('aybrah_'+version+'.xml', "w") as f:
+with open('../aybrah_'+version_new+'.xml', "w") as f:
     f.write(xmlstr)
 
 
