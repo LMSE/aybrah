@@ -206,7 +206,7 @@ root = ET.Element('orthoXML')
 root.set('xmlns',"http://orthoXML.org/2011/")
 root.set('version','0.3')
 root.set('origin','AYbRAH')
-root.set('originVersion',version)
+root.set('originVersion',version_new)
 root.set('xmlns:xsi',"http://www.w3.org/2001/XMLSchema-instance")
 root.set('xsi:schemaLocation',"http://orthoXML.org/2011/ http://www.orthoxml.org/0.3/orthoxml.xsd")
 
