@@ -20,7 +20,7 @@ def write(data_json):
 
 
 
-comment_update='gap-filling from genome-scale modelling of biomass precursors'
+comment_update='correct localization of FOG01376; [x] vs [c] in some speices'
 
 version=open('../version.txt','r').read()
 digit=2
