@@ -3,6 +3,7 @@
 """
 
 BETA
+Run from scripts folder
 
 """
 
@@ -20,7 +21,7 @@ def write(data_json):
 
 
 
-comment_update='correct localization of FOG01376; [x] vs [c] in some speices'
+comment_update='curation of OPR expressions for complexes, for example Spo Hal3'
 
 version=open('../version.txt','r').read()
 digit=2
