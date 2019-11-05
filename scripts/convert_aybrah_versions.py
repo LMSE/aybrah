@@ -21,7 +21,7 @@ def write(data_json):
 
 
 
-comment_update='curation of OPR expressions for complexes, for example Spo Hal3'
+comment_update='Remove duplicates by reviewing phylo trees'
 
 version=open('../version.txt','r').read()
 digit=2
