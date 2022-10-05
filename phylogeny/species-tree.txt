@@ -1,0 +1,65 @@
+      /-rgm | Rhodotorula graminis
+     |
+     |      /-sai | Saitoella complicata
+-- /-|   /-|
+     |  |   \-spo | Schizosaccharomyces pombe
+     |  |
+      \-|      /-ang | Aspergillus niger
+        |   /-|
+        |  |  |   /-ncr | Neurospora crassa
+        |  |   \-|
+         \-|      \-tre | Trichoderma reesei
+           |
+           |   /-lst | Lipomyces starkeyi
+           |  |
+            \-|   /-yli | Yarrowia lipolytica
+              |  |
+              |  |   /-arx | Blastobotrys adeninivorans
+               \-|  |
+                 |  |   /-nfu | Nadsonia fulvescens
+                 |  |  |
+                 |  |  |   /-aru | Ascoidea rubescens
+                  \-|  |  |
+                    |  |  |   /-pta | Pachysolen tannophilus
+                    |  |  |  |
+                    |  |  |--|   /-ppa | Komagataella phaffii
+                    |  |  |  |  |
+                    |  |  |   \-|   /-kcp | Kuraishia capsulata
+                     \-|  |     |  |
+                       |  |      \-|      /-car | Ogataea arabinofermentans
+                       |  |        |   /-|
+                       |  |        |  |   \-opm | Ogataea parapolymorpha
+                       |  |         \-|
+                       |  |           |   /-dbx | Dekkera bruxellensis
+                       |  |            \-|
+                       |  |              |   /-pme | Pichia membranifaciens
+                       |  |               \-|
+                        \-|                  \-pku | Pichia kudriavzevii
+                          |
+                          |   /-bin | Babjeviella inositovora
+                          |--|
+                          |  |   /-mbi | Metschnikowia bicuspidata
+                          |   \-|
+                          |     |   /-mgu | Meyerozyma guilliermondii
+                          |      \-|
+                          |        |   /-dha | Debaryomyces hansenii
+                          |         \-|
+                          |           |   /-pic | Scheffersomyces stipitis
+                          |            \-|
+                          |               \-spa | Spathaspora passalidarum
+                          |
+                          |      /-wan | Wickerhamomyces anomalus
+                          |   /-|
+                          |  |   \-cut | Cyberlindnera jadinii
+                           \-|
+                             |   /-hva | Hanseniaspora valbyensis
+                              \-|
+                                |   /-kla | Kluyveromyces lactis
+                                 \-|
+                                   |   /-lth | Lachancea thermotolerans
+                                    \-|
+                                      |   /-zro | Zygosaccharomyces rouxii
+                                       \-|
+                                         |   /-sce | Saccharomyces cerevisiae
+                                          \-|
+                                             \-vpo | Vanderwaltozyma polyspora
